@@ -1,0 +1,16 @@
+{
+  "sequence": 46,
+  "recorded_unix_ns": 1790009038141141912,
+  "recorded_monotonic_ns": 4957263011418684,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 14,
+  "result": {
+    "output": "Proxy checks ran, result: []\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-014.log",
+  "output_sha256": "bc2b4640c9ca455348b01294fd79d34d3ea95c6a39a5c0bc4a265ea8543e3955"
+}

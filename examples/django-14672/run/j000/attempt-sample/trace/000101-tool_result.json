@@ -1,0 +1,16 @@
+{
+  "sequence": 101,
+  "recorded_unix_ns": 1790009071871974516,
+  "recorded_monotonic_ns": 4957296742251238,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 28,
+  "result": {
+    "output": "Testing against Django installed in '/testbed/django'\nFound 1 test(s).\nSystem check identified no issues (0 silenced).\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-028.log",
+  "output_sha256": "ddd954949a3b0cf4e77c57e42353683526439cd204713a17335f3fe9fb943f4a"
+}

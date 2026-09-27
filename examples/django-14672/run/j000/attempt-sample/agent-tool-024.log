@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/identity_edge.py", line 26, in <module>
+    assert rel == tuple_rel, (rel.identity, tuple_rel.identity)
+AssertionError: ((<django.db.models.fields.related.ManyToManyField: many_to_many_field>, <class 'repro_app.models.Parent'>, 'something', None, (), False, None, False, True, <class 'repro_app.models.ManyToManyModel'>, ('child', 'parent'), True), (<django.db.models.fields.related.ManyToManyField: many_to_many_field>, <class 'repro_app.models.Parent'>, 'something', None, (), False, None, True, True, <class 'repro_app.models.ManyToManyModel'>, ('child', 'parent'), True))
+hash m2m rel with list fields: 8873381080523251554

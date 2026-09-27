@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/repro.py", line 14, in <module>
+    class Probe:
+  File "/testbed/django/test/utils.py", line 442, in __call__
+    return self.decorate_class(decorated)
+  File "/testbed/django/test/utils.py", line 419, in decorate_class
+    raise TypeError('Can only decorate subclasses of unittest.TestCase')
+TypeError: Can only decorate subclasses of unittest.TestCase

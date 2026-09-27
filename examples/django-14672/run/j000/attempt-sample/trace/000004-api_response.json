@@ -1,0 +1,62 @@
+{
+  "sequence": 4,
+  "recorded_unix_ns": 1790009023390683669,
+  "recorded_monotonic_ns": 4957248260960281,
+  "type": "api_response",
+  "request_id": "sample-request-0001",
+  "provider_request_id": null,
+  "unix_ns": 1790009023390612674,
+  "elapsed_seconds": 1.1346927359700203,
+  "response": {
+    "id": "sample-response-0001",
+    "object": "chat.completion",
+    "created": 1790009022,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "I'll start by inspecting the repository structure and locating the relevant `ManyToManyRel` implementation.",
+          "reasoning_content": "We need modify code. Need inspect repo. We need follow workflow. Let's start by looking at files. We can run commands. Need likely Django repo. Let's inspect.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0001",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"pwd && ls -la | head -50\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "sample-tool-0002",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -n \\\"class ManyToManyRel\\\" -n django/db/models/fields/reverse_related.py && sed -n '1,260p' django/db/models/fields/reverse_related.py\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3215,
+      "completion_tokens": 172,
+      "total_tokens": 3387,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 36
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 3087
+    },
+    "system_fingerprint": null
+  }
+}

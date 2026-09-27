@@ -1,0 +1,2 @@
+# Frozen evidence must retain exact bytes across operating systems.
+examples/** -text whitespace=-blank-at-eol,-blank-at-eof

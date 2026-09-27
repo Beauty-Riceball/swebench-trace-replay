@@ -1,0 +1,150 @@
+from unittest import mock
+
+from django.core.checks import Error, Warning as DjangoWarning
+from django.db import connection, models
+from django.test.testcases import SimpleTestCase
+from django.test.utils import isolate_apps, modify_settings, override_settings
+
+
+@isolate_apps('invalid_models_tests')
+class RelativeFieldTests(SimpleTestCase):
+
+    def test_valid_foreign_key_without_accessor(self):
+        class Target(models.Model):
+            # There would be a clash if Model.field installed an accessor.
+            model = models.IntegerField()
+
+        class Model(models.Model):
+            field = models.ForeignKey(Target, models.CASCADE, related_name='+')
+
+        field = Model._meta.get_field('field')
+        self.assertEqual(field.check(), [])
+
+    def test_foreign_key_to_missing_model(self):
+        # Model names are resolved when a model is being created, so we cannot
+        # test relative fields in isolation and we need to attach them to a
+        # model.
+        class Model(models.Model):
+            foreign_key = models.ForeignKey('Rel1', models.CASCADE)
+
+        field = Model._meta.get_field('foreign_key')
+        self.assertEqual(field.check(), [
+            Error(
+                "Field defines a relation with model 'Rel1', "
+                "which is either not installed, or is abstract.",
+                obj=field,
+                id='fields.E300',
+            ),
+        ])
+
+    @isolate_apps('invalid_models_tests')
+    def test_foreign_key_to_isolate_apps_model(self):
+        """
+        #25723 - Referenced model registration lookup should be run against the
+        field's model registry.
+        """
+        class OtherModel(models.Model):
+            pass
+
+        class Model(models.Model):
+            foreign_key = models.ForeignKey('OtherModel', models.CASCADE)
+
+        field = Model._meta.get_field('foreign_key')
+        self.assertEqual(field.check(from_model=Model), [])
+
+    def test_many_to_many_to_missing_model(self):
+        class Model(models.Model):
+            m2m = models.ManyToManyField("Rel2")
+
+        field = Model._meta.get_field('m2m')
+        self.assertEqual(field.check(from_model=Model), [
+            Error(
+                "Field defines a relation with model 'Rel2', "
+                "which is either not installed, or is abstract.",
+                obj=field,
+                id='fields.E300',
+            ),
+        ])
+
+    @isolate_apps('invalid_models_tests')
+    def test_many_to_many_to_isolate_apps_model(self):
+        """
+        #25723 - Referenced model registration lookup should be run against the
+        field's model registry.
+        """
+        class OtherModel(models.Model):
+            pass
+
+        class Model(models.Model):
+            m2m = models.ManyToManyField('OtherModel')
+
+        field = Model._meta.get_field('m2m')
+        self.assertEqual(field.check(from_model=Model), [])
+
+    def test_many_to_many_with_limit_choices_auto_created_no_warning(self):
+        class Model(models.Model):
+            name = models.CharField(max_length=20)
+
+        class ModelM2M(models.Model):
+            m2m = models.ManyToManyField(Model, limit_choices_to={'name': 'test_name'})
+
+        self.assertEqual(ModelM2M.check(), [])
+
+    def test_many_to_many_with_useless_options(self):
+        class Model(models.Model):
+            name = models.CharField(max_length=20)
+
+        class ModelM2M(models.Model):
+            m2m = models.ManyToManyField(
+                Model,
+                null=True,
+                validators=[lambda x: x],
+                limit_choices_to={'name': 'test_name'},
+                through='ThroughModel',
+                through_fields=('modelm2m', 'model'),
+            )
+
+        class ThroughModel(models.Model):
+            model = models.ForeignKey('Model', models.CASCADE)
+            modelm2m = models.ForeignKey('ModelM2M', models.CASCADE)
+
+        field = ModelM2M._meta.get_field('m2m')
+        self.assertEqual(ModelM2M.check(), [
+            DjangoWarning(
+                'null has no effect on ManyToManyField.',
+                obj=field,
+                id='fields.W340',
+            ),
+            DjangoWarning(
+                'ManyToManyField does not support validators.',
+                obj=field,
+                id='fields.W341',
+            ),
+            DjangoWarning(
+                'limit_choices_to has no effect on ManyToManyField '
+                'with a through model.',
+                obj=field,
+                id='fields.W343',
+            ),
+        ])
+
+    def test_ambiguous_relationship_model_from(self):
+        class Person(models.Model):
+            pass
+
+        class Group(models.Model):
+            field = models.ManyToManyField('Person', through='AmbiguousRelationship')
+
+        class AmbiguousRelationship(models.Model):
+            person = models.ForeignKey(Person, models.CASCADE)
+            first_group = models.ForeignKey(Group, models.CASCADE, related_name='first')
+            second_group = models.ForeignKey(Group, models.CASCADE, related_name='second')
+
+        field = Group._meta.get_field('field')
+        self.assertEqual(field.check(from_model=Group), [
+            Error(
+                "The model is used as an intermediate model by "
+                "'invalid_models_tests.Group.field', but it has more than one "
+                "foreign key from 'Group', which is ambiguous. You must "
+                "specify which foreign key Django should use via the "
+                "through_fields keyword argument.",

@@ -1,0 +1,8 @@
+Proxy parents: ['Parent']
+parent field repro.Parent.id AutoField
+  in empty dict?
+   True
+parent field repro.Parent.name CharField
+  in empty dict?
+   True
+proxy check: []

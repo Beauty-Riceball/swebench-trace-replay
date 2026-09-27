@@ -1,0 +1,24 @@
+{
+  "sequence": 91,
+  "recorded_unix_ns": 1790009066890498882,
+  "recorded_monotonic_ns": 4957291760776024,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 25,
+  "action": {
+    "command": "python - <<'EOF'\nfrom pathlib import Path\npath = Path('/tmp/identity_edge.py')\ntext = path.read_text()\ntext = text.replace(\n    \"    field, Parent, related_name='something', through=ManyToManyModel,\\n    through_fields=('child', 'parent'),\\n)\",\n    \"    field, Parent, related_name='something', symmetrical=False,\\n    through=ManyToManyModel, through_fields=('child', 'parent'),\\n)\",\n)\npath.write_text(text)\nEOF\ncd /testbed && python /tmp/identity_edge.py",
+    "tool_call_id": "sample-tool-0024"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

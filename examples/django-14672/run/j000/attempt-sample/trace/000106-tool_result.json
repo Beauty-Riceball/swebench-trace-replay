@@ -1,0 +1,16 @@
+{
+  "sequence": 106,
+  "recorded_unix_ns": 1790009074573105058,
+  "recorded_monotonic_ns": 4957299443381909,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 29,
+  "result": {
+    "output": "tests/basic/tests.py:            __hash__ = models.Model.__hash__\ntests/backends/oracle/test_introspection.py:                editor._drop_identity(Square._meta.db_table, 'id')\ntests/backends/oracle/test_introspection.py:                # Recreate model, because adding identity is impossible.\ntests/lookup/tests.py:            __hash__ = None\ntests/utils_tests/test_hashable.py:            __hash__ = None\ntests/forms_tests/field_tests/test_filefield.py:        # A file was uploaded and there is initial data (file identity is not dealt\ntests/test_utils/test_testcase.py:    def test_class_attribute_identity(self):\ntests/test_utils/test_testcase.py:    def test_identity_preservation(self):\ntests/test_utils/test_testcase.py:    def test_known_related_objects_identity_preservation(self):\ntests/test_utils/test_testcase.py:        \"\"\"Known related objects identity is preserved.\"\"\"\ntests/cache/tests.py:        request.META['HTTP_ACCEPT_ENCODING'] = 'gzip;q=1.0, identity; q=0.5, *;q=0'\ntests/cache/tests.py:        request.META['HTTP_ACCEPT_ENCODING'] = 'gzip;q=1.0, identity; q=0.5, *;q=0'\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-029.log",
+  "output_sha256": "0aa7dddce50ac6feaa5aabf3783d75d46d1179468813d8760c9c8410eea07dd4"
+}

@@ -1,0 +1,5 @@
+1b4e95bcbb SWE-bench
+00ea883ef5 Fixed #32329 -- Made CsrfViewMiddleware catch more specific UnreadablePostError.
+852fa7617e Refs #32329 -- Allowed specifying request class in csrf_tests test hooks.
+6b513f0137 Fixed #32913 -- Made watchman reloader tests less flaky.
+3cfcb8cbc8 Refs #32902 -- Moved ensure_csrf_cookie_view after protected_view.

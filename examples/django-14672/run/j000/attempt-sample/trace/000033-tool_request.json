@@ -1,0 +1,24 @@
+{
+  "sequence": 33,
+  "recorded_unix_ns": 1790009031624644250,
+  "recorded_monotonic_ns": 4957256494921663,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 11,
+  "action": {
+    "command": "grep -n \"class IsolateAppsModelTests\\|isolate_apps\" tests/invalid_models_tests/test_models.py | head -20 && sed -n '1,90p' tests/invalid_models_tests/__init__.py 2>/dev/null; ls tests/invalid_models_tests",
+    "tool_call_id": "sample-tool-0010"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

@@ -1,0 +1,28 @@
+tests/invalid_models_tests/test_models.py:    def test_two_m2m_through_same_model_with_different_through_fields(self):
+tests/invalid_models_tests/test_models.py:                through_fields=('method', 'to_country'),
+tests/invalid_models_tests/test_models.py:                through_fields=('method', 'from_country'),
+tests/invalid_models_tests/test_relative_fields.py:                through_fields=('modelm2m', 'model'),
+tests/invalid_models_tests/test_relative_fields.py:                "through_fields keyword argument.",
+tests/invalid_models_tests/test_relative_fields.py:                "which foreign key Django should use via the through_fields "
+tests/invalid_models_tests/test_relative_fields.py:                "which two foreign keys Django should use via the through_fields "
+tests/invalid_models_tests/test_relative_fields.py:                hint='Use through_fields to specify which two foreign keys Django should use.',
+tests/invalid_models_tests/test_relative_fields.py:        ManyToManyField accepts the ``through_fields`` kwarg
+tests/invalid_models_tests/test_relative_fields.py:        with self.assertRaisesMessage(ValueError, 'Cannot specify through_fields without a through model'):
+tests/invalid_models_tests/test_relative_fields.py:            models.ManyToManyField(Fan, through_fields=('f1', 'f2'))
+tests/invalid_models_tests/test_relative_fields.py:        Mixing up the order of link fields to ManyToManyField.through_fields
+tests/invalid_models_tests/test_relative_fields.py:            invitees = models.ManyToManyField(Fan, through='Invitation', through_fields=('invitee', 'event'))
+tests/invalid_models_tests/test_relative_fields.py:        Providing invalid field names to ManyToManyField.through_fields
+tests/invalid_models_tests/test_relative_fields.py:                through_fields=('invalid_field_1', 'invalid_field_2'),
+tests/invalid_models_tests/test_relative_fields.py:        If ``through_fields`` kwarg is given, it must specify both
+tests/invalid_models_tests/test_relative_fields.py:            invitees = models.ManyToManyField(Fan, through='Invitation', through_fields=(None, 'invitee'))
+tests/invalid_models_tests/test_relative_fields.py:                "Field specifies 'through_fields' but does not provide the names "
+tests/invalid_models_tests/test_relative_fields.py:                hint="Make sure you specify 'through_fields' as through_fields=('field1', 'field2')",
+tests/migrations/test_operations.py:    def test_reference_field_by_through_fields(self):
+tests/migrations/test_operations.py:            'Model', 'field', models.ManyToManyField('Other', through='Through', through_fields=('first', 'second'))
+tests/migrations/test_optimizer.py:    def test_optimize_through_fields(self):
+tests/m2m_through/tests.py:    def test_through_fields(self):
+tests/m2m_through/tests.py:    def test_through_fields_self_referential(self):
+tests/m2m_through/models.py:        through_fields=('event', 'invitee'),
+tests/m2m_through/models.py:        through_fields=('source', 'target'),
+tests/schema/fields.py:                 limit_choices_to=None, symmetrical=None, through=None, through_fields=None, db_table=None, **kwargs):
+tests/schema/fields.py:            through_fields=through_fields,

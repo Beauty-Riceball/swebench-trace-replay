@@ -1,0 +1,1877 @@
+{
+  "schema_version": 1,
+  "kind": "sanitized-trace-bundle",
+  "source": {
+    "capture_group": "full500-max-20260922",
+    "attempt_path": "run/j000/attempt-c4ec5400c5c1",
+    "selection": "explicit canonical job/attempt from the original capture group",
+    "raw_source_attempt_included": false,
+    "source_hash_note": "Hashes identify original bytes; private host paths and raw identifiers are not published."
+  },
+  "tasks": [
+    {
+      "job_id": "j000",
+      "instance_id": "django__django-14672",
+      "attempt_path": "run/j000/attempt-sample"
+    }
+  ],
+  "preservation": {
+    "tool_commands": "unchanged",
+    "tool_outputs": "byte-for-byte unchanged",
+    "prompt_and_model_text": "unchanged",
+    "timestamps_and_durations": "unchanged",
+    "benchmark_task": "byte-for-byte unchanged",
+    "public_benchmark_traceback_paths": "retained as original problem-statement text"
+  },
+  "sanitization": {
+    "identifier_aliases": {
+      "request": 20,
+      "response": 20,
+      "tool": 34
+    },
+    "raw_alias_map_included": false,
+    "private_host_paths": "relocated or removed only in known metadata",
+    "source_files_modified": false,
+    "credential_scan": "No configured credential patterns matched; heuristic, not a guarantee."
+  },
+  "files": [
+    {
+      "path": "run/j000/attempt-sample/agent-environment.json",
+      "sha256": "563ed99c3a0fe2b3484e9e7a2aa7c1b6c66b5b8bf9ae7f6d3e2ad69b8a117181",
+      "size_bytes": 1530,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-environment.json",
+      "source_sha256": "563ed99c3a0fe2b3484e9e7a2aa7c1b6c66b5b8bf9ae7f6d3e2ad69b8a117181",
+      "source_size_bytes": 1530,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-001.log",
+      "sha256": "c4c1a32127c5eb7947ad32d0bc3b2d9f33fbb6d8975e966dd54aa055e4140eae",
+      "size_bytes": 938867,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-001.log",
+      "source_sha256": "c4c1a32127c5eb7947ad32d0bc3b2d9f33fbb6d8975e966dd54aa055e4140eae",
+      "source_size_bytes": 938867,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-002.log",
+      "sha256": "05fdf65f7377c40f3f9ad43bb0a12d4c8e59f61a02f9310d091bdd8b7eac5578",
+      "size_bytes": 1698,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-002.log",
+      "source_sha256": "05fdf65f7377c40f3f9ad43bb0a12d4c8e59f61a02f9310d091bdd8b7eac5578",
+      "source_size_bytes": 1698,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-003.log",
+      "sha256": "83fa0ccf837273d1a6da392f9915f5cfc65d7230d111dceb4fec45d77e3d49c8",
+      "size_bytes": 8827,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-003.log",
+      "source_sha256": "83fa0ccf837273d1a6da392f9915f5cfc65d7230d111dceb4fec45d77e3d49c8",
+      "source_size_bytes": 8827,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-004.log",
+      "sha256": "a35af2f1e873279ca671a02cc6d1fcdaa5514c51dd8bff4a7fa7ad7f4725d2a3",
+      "size_bytes": 3175,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-004.log",
+      "source_sha256": "a35af2f1e873279ca671a02cc6d1fcdaa5514c51dd8bff4a7fa7ad7f4725d2a3",
+      "source_size_bytes": 3175,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-005.log",
+      "sha256": "0b13002422cb67b28b6dedd3993e31ab46baa9045af08f1541f5fa3f7c4835f8",
+      "size_bytes": 344,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-005.log",
+      "source_sha256": "0b13002422cb67b28b6dedd3993e31ab46baa9045af08f1541f5fa3f7c4835f8",
+      "source_size_bytes": 344,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-006.log",
+      "sha256": "df3f7905a438617c26d2ff7e70f4e30c2f4be6f2c2990276b3ca2e48b9717c23",
+      "size_bytes": 3242,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-006.log",
+      "source_sha256": "df3f7905a438617c26d2ff7e70f4e30c2f4be6f2c2990276b3ca2e48b9717c23",
+      "source_size_bytes": 3242,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-007.log",
+      "sha256": "3e1f84160aad7c371f8d297289cb9a5ab7e301430bd0bfdcf7d51363acda06c0",
+      "size_bytes": 363,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-007.log",
+      "source_sha256": "3e1f84160aad7c371f8d297289cb9a5ab7e301430bd0bfdcf7d51363acda06c0",
+      "source_size_bytes": 363,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-008.log",
+      "sha256": "cbdb1b614198a5163146ed1bb1657555f62a256e197eec9dbd955d8c56dc9db5",
+      "size_bytes": 22,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-008.log",
+      "source_sha256": "cbdb1b614198a5163146ed1bb1657555f62a256e197eec9dbd955d8c56dc9db5",
+      "source_size_bytes": 22,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-009.log",
+      "sha256": "3e24f13cb41bb391d7b24f13123c2eb1eeeeb44c1b8f385b4781c38c2e84dd0a",
+      "size_bytes": 4200,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-009.log",
+      "source_sha256": "3e24f13cb41bb391d7b24f13123c2eb1eeeeb44c1b8f385b4781c38c2e84dd0a",
+      "source_size_bytes": 4200,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-010.log",
+      "sha256": "6780825b03acdf7bb0a938baefa45ce7b8e77e4f4cc8c267817ab0a365879c82",
+      "size_bytes": 5519,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-010.log",
+      "source_sha256": "6780825b03acdf7bb0a938baefa45ce7b8e77e4f4cc8c267817ab0a365879c82",
+      "source_size_bytes": 5519,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-011.log",
+      "sha256": "4d32f22e255a5cfb9b6c08de0db4299f983c3f8091d426568a73eb6c175a6768",
+      "size_bytes": 631,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-011.log",
+      "source_sha256": "4d32f22e255a5cfb9b6c08de0db4299f983c3f8091d426568a73eb6c175a6768",
+      "source_size_bytes": 631,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-012.log",
+      "sha256": "d9848b321368c914134e8ca4afd1455763376a1d58c6cc898dbfb576a87899b4",
+      "size_bytes": 7297,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-012.log",
+      "source_sha256": "d9848b321368c914134e8ca4afd1455763376a1d58c6cc898dbfb576a87899b4",
+      "source_size_bytes": 7297,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-013.log",
+      "sha256": "fafb8b54b3ccec986df2112816f2e28ce06f76d7d9a7de70545f49ae02bf409f",
+      "size_bytes": 403,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-013.log",
+      "source_sha256": "fafb8b54b3ccec986df2112816f2e28ce06f76d7d9a7de70545f49ae02bf409f",
+      "source_size_bytes": 403,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-014.log",
+      "sha256": "bc2b4640c9ca455348b01294fd79d34d3ea95c6a39a5c0bc4a265ea8543e3955",
+      "size_bytes": 29,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-014.log",
+      "source_sha256": "bc2b4640c9ca455348b01294fd79d34d3ea95c6a39a5c0bc4a265ea8543e3955",
+      "source_size_bytes": 29,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-015.log",
+      "sha256": "495fca18b1112d930c5d92376d10b1f3430e0923f161d05dd063ac259bdae466",
+      "size_bytes": 561,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-015.log",
+      "source_sha256": "495fca18b1112d930c5d92376d10b1f3430e0923f161d05dd063ac259bdae466",
+      "source_size_bytes": 561,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-016.log",
+      "sha256": "317e7700f227ed1a4a560868d3f83a1a57c040cc305b6767c489670f72a0ed76",
+      "size_bytes": 2935,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-016.log",
+      "source_sha256": "317e7700f227ed1a4a560868d3f83a1a57c040cc305b6767c489670f72a0ed76",
+      "source_size_bytes": 2935,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-017.log",
+      "sha256": "1f49f397af413fdea975fdcde8754f12dd7dbfd1aa6593596b8e1627fb33466d",
+      "size_bytes": 172,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-017.log",
+      "source_sha256": "1f49f397af413fdea975fdcde8754f12dd7dbfd1aa6593596b8e1627fb33466d",
+      "source_size_bytes": 172,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-018.log",
+      "sha256": "ae2e7bb1e9fd27bd26e75338295e521c36bc823c7cfeafdfab08f68689531759",
+      "size_bytes": 885,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-018.log",
+      "source_sha256": "ae2e7bb1e9fd27bd26e75338295e521c36bc823c7cfeafdfab08f68689531759",
+      "source_size_bytes": 885,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-019.log",
+      "sha256": "788fe2d5f9c3d57e58d3191b1896d643c0f2463928c79cf80d1fbbb3cb2497e1",
+      "size_bytes": 6057,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-019.log",
+      "source_sha256": "788fe2d5f9c3d57e58d3191b1896d643c0f2463928c79cf80d1fbbb3cb2497e1",
+      "source_size_bytes": 6057,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-020.log",
+      "sha256": "6b78c6a2ce5c20614d1c5bc3027ec926501904d8e0246d80d069f8488203cc8d",
+      "size_bytes": 3152,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-020.log",
+      "source_sha256": "6b78c6a2ce5c20614d1c5bc3027ec926501904d8e0246d80d069f8488203cc8d",
+      "source_size_bytes": 3152,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-021.log",
+      "sha256": "158a160f2dceaf1394b0491121fbe680b421d1630dec49ef3545d5bd14282995",
+      "size_bytes": 671,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-021.log",
+      "source_sha256": "158a160f2dceaf1394b0491121fbe680b421d1630dec49ef3545d5bd14282995",
+      "source_size_bytes": 671,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-022.log",
+      "sha256": "aad0cec9c1f4922a85269393ffbbde81c84a4abfba5c6da5a57c305998704980",
+      "size_bytes": 512,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-022.log",
+      "source_sha256": "aad0cec9c1f4922a85269393ffbbde81c84a4abfba5c6da5a57c305998704980",
+      "source_size_bytes": 512,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-023.log",
+      "sha256": "b66cd18e52ef6f6851d3939e7f92588193d9e88d0bb9da54fad9c04add561f6d",
+      "size_bytes": 190,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-023.log",
+      "source_sha256": "b66cd18e52ef6f6851d3939e7f92588193d9e88d0bb9da54fad9c04add561f6d",
+      "source_size_bytes": 190,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-024.log",
+      "sha256": "3048a81107b1d49cccb92fe01f88d04cef75a174cff449640b15176c4ba450ed",
+      "size_bytes": 675,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-024.log",
+      "source_sha256": "3048a81107b1d49cccb92fe01f88d04cef75a174cff449640b15176c4ba450ed",
+      "source_size_bytes": 675,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-025.log",
+      "sha256": "ee5c480b80f2ef5816dc70d1d26d33ba84815d28d0293a251396eb2c63f383dd",
+      "size_bytes": 153,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-025.log",
+      "source_sha256": "ee5c480b80f2ef5816dc70d1d26d33ba84815d28d0293a251396eb2c63f383dd",
+      "source_size_bytes": 153,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-026.log",
+      "sha256": "0c419d37775a08498abc98c05a9e72658d4f6a9646dfe1654d55c6679a9631a3",
+      "size_bytes": 304,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-026.log",
+      "source_sha256": "0c419d37775a08498abc98c05a9e72658d4f6a9646dfe1654d55c6679a9631a3",
+      "source_size_bytes": 304,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-027.log",
+      "sha256": "05d8461c4dc417c372bd18217d8583a1729be97deaa7f64f8e0e8ce61d1094a2",
+      "size_bytes": 898,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-027.log",
+      "source_sha256": "05d8461c4dc417c372bd18217d8583a1729be97deaa7f64f8e0e8ce61d1094a2",
+      "source_size_bytes": 898,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-028.log",
+      "sha256": "ddd954949a3b0cf4e77c57e42353683526439cd204713a17335f3fe9fb943f4a",
+      "size_bytes": 119,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-028.log",
+      "source_sha256": "ddd954949a3b0cf4e77c57e42353683526439cd204713a17335f3fe9fb943f4a",
+      "source_size_bytes": 119,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-029.log",
+      "sha256": "0aa7dddce50ac6feaa5aabf3783d75d46d1179468813d8760c9c8410eea07dd4",
+      "size_bytes": 1095,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-029.log",
+      "source_sha256": "0aa7dddce50ac6feaa5aabf3783d75d46d1179468813d8760c9c8410eea07dd4",
+      "source_size_bytes": 1095,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-030.log",
+      "sha256": "7fd9b284a621a3830617bfefe6c26dfef55bfb50e20fa53f560cbdd02c6463e1",
+      "size_bytes": 602,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-030.log",
+      "source_sha256": "7fd9b284a621a3830617bfefe6c26dfef55bfb50e20fa53f560cbdd02c6463e1",
+      "source_size_bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-031.log",
+      "sha256": "eddcfe71983b2eefd3635720ec1874f94ccb12535c745ccb312fedc6f6184f85",
+      "size_bytes": 46,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-031.log",
+      "source_sha256": "eddcfe71983b2eefd3635720ec1874f94ccb12535c745ccb312fedc6f6184f85",
+      "source_size_bytes": 46,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-032.log",
+      "sha256": "326116088de12524ad2c5e9fd45b33e516c5cb2e1086445e364f334043cc23dd",
+      "size_bytes": 655,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-032.log",
+      "source_sha256": "326116088de12524ad2c5e9fd45b33e516c5cb2e1086445e364f334043cc23dd",
+      "source_size_bytes": 655,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-033.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-033.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_size_bytes": 0,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-034.log",
+      "sha256": "a147579b502e319c8bdf2fd6886b4b5a5fb064169f8d91f9769e2a16ad60ae79",
+      "size_bytes": 623,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-034.log",
+      "source_sha256": "a147579b502e319c8bdf2fd6886b4b5a5fb064169f8d91f9769e2a16ad60ae79",
+      "source_size_bytes": 623,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/agent-tool-035.log",
+      "sha256": "5bb40b6650e3841b765d28641d90d70082693e42e72fb04922ac8c52f48d1197",
+      "size_bytes": 550,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/agent-tool-035.log",
+      "source_sha256": "5bb40b6650e3841b765d28641d90d70082693e42e72fb04922ac8c52f48d1197",
+      "source_size_bytes": 550,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/eval-environment.json",
+      "sha256": "563ed99c3a0fe2b3484e9e7a2aa7c1b6c66b5b8bf9ae7f6d3e2ad69b8a117181",
+      "size_bytes": 1530,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/eval-environment.json",
+      "source_sha256": "563ed99c3a0fe2b3484e9e7a2aa7c1b6c66b5b8bf9ae7f6d3e2ad69b8a117181",
+      "source_size_bytes": 1530,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/eval-tool-001.log",
+      "sha256": "203e9b3afbae10a4cf23dabe9d559eb72178ef4bdf78b5f123e49bbdcd825ea3",
+      "size_bytes": 127,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/eval-tool-001.log",
+      "source_sha256": "203e9b3afbae10a4cf23dabe9d559eb72178ef4bdf78b5f123e49bbdcd825ea3",
+      "source_size_bytes": 127,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/eval-tool-002.log",
+      "sha256": "1a595ca6b86ebca8ffc2f6c0518bb1e37577ce624481fbbaf97fd42d57d7396f",
+      "size_bytes": 1835096,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/eval-tool-002.log",
+      "source_sha256": "1a595ca6b86ebca8ffc2f6c0518bb1e37577ce624481fbbaf97fd42d57d7396f",
+      "source_size_bytes": 1835096,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/eval.sh",
+      "sha256": "396cd1859d6c572d183124a6b4be617afd1492f67bf7c2a59385740b13a7df38",
+      "size_bytes": 4350,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/eval.sh",
+      "source_sha256": "396cd1859d6c572d183124a6b4be617afd1492f67bf7c2a59385740b13a7df38",
+      "source_size_bytes": 4350,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/eval_report.json",
+      "sha256": "d474a6b8344c58229080cd0502db1f6db03bb309af4417e8889fd0d104abef18",
+      "size_bytes": 17552,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/eval_report.json",
+      "source_sha256": "d474a6b8344c58229080cd0502db1f6db03bb309af4417e8889fd0d104abef18",
+      "source_size_bytes": 17552,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/prediction.patch",
+      "sha256": "aad0cec9c1f4922a85269393ffbbde81c84a4abfba5c6da5a57c305998704980",
+      "size_bytes": 512,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/prediction.patch",
+      "source_sha256": "aad0cec9c1f4922a85269393ffbbde81c84a4abfba5c6da5a57c305998704980",
+      "source_size_bytes": 512,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/result.json",
+      "sha256": "8da45c918976d995c03ed8898fb945bead648fa49fb69da81b5a429efb50824c",
+      "size_bytes": 27016,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/result.json",
+      "source_sha256": "09ee1551173d3b93f2cca7e4b39622cce22f24fa9a6d68660f7415df618cc3d4",
+      "source_size_bytes": 27089,
+      "transformations": [
+        "recompute-exported-trajectory-sha256",
+        "relocate-attempt-path",
+        "remove-host-process-id",
+        "replace-capture-session-id"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/task.json",
+      "sha256": "743f56c9e2e027cd34063ff524497240acc9b6ac79fc79aefa9bb9fd1752f59c",
+      "size_bytes": 27171,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/task.json",
+      "source_sha256": "743f56c9e2e027cd34063ff524497240acc9b6ac79fc79aefa9bb9fd1752f59c",
+      "source_size_bytes": 27171,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/test_output.txt",
+      "sha256": "1a595ca6b86ebca8ffc2f6c0518bb1e37577ce624481fbbaf97fd42d57d7396f",
+      "size_bytes": 1835096,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/test_output.txt",
+      "source_sha256": "1a595ca6b86ebca8ffc2f6c0518bb1e37577ce624481fbbaf97fd42d57d7396f",
+      "source_size_bytes": 1835096,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000001-tool_request.json",
+      "sha256": "e2b628fbd90c32ef524b5bf0e8994082825c0e5c415b178d901671b65886a46d",
+      "size_bytes": 682,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000001-tool_request.json",
+      "source_sha256": "e2b628fbd90c32ef524b5bf0e8994082825c0e5c415b178d901671b65886a46d",
+      "source_size_bytes": 682,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000002-tool_result.json",
+      "sha256": "fafa15ab12cf5262a65e74704299dd8024be9e24929bc0b4ff6912b285f5924c",
+      "size_bytes": 952228,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000002-tool_result.json",
+      "source_sha256": "fafa15ab12cf5262a65e74704299dd8024be9e24929bc0b4ff6912b285f5924c",
+      "source_size_bytes": 952228,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000003-api_request.json",
+      "sha256": "1f122b1366c921bc2b10072c77235d0ee45a6bb04ca64560aec76dd4ed174c87",
+      "size_bytes": 12825,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000003-api_request.json",
+      "source_sha256": "82437d8186a0cdc0fcfa02a5fdcb1f9eca3e29c397d5e0354dcbb8e5f7144e06",
+      "source_size_bytes": 12838,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000004-api_response.json",
+      "sha256": "06cd89993d8ba721db921544def1d3bf97248b4e7d1faf5cda13262fab49ad99",
+      "size_bytes": 2020,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000004-api_response.json",
+      "source_sha256": "71416078257403e509afa18c9828ebb580ecba10eb3512c7290884d52a484f1c",
+      "source_size_bytes": 2111,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000005-api_billing.json",
+      "sha256": "23b3db36144038e5056842042476d70fc7aa2d0b41575e95c1ecb2587a468586",
+      "size_bytes": 248,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000005-api_billing.json",
+      "source_sha256": "dfa50d6e424cd0a0298ba01c2aee76b826ce1fb7283f4947d63b6fdfe0170dc1",
+      "source_size_bytes": 261,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000006-tool_request.json",
+      "sha256": "4eb323e64478e70ff5eaa6d85ec9bc3f7fe9389dc15e8146551af615381768ff",
+      "size_bytes": 562,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000006-tool_request.json",
+      "source_sha256": "ae9d08052aa0007bb8eac2f215ac9a924f9def361f696c64ca53931fc18690cc",
+      "source_size_bytes": 578,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000007-tool_result.json",
+      "sha256": "78de123ddeb6e925d3eb366da9c6e6f2186e13d4184b16743a56aed17e0b7873",
+      "size_bytes": 2138,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000007-tool_result.json",
+      "source_sha256": "78de123ddeb6e925d3eb366da9c6e6f2186e13d4184b16743a56aed17e0b7873",
+      "source_size_bytes": 2138,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000008-tool_request.json",
+      "sha256": "8201af772c36c81c42390110581f054293792149fced26026176ebd0b58bfd21",
+      "size_bytes": 677,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000008-tool_request.json",
+      "source_sha256": "d10202beefd30df0a41afb61ec859422e64fed2fe5558c7e486fe1e5b55339b1",
+      "source_size_bytes": 693,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000009-tool_result.json",
+      "sha256": "d8be5ce480a3b7f22390986f53dee65ea2f53862296e802f10d202b8d13d7755",
+      "size_bytes": 9566,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000009-tool_result.json",
+      "source_sha256": "d8be5ce480a3b7f22390986f53dee65ea2f53862296e802f10d202b8d13d7755",
+      "source_size_bytes": 9566,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000010-api_request.json",
+      "sha256": "4c6d2086370f4aaa1dc795c0b67820a6d2a02d70ad62f29791f6be920b46c1b0",
+      "size_bytes": 24971,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000010-api_request.json",
+      "source_sha256": "f8a0394fcd2fedc17937c96223bc3662eb52a2a9e848e941c698e53818c41f6c",
+      "source_size_bytes": 25048,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000011-api_response.json",
+      "sha256": "cdc1750b69a73e7ce40571fd120c42c9a2a04d4f882bdd551bf66de23b8edeaf",
+      "size_bytes": 1862,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000011-api_response.json",
+      "source_sha256": "c8a85dd96f0ecc681b3e30aa3238c5eb76f3f41dc8df7cac274902cecb58add4",
+      "source_size_bytes": 1953,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000012-api_billing.json",
+      "sha256": "73477d89a14af6951a234052a3f52052a23e94723e54154b6c95ee933bde7707",
+      "size_bytes": 260,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000012-api_billing.json",
+      "source_sha256": "a440f5f8292170579dff18c663c5588eb2e5cd4f8100bc23c9943cb1f138c829",
+      "source_size_bytes": 273,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000013-tool_request.json",
+      "sha256": "48e7fb164487e62a2a272572a20858f1d6468c66b95f8a0089f45f7edb4057a9",
+      "size_bytes": 658,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000013-tool_request.json",
+      "source_sha256": "b0b9c3697c2d540e8d696f43b1ea70d677058280f97ec74a9209fa49be432aab",
+      "source_size_bytes": 674,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000014-tool_result.json",
+      "sha256": "d8033f85d670a82f0ec91e6b7eb3b4099304fbf37fa1eaf6d9a4e0b10d701484",
+      "size_bytes": 3704,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000014-tool_result.json",
+      "source_sha256": "d8033f85d670a82f0ec91e6b7eb3b4099304fbf37fa1eaf6d9a4e0b10d701484",
+      "source_size_bytes": 3704,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000015-tool_request.json",
+      "sha256": "2a1f47185b1c16b469843105022871ec7b305a60549a8e388bbbef3317cf3ff0",
+      "size_bytes": 581,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000015-tool_request.json",
+      "source_sha256": "352e691c9155b37f9b24f6f3f9bbd026469a599ec2ed4bb5562b0386ead9527f",
+      "source_size_bytes": 597,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000016-tool_result.json",
+      "sha256": "7603a895dd088692ed290e6c76ea37c08689dbb8cf48b24a5d51804deed5f1e9",
+      "size_bytes": 757,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000016-tool_result.json",
+      "source_sha256": "7603a895dd088692ed290e6c76ea37c08689dbb8cf48b24a5d51804deed5f1e9",
+      "source_size_bytes": 757,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000017-api_request.json",
+      "sha256": "3ea47176598c5fe238a9588555cfd517e5b287e9c49dbab226555cfdeb0dab0f",
+      "size_bytes": 29711,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000017-api_request.json",
+      "source_sha256": "9e70ea8796533c9590930189dbc22ca52b776d57b002c1b9283461a1ce1bb32d",
+      "source_size_bytes": 29852,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000018-api_response.json",
+      "sha256": "aaf161f976cf44044086b51ec197db2b67650fcee5528e1cba985cc689d799e9",
+      "size_bytes": 2770,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000018-api_response.json",
+      "source_sha256": "72354c006b20115cc541a64e9560d0bf13af1f99e513703557402bee3e40ed2f",
+      "source_size_bytes": 2877,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000019-api_billing.json",
+      "sha256": "aa52b529216fff2a79291f5073c3399458120192213706e952087a66feca1cf3",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000019-api_billing.json",
+      "source_sha256": "26a1416f0965b018fbc30532bbacd885ea6cebdc48fc19d70a65ede07ff4754a",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000020-tool_request.json",
+      "sha256": "9938c58dd19f6597d017123d795c243af9e9688fe7c96386e0a198ec6787521e",
+      "size_bytes": 599,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000020-tool_request.json",
+      "source_sha256": "8e8a0218c78bcd89cb2fc89b3cd34c273047a1aac2a1263c552fbce44361e28d",
+      "source_size_bytes": 615,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000021-tool_result.json",
+      "sha256": "1eedad34d6d762f0eb4a419c7c7db86b3fefdcf5eb61d083cbe78e04f8f78fef",
+      "size_bytes": 3688,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000021-tool_result.json",
+      "source_sha256": "1eedad34d6d762f0eb4a419c7c7db86b3fefdcf5eb61d083cbe78e04f8f78fef",
+      "source_size_bytes": 3688,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000022-tool_request.json",
+      "sha256": "1cccd750e085a31d642451e2db5a30a97ae07d01341c5e23b9017e811f745008",
+      "size_bytes": 612,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000022-tool_request.json",
+      "source_sha256": "34c782cc7758e479c6bac283d85192774eaded239601f91a6c4b3017a6287420",
+      "source_size_bytes": 628,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000023-tool_result.json",
+      "sha256": "079208c759445bf7b27ba534f3d35263844eaf77ae6f869169db1014cf909159",
+      "size_bytes": 775,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000023-tool_result.json",
+      "source_sha256": "079208c759445bf7b27ba534f3d35263844eaf77ae6f869169db1014cf909159",
+      "source_size_bytes": 775,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000024-tool_request.json",
+      "sha256": "d9febfe99be783d91093a3456ee43fce31b080171aed305386ee3a4177592308",
+      "size_bytes": 595,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000024-tool_request.json",
+      "source_sha256": "0f9c6c3d8195133ff4b7ee45ae2df931b349f0bd3511d7c9ec0abf79f658eca6",
+      "source_size_bytes": 611,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000025-tool_result.json",
+      "sha256": "00e2cef50f1768346fd6812508bca0574d371aff3fd8f4b05eac5ac638920c9a",
+      "size_bytes": 431,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000025-tool_result.json",
+      "source_sha256": "00e2cef50f1768346fd6812508bca0574d371aff3fd8f4b05eac5ac638920c9a",
+      "source_size_bytes": 431,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000026-api_request.json",
+      "sha256": "e33dafdbdda503375f30ee86d755b7a049f34c748c2bf0e712b78d2d6f7070a9",
+      "size_bytes": 35471,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000026-api_request.json",
+      "source_sha256": "3edc1030208e848e65213661082c5deac585755378d087d9edd08c36052ea0fe",
+      "source_size_bytes": 35708,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000027-api_response.json",
+      "sha256": "bacda47ad6fac4293708d603828cc2ccd7a7b80e9c3270010a61bba3a6e9a5b6",
+      "size_bytes": 3307,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000027-api_response.json",
+      "source_sha256": "cdddd8770e23aaac54ee35faa0b2a7e1825fd7878b196de7272272dcf4906d67",
+      "source_size_bytes": 3414,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000028-api_billing.json",
+      "sha256": "b2e34aca773fb589d5bc4c49762a108c680c31110a10d76f7a38bd2788a9f949",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000028-api_billing.json",
+      "source_sha256": "73d7af89499dcc24ed765ccc9fe0cc2bf221cc82de1e0676d19e839eac2302ee",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000029-tool_request.json",
+      "sha256": "8f2a4356195bb61ce879711ccf5b560cf1f0ffdadc059507bf223c5f053115a9",
+      "size_bytes": 596,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000029-tool_request.json",
+      "source_sha256": "6f466d45bd3cf7559c29b9a126f7a9300d7b75d4f90b1a4971aba87b6048b2c1",
+      "source_size_bytes": 612,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000030-tool_result.json",
+      "sha256": "4c040d27404837985280037c4a86271b391147c40d4bd38dc7f4607aba3165f2",
+      "size_bytes": 4764,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000030-tool_result.json",
+      "source_sha256": "4c040d27404837985280037c4a86271b391147c40d4bd38dc7f4607aba3165f2",
+      "source_size_bytes": 4764,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000031-tool_request.json",
+      "sha256": "b3dcf30dd4a946c66ca09c0cb92d365c3e2bc4c2d9377edcfb80207da0d97ed9",
+      "size_bytes": 606,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000031-tool_request.json",
+      "source_sha256": "55aa9682550af36da98c1d7ff37465e844ff240ba01283d1bea93b193c570893",
+      "source_size_bytes": 622,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000032-tool_result.json",
+      "sha256": "b27694699b4b773c02c661f69c595d39205e2b5bad3c7a996a31f3c501f43932",
+      "size_bytes": 6110,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000032-tool_result.json",
+      "source_sha256": "b27694699b4b773c02c661f69c595d39205e2b5bad3c7a996a31f3c501f43932",
+      "source_size_bytes": 6110,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000033-tool_request.json",
+      "sha256": "280bf03d909d050a179df47db38dc0da8dbf9ab091b39630fdf5afaeb6b46093",
+      "size_bytes": 747,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000033-tool_request.json",
+      "source_sha256": "400d86e3b134263a448643cbea9078272e9f6c6418684755ffc93babc1778fd5",
+      "source_size_bytes": 763,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000034-tool_result.json",
+      "sha256": "e6adcbe693644bb0ed23a02384b54297cec611419bd8d0b594866fbf696b114f",
+      "size_bytes": 1057,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000034-tool_result.json",
+      "source_sha256": "e6adcbe693644bb0ed23a02384b54297cec611419bd8d0b594866fbf696b114f",
+      "source_size_bytes": 1057,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000035-api_request.json",
+      "sha256": "d3599c716ac779903c930953a69b96ff8394960a1932c41bda003a51bcb44e13",
+      "size_bytes": 48802,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000035-api_request.json",
+      "source_sha256": "d332350f3c25036fcd3f9b1b67b81455615979761d4471259c9600ac97736ec4",
+      "source_size_bytes": 49135,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000036-api_response.json",
+      "sha256": "1b092037174e6a6a7a7060282d6428c0be6aaf5925bda21732716470a1c2c7c9",
+      "size_bytes": 3583,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000036-api_response.json",
+      "source_sha256": "784f0ad97df35bfa6e9d222666a53f6076d21d250bc3d92fea33d463a9d790eb",
+      "source_size_bytes": 3674,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000037-api_billing.json",
+      "sha256": "fb4961fc4862966be7644fed7853c47c9fccfb711954a835c0f9152412327d37",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000037-api_billing.json",
+      "source_sha256": "c159399c04fd3511c35f95ae852653111aa8000576604205666ba270ec51e832",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000038-tool_request.json",
+      "sha256": "0ac8c62dc634b002eb69ca87f419e2b5f27a1bb816e1175f703c81249a2d7805",
+      "size_bytes": 607,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000038-tool_request.json",
+      "source_sha256": "def6429d9fd1d807f41af1effbbd1646ce2e3aa2ccda48e385e0260afc17a535",
+      "source_size_bytes": 623,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000039-tool_result.json",
+      "sha256": "34400b5f2e5de9de70036c6a477f3487a40d770b9509cfb938d8c5c28940c70a",
+      "size_bytes": 7925,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000039-tool_result.json",
+      "source_sha256": "34400b5f2e5de9de70036c6a477f3487a40d770b9509cfb938d8c5c28940c70a",
+      "source_size_bytes": 7925,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000040-tool_request.json",
+      "sha256": "450170138a67a28f2e1bdb25b18027e7e52ffd43fc811c02ef5c6f11d93215fa",
+      "size_bytes": 2047,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000040-tool_request.json",
+      "source_sha256": "4a1f83bb25e1f93fbdad094050d5d3114ef8b97ac2b9df1fe1b8f086186e086f",
+      "source_size_bytes": 2063,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000041-tool_result.json",
+      "sha256": "77e0c419e2b7e62109e2b7d1686719352d2c6a486a6520f11ed2687e10dd5e65",
+      "size_bytes": 826,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000041-tool_result.json",
+      "source_sha256": "77e0c419e2b7e62109e2b7d1686719352d2c6a486a6520f11ed2687e10dd5e65",
+      "source_size_bytes": 826,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000042-api_request.json",
+      "sha256": "2c33612414332ec7922f104b919b1c8994efee6250776afcfec339dde6dc5bb8",
+      "size_bytes": 59550,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000042-api_request.json",
+      "source_sha256": "e98af77fbfb05d31c243f9dba40382a9aab5a923435cc396a3a6e348dabbd0d7",
+      "source_size_bytes": 59947,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000043-api_response.json",
+      "sha256": "e80cf595a413d24b0c8df4d3c9101087803c9018fb16e621b18a702573aac3a4",
+      "size_bytes": 3695,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000043-api_response.json",
+      "source_sha256": "85d5e6e78fffc8a5771aa40b5ee6a85324e01008cb987c548d0ad9530e58a6eb",
+      "source_size_bytes": 3770,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000044-api_billing.json",
+      "sha256": "4485af1d47aca82fd0de295531cfe3240d0e363fc1c251a6bafc2b929a89f910",
+      "size_bytes": 259,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000044-api_billing.json",
+      "source_sha256": "98c744372dacac04e41f20f9790f9f0dbf33baf655dece1f65e7ccc693a154d5",
+      "source_size_bytes": 272,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000045-tool_request.json",
+      "sha256": "c244c5fce779a24ed752dd3878ca6309d5e27a8e143a5dee9ff5201edbd46d93",
+      "size_bytes": 1920,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000045-tool_request.json",
+      "source_sha256": "ce2fc6d238c710884cbfea83e352721b7829f5648dcb31627354962346305b51",
+      "source_size_bytes": 1936,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000046-tool_result.json",
+      "sha256": "b4244bba3dc382f81f037d4d78747fee2ecdeacacababb36da098239a3417b2f",
+      "size_bytes": 439,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000046-tool_result.json",
+      "source_sha256": "b4244bba3dc382f81f037d4d78747fee2ecdeacacababb36da098239a3417b2f",
+      "source_size_bytes": 439,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000047-api_request.json",
+      "sha256": "33ad0f24915ba38d9878d0460abfe03e83cc8f2e66a89cf327fc4d3f2088fa0c",
+      "size_bytes": 62415,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000047-api_request.json",
+      "source_sha256": "0e1c939eceb5a134dfe46c7f8f619fefab64b9fdedc98ad46a1bbb9177040cf4",
+      "source_size_bytes": 62844,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000048-api_response.json",
+      "sha256": "23d6488ec22ea07fdeefb49ab27ab5571ca00dc79b19287b29782468e20cc95a",
+      "size_bytes": 2417,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000048-api_response.json",
+      "source_sha256": "47cffd0e653d593502beeb0d68a779a8999044d2b020fc92f049bab96bd553a9",
+      "source_size_bytes": 2492,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000049-api_billing.json",
+      "sha256": "24f061eed64a627f97dbe0f721d5fb57be83e46c8ec3e4bee701d6a15b4f5c07",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000049-api_billing.json",
+      "source_sha256": "8606380f41be9ad8633c04db94e203ace2124c1d7230a50477f21ecf00d23189",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000050-tool_request.json",
+      "sha256": "e81e96ddf5b3e95056b2cda4355c8535e79677e313d9a8cb770ea886ce704dc9",
+      "size_bytes": 1220,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000050-tool_request.json",
+      "source_sha256": "f2ca7380362297bacf7f494f19fa4925f554b37f56c54204ce7f209ed263b05c",
+      "source_size_bytes": 1236,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000051-tool_result.json",
+      "sha256": "6367b444391dfce2fff06587c0a4d3e0b3be777e882660cf517897ae9c28f2f5",
+      "size_bytes": 983,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000051-tool_result.json",
+      "source_sha256": "6367b444391dfce2fff06587c0a4d3e0b3be777e882660cf517897ae9c28f2f5",
+      "source_size_bytes": 983,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000052-api_request.json",
+      "sha256": "6aee228dc04e3cecde9fbba41aa96c36159a4756943a8ebb5e6eaf77fa757593",
+      "size_bytes": 64547,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000052-api_request.json",
+      "source_sha256": "38c8c26f642551fe6645131e20916965b270ac25d9350ca1b1d5b4bf6b81017b",
+      "source_size_bytes": 65008,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000053-api_response.json",
+      "sha256": "c63ce04ff5772b19e99d44c52dc22f6c790a2f9ed1cc1c2edd20fa3cf9e110bf",
+      "size_bytes": 5156,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000053-api_response.json",
+      "source_sha256": "7303b5d6aab09c36336092f8574a23270bafd570ffc68c5f0b96d7bee60e244a",
+      "source_size_bytes": 5247,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000054-api_billing.json",
+      "sha256": "80032b633524e3f03205db6a7c3a77f1ecdb9740c3dc121294520564a0189411",
+      "size_bytes": 260,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000054-api_billing.json",
+      "source_sha256": "bb32c9a07104a061a8d9d82799b27bcce7e4ddc5050727244565fdb3717b6f37",
+      "source_size_bytes": 273,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000055-tool_request.json",
+      "sha256": "0bfd3d416729aeac8fcead8725ef442350b529f8137c3e9e542365d96a44b23f",
+      "size_bytes": 652,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000055-tool_request.json",
+      "source_sha256": "07422e225118eb237cc256e197a17e300e8541a0b406836e890fc4b30a7a0340",
+      "source_size_bytes": 668,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000056-tool_result.json",
+      "sha256": "435d5db954749abf4af3ae49853ab6a21c144e2e1f1e613aa9ee7ac09c88920d",
+      "size_bytes": 3435,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000056-tool_result.json",
+      "source_sha256": "435d5db954749abf4af3ae49853ab6a21c144e2e1f1e613aa9ee7ac09c88920d",
+      "source_size_bytes": 3435,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000057-tool_request.json",
+      "sha256": "d929dd17334e9782c449f029021e1dc323b5cb1fbb7c4516f38fd3e8463c63d9",
+      "size_bytes": 2204,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000057-tool_request.json",
+      "source_sha256": "909b7adc1877a1f5f6da862c6a3515ef2bd2264dad4cb663479a12505636f913",
+      "source_size_bytes": 2220,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000058-tool_result.json",
+      "sha256": "86d64b52892279f055fa8a9a9eb9108c267a616db0489281920f9273956a9d17",
+      "size_bytes": 589,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000058-tool_result.json",
+      "source_sha256": "86d64b52892279f055fa8a9a9eb9108c267a616db0489281920f9273956a9d17",
+      "source_size_bytes": 589,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000059-api_request.json",
+      "sha256": "a74208d6d7cf1fd78b3cde01dfe40e5a3df9b600b74e083d7386018fa5736ae0",
+      "size_bytes": 72137,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000059-api_request.json",
+      "source_sha256": "f3cdca37fc78a915a88e5326c91419463947c0ced578603bad4d6ef5386e01fc",
+      "source_size_bytes": 72662,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000060-api_response.json",
+      "sha256": "a901e63c1c295687b2f5f6248ce84859285bdd2238eecaab41161a5171d5983a",
+      "size_bytes": 4839,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000060-api_response.json",
+      "source_sha256": "d050d93515ea2a1d1e4e0332d501f9c2b512c232fbb974d42723ef5a640774b8",
+      "source_size_bytes": 4914,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000061-api_billing.json",
+      "sha256": "d7a8c982efe3647db2c12079804ab0af0c430d6715a8b5033530db961731cbf8",
+      "size_bytes": 248,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000061-api_billing.json",
+      "source_sha256": "c9a0bbfe074db2eaf32716e2495315c0d54b36bc6b94cf3802b2181fecc6eeb9",
+      "source_size_bytes": 261,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000062-tool_request.json",
+      "sha256": "4a6f5912659d4b84f506ae8c2119efaa74defe070bf3b887e2debb4b28b1354c",
+      "size_bytes": 2593,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000062-tool_request.json",
+      "source_sha256": "89e0e49d66e8c3c29009714ec9e3c5bdc256edd51b4279d1737f612c0e9509c4",
+      "source_size_bytes": 2609,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000063-tool_result.json",
+      "sha256": "8245db6da8f567a2e70293f55da659b84ee2e3970886d51746c4e1a586a6b74f",
+      "size_bytes": 1322,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000063-tool_result.json",
+      "source_sha256": "8245db6da8f567a2e70293f55da659b84ee2e3970886d51746c4e1a586a6b74f",
+      "source_size_bytes": 1322,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000064-api_request.json",
+      "sha256": "d5f2ed0e386b6efb174add11be19b92f8922ee316537c2e36f28e3c3fb62f5d1",
+      "size_bytes": 77030,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000064-api_request.json",
+      "source_sha256": "1a8aa11e26a3cd311bcc37119816b23136ca3f60da0439117ce2d9a0f1e63d06",
+      "source_size_bytes": 77587,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000065-api_response.json",
+      "sha256": "192e55b4c835faea9087e80f37f8c321b5cb22f0c0f444fae6f8880bdacd48b2",
+      "size_bytes": 3772,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000065-api_response.json",
+      "source_sha256": "0f9a43f4f6f27360ce955213e47fb18dc1c9a4313d53a07d478941c162f81f85",
+      "source_size_bytes": 3863,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000066-api_billing.json",
+      "sha256": "339a59fddef080c4e0717093bc033bc21bd960c18b90259d6cdcf5e98988c272",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000066-api_billing.json",
+      "source_sha256": "ccbdbeb69be2da20548c36535d8fdcfd36ac9521fa2f64231380f97bb5d2de24",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000067-tool_request.json",
+      "sha256": "c4bdf040c628ae0f0ae5968714552e8ce4d66823a21a4aecf1a6b6d60754808c",
+      "size_bytes": 627,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000067-tool_request.json",
+      "source_sha256": "d5b9350944ae0443ab4ef94ed3219a85978b0c79b2513f6300f3f5e174d99ae8",
+      "source_size_bytes": 643,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000068-tool_result.json",
+      "sha256": "f7a14b03575ea9af66ce3e04fc9110f23d4e577a7b8ee04fcf8632e589120d72",
+      "size_bytes": 6596,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000068-tool_result.json",
+      "source_sha256": "f7a14b03575ea9af66ce3e04fc9110f23d4e577a7b8ee04fcf8632e589120d72",
+      "source_size_bytes": 6596,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000069-tool_request.json",
+      "sha256": "1ae27c4ef34022a4ba27ff1d155a3fec1969cf7b9b9d7c32750363b1e9828530",
+      "size_bytes": 625,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000069-tool_request.json",
+      "source_sha256": "da03605659236af62a96168051b2e37811829eafa3f34f2a95f56f1c917b35a5",
+      "source_size_bytes": 641,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000070-tool_result.json",
+      "sha256": "5c8e14e9c57be66a38211a872d3cc93a4dcf6e0cc48e57a2722583b527a09822",
+      "size_bytes": 3650,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000070-tool_result.json",
+      "source_sha256": "5c8e14e9c57be66a38211a872d3cc93a4dcf6e0cc48e57a2722583b527a09822",
+      "source_size_bytes": 3650,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000071-api_request.json",
+      "sha256": "be812beac81d73255cfc20a138b79066ea1834ce31ce6a1a5f5dca7d64adbd8c",
+      "size_bytes": 89458,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000071-api_request.json",
+      "source_sha256": "333e2244948de9236f66a31b9c65afc753ef137b02e29f9c087be993d24d237b",
+      "source_size_bytes": 90079,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000072-api_response.json",
+      "sha256": "51526e5dee7fe09c5e222eff37f5de9d8ac7ff25f518be29688c6aed39addd8d",
+      "size_bytes": 4374,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000072-api_response.json",
+      "source_sha256": "c96452f298a2b9b1ac08590b90e80e5c8e59b34802ea2c97418b938846fbdcfd",
+      "source_size_bytes": 4449,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000073-api_billing.json",
+      "sha256": "b0a7d9397b9450c1e05e4e904983b01e7be00b526c646cae9494571c8e089ebe",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000073-api_billing.json",
+      "source_sha256": "36159b588b33303d478b7a59aad70ac560f956f353c394b6824ee57c01812edf",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000074-tool_request.json",
+      "sha256": "ecfe6ba42da6898b5e52271c40d8e3e4dd34437269b44ad51ae40ec293afa728",
+      "size_bytes": 2440,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000074-tool_request.json",
+      "source_sha256": "9c16a299f95f77bcedcbebf89c0402a167385fd477fdaf275904e5d6deeb62ae",
+      "source_size_bytes": 2456,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000075-tool_result.json",
+      "sha256": "a614db95d16077505fd5e49b6cf2162eae3a3864cb197758a86de60e4a720f4a",
+      "size_bytes": 1100,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000075-tool_result.json",
+      "source_sha256": "a614db95d16077505fd5e49b6cf2162eae3a3864cb197758a86de60e4a720f4a",
+      "source_size_bytes": 1100,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000076-api_request.json",
+      "sha256": "a99c7fd372006d42f144be2667f97da309270894e801bf1388f4dc525fb711c2",
+      "size_bytes": 93663,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000076-api_request.json",
+      "source_sha256": "01d7b059d5437cef4894b0bf5257da4d428a35f4f45792e5f6873fa0f6f5acc8",
+      "source_size_bytes": 94316,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000077-api_response.json",
+      "sha256": "95d06a368bfd5eb35dfa9f4040032db457712182bb03a26afbd687b8b4b9df00",
+      "size_bytes": 4472,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000077-api_response.json",
+      "source_sha256": "9e030e629e3212835505aa32529e8fea11bc81112e22265d9836a7a7025ce1d6",
+      "source_size_bytes": 4547,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000078-api_billing.json",
+      "sha256": "9a12fcdc939f351c12f8c0e99c70800558b10163f7afb4ae1a028c5f137e8798",
+      "size_bytes": 260,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000078-api_billing.json",
+      "source_sha256": "e78f005144333f599de592016d9f418989f518acd6405e25936e2f746d7912f4",
+      "source_size_bytes": 273,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000079-tool_request.json",
+      "sha256": "247e25fcaf35d9a700b46281bd6f2c1c22f877342440d22b271ca0e967848ecf",
+      "size_bytes": 1134,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000079-tool_request.json",
+      "source_sha256": "78f0f16bbec3d01130ae3945d7c4d0fa459acd64ad37a944fbdae347c852b650",
+      "source_size_bytes": 1150,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000080-tool_result.json",
+      "sha256": "1364932cf910f9c8939ff3596f1d7c0e34169c96bf5ae77304a18b6b6ae0abb6",
+      "size_bytes": 934,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000080-tool_result.json",
+      "source_sha256": "1364932cf910f9c8939ff3596f1d7c0e34169c96bf5ae77304a18b6b6ae0abb6",
+      "source_size_bytes": 934,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000081-api_request.json",
+      "sha256": "6e44948e627d069574cb708ee77450b4d763de82d3605c04501a857d36b473ae",
+      "size_bytes": 97801,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000081-api_request.json",
+      "source_sha256": "c35d0a7db1956a76761b5cf14ec8dfbca453718551a1a14de9ce4d8bf2d804af",
+      "source_size_bytes": 98486,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000082-api_response.json",
+      "sha256": "cd40151ddf4fbd1159d6ec3494d080b45a62d15330659391f1eac281aca03857",
+      "size_bytes": 3529,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000082-api_response.json",
+      "source_sha256": "598e6a04bcd418c25223385c6fccb56a60fe6198c7e69a4e9a104255a2498c0e",
+      "source_size_bytes": 3620,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000083-api_billing.json",
+      "sha256": "3bf4ddf535b72fb469793291d2c98b514762d0d5ef3912826dc21a54de46c331",
+      "size_bytes": 248,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000083-api_billing.json",
+      "source_sha256": "7baa7adbc212d54c697bf2cd13505221866a2e22cad1ac8cb7663c224b4b4e99",
+      "source_size_bytes": 261,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000084-tool_request.json",
+      "sha256": "47a81b4ef82efac7c4ba49cd42b80b007c09d7e548a88430cac4412abbe6c02f",
+      "size_bytes": 580,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000084-tool_request.json",
+      "source_sha256": "d46a9c889180c7a9ed9e5f80f205a2afa3a63903df87e4a3b8a664bb728b4901",
+      "source_size_bytes": 596,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000085-tool_result.json",
+      "sha256": "892fc0f7db02d1b3e6ddccf2349d3de28b7c8b83a8ec695052562068fb6e7dc2",
+      "size_bytes": 602,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000085-tool_result.json",
+      "source_sha256": "892fc0f7db02d1b3e6ddccf2349d3de28b7c8b83a8ec695052562068fb6e7dc2",
+      "source_size_bytes": 602,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000086-tool_request.json",
+      "sha256": "26d48fbdadad9e84e11c045682aef1456ecbe0bcaaa4290fc7660ff07f81c32c",
+      "size_bytes": 1995,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000086-tool_request.json",
+      "source_sha256": "3c64d2f985623c5a8dd299891f9d669338d588667f07cbc5f2af25922a42598f",
+      "source_size_bytes": 2011,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000087-tool_result.json",
+      "sha256": "6dc3d210d59970103cccc594b09b49d9473f3af20952c113098b5a17aa51c8d4",
+      "size_bytes": 1091,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000087-tool_result.json",
+      "source_sha256": "6dc3d210d59970103cccc594b09b49d9473f3af20952c113098b5a17aa51c8d4",
+      "source_size_bytes": 1091,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000088-api_request.json",
+      "sha256": "2cfeba35e29df0489d2a4488af85ad0d53f424d944433ea9e79b0075682f206d",
+      "size_bytes": 101434,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000088-api_request.json",
+      "source_sha256": "f093a6c5d55fa3f4f1dc0637b2bc097f7c11837f4691aa7ccfdb75ab7cc35789",
+      "source_size_bytes": 102183,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000089-api_response.json",
+      "sha256": "a1dbed405e6a0200fdacaa006290c4bb489ca09d319fb6598fd5f7d0eb686cf9",
+      "size_bytes": 4245,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000089-api_response.json",
+      "source_sha256": "d136b233ca88bd05c6faadaf765aeac9e416acb683453a4f2031ea07845da7b0",
+      "source_size_bytes": 4336,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000090-api_billing.json",
+      "sha256": "69bf1eb37e690311c6a8b7217f12bb3c64183961ec3a02a060a3d07d39fbbfb8",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000090-api_billing.json",
+      "source_sha256": "e89ca1080d8a1570b1a91d63317c02539f758cedb86f1210147d5a9f097fd0fe",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000091-tool_request.json",
+      "sha256": "5f83fc97b4efaa2cf9e92ea44ded38c672a538e45891370d10c1f160893c0e51",
+      "size_bytes": 1014,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000091-tool_request.json",
+      "source_sha256": "7a14c2b160aa1a21363925263c22e89270f6f29930cc1ea0ea0c140475d45e94",
+      "source_size_bytes": 1030,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000092-tool_result.json",
+      "sha256": "d9f574542f4275bc0e678a7623467f4a46d442f3fd4036cc6a7805605a7bb0d4",
+      "size_bytes": 565,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000092-tool_result.json",
+      "source_sha256": "d9f574542f4275bc0e678a7623467f4a46d442f3fd4036cc6a7805605a7bb0d4",
+      "source_size_bytes": 565,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000093-tool_request.json",
+      "sha256": "b6b8cf71cacbd642c0728c646aa1457662108c0206b925b2540b470299df7e7c",
+      "size_bytes": 639,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000093-tool_request.json",
+      "source_sha256": "efe43bdec8bd9c6266b3a7773edeff3e219afbdef243e2111ece5198bc1c258f",
+      "source_size_bytes": 655,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000094-tool_result.json",
+      "sha256": "f233cae620efafe042d7202175cabbb93fb1205978bc0cd1ff651a21621559e7",
+      "size_bytes": 721,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000094-tool_result.json",
+      "source_sha256": "f233cae620efafe042d7202175cabbb93fb1205978bc0cd1ff651a21621559e7",
+      "source_size_bytes": 721,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000095-api_request.json",
+      "sha256": "595499f42d5af4404d11abcee35728cf0a7253cce33552b4bce848820cad8e12",
+      "size_bytes": 105375,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000095-api_request.json",
+      "source_sha256": "3e365a412bd81482ae1707d47bf053dcfb527f8c2ae20e9c75ce5da678dd605d",
+      "source_size_bytes": 106188,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000096-api_response.json",
+      "sha256": "28aa373cd1f4be2c6eb3acb59d0aa21de1777d9a58b3cbc05dd422d4f72098b3",
+      "size_bytes": 2203,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000096-api_response.json",
+      "source_sha256": "524a682c6b4fe926e1e7e1369f79b58d501e4be50596b844c401a5f42cc58910",
+      "source_size_bytes": 2294,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000097-api_billing.json",
+      "sha256": "ade5d89a9b6088ac75ab9796ebfbdf551c64d97be877085e09c40214fbade5e1",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000097-api_billing.json",
+      "source_sha256": "d5ee955cdd414a9c7d8f15bbf2a25905c6fd7e269465bf21cb8685c675d6000b",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000098-tool_request.json",
+      "sha256": "b3a7c4caea63711943ad1166d32da5c8ce95c5e6f9336bc88c90077391315685",
+      "size_bytes": 739,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000098-tool_request.json",
+      "source_sha256": "72e461c2e3e2c0db7724bd1a34b234710e9b39f5287079ef9c8b2c7df0d53056",
+      "source_size_bytes": 755,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000099-tool_result.json",
+      "sha256": "26b59f1807ace81814f1b6881e03f706fe3c57e4ec027300a392bbc42cccadf8",
+      "size_bytes": 1320,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000099-tool_result.json",
+      "source_sha256": "26b59f1807ace81814f1b6881e03f706fe3c57e4ec027300a392bbc42cccadf8",
+      "source_size_bytes": 1320,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000100-tool_request.json",
+      "sha256": "923f4408a626327b1b443a050e1be9bce737911819a75dc707e6131f261def02",
+      "size_bytes": 720,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000100-tool_request.json",
+      "source_sha256": "d02ed34435252d4eea961d2b50e87ffcea0b80c79ae354af94216ea326e531ca",
+      "source_size_bytes": 736,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000101-tool_result.json",
+      "sha256": "e6fbe9319c623f288532f00ba161e23d3b4a2b87cadc6718c742d9fc6fe98fff",
+      "size_bytes": 532,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000101-tool_result.json",
+      "source_sha256": "e6fbe9319c623f288532f00ba161e23d3b4a2b87cadc6718c742d9fc6fe98fff",
+      "source_size_bytes": 532,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000102-api_request.json",
+      "sha256": "c3d651e71e69ae449697aa764b0424ad16137f48134175d3a618acf5f3f9cfd9",
+      "size_bytes": 107842,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000102-api_request.json",
+      "source_sha256": "750a4846eed7edf4a53d1fb021c26a521e35c177326629b30a9fd9d31d0a0dbc",
+      "source_size_bytes": 108719,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000103-api_response.json",
+      "sha256": "acc3c92aefb3c2410a581abd55721e559a4110644efad981e8db1d035966cebf",
+      "size_bytes": 2736,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000103-api_response.json",
+      "source_sha256": "ee3144b26db5189b0f39f9a892979b1242d70266d6c1657d1b2c65535669b14e",
+      "source_size_bytes": 2827,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000104-api_billing.json",
+      "sha256": "450da35aebff575f811fb98d794582cd9dd8110c6f8d95c3fe643d027f82b73f",
+      "size_bytes": 250,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000104-api_billing.json",
+      "source_sha256": "6bc2f771e612047739eb3cf4ee24c84d2d3130263f20c10097bcfed3bc93d86b",
+      "source_size_bytes": 263,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000105-tool_request.json",
+      "sha256": "7158d55b63621b4b390920ca2223d7538c3361bf38cb8ad40c366f40b3110947",
+      "size_bytes": 677,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000105-tool_request.json",
+      "source_sha256": "be75cdfc1b55b540d18480b7b9ceb91b45aaf6886a122203c6642c8f978f93e2",
+      "source_size_bytes": 693,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000106-tool_result.json",
+      "sha256": "3cf21dddf1dea486ec95080b42f845d8736a6be0e3bed53c877d52e578275827",
+      "size_bytes": 1523,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000106-tool_result.json",
+      "source_sha256": "3cf21dddf1dea486ec95080b42f845d8736a6be0e3bed53c877d52e578275827",
+      "source_size_bytes": 1523,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000107-tool_request.json",
+      "sha256": "56a075462c28dd807550008b6a7daf21df690981da70448a60c7497f083bd972",
+      "size_bytes": 614,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000107-tool_request.json",
+      "source_sha256": "9f4dcce8c3505b9e69aa1347ede1538208e81b1de67bd64dfae79178ff5e6f83",
+      "source_size_bytes": 630,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000108-tool_result.json",
+      "sha256": "7938f0e540facfb9f5f09c1dbe58ee7d242a0b1af01091b3946880def053d5fe",
+      "size_bytes": 1024,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000108-tool_result.json",
+      "source_sha256": "7938f0e540facfb9f5f09c1dbe58ee7d242a0b1af01091b3946880def053d5fe",
+      "source_size_bytes": 1024,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000109-api_request.json",
+      "sha256": "9ec6a7b4c2292ade496f56f6060b917715ca527db5b9eef826943b4fb4454eeb",
+      "size_bytes": 111534,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000109-api_request.json",
+      "source_sha256": "e1ee8d8a5652691a6b9a897b05c172457b2a88f3a9fae36d6401052013e0cffd",
+      "source_size_bytes": 112475,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000110-api_response.json",
+      "sha256": "746739dd6b5c9e1b7cd1a72f7c71607dabdbe1c0a2f507846a449580ce2c55dd",
+      "size_bytes": 3981,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000110-api_response.json",
+      "source_sha256": "bded6a406270cdd1ab991c5d1c8316a0ea912c9477060d88f3b44a167da985ab",
+      "source_size_bytes": 4072,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000111-api_billing.json",
+      "sha256": "b6a477f0a2306b1ec589ae11b9788eaa7c8bcbc37131e3fe37315d024e3f5ef9",
+      "size_bytes": 249,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000111-api_billing.json",
+      "source_sha256": "4696a3c7bcc83ed8a119f8906dca919fb8a23592183f760643b5a2104fb9d708",
+      "source_size_bytes": 262,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000112-tool_request.json",
+      "sha256": "67fd6bfc52718f955bd9957c568a9d92a6e138185869dc22ac3304aea4f91b9b",
+      "size_bytes": 574,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000112-tool_request.json",
+      "source_sha256": "cbe19fc457b35818eefbf42b8207cce6fa47a089f848fb0cda18f60a73b8837a",
+      "source_size_bytes": 590,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000113-tool_result.json",
+      "sha256": "a3d88027c2a309c3ce3d91db548e3843fcbb9f27da114a3e439110c1cae48fcf",
+      "size_bytes": 457,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000113-tool_result.json",
+      "source_sha256": "a3d88027c2a309c3ce3d91db548e3843fcbb9f27da114a3e439110c1cae48fcf",
+      "source_size_bytes": 457,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000114-tool_request.json",
+      "sha256": "0d7960bf608111b09445fc315b1b1f6100774960ff74d354191ab0213687868f",
+      "size_bytes": 616,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000114-tool_request.json",
+      "source_sha256": "993264d4372e8d23bcc75c6b7489605938234fe1e96c06138c2e498d7bc718ae",
+      "source_size_bytes": 632,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000115-tool_result.json",
+      "sha256": "8ae0e01291ea1ec21f12699ecb7a6491ef792632e07f2fab06cf3abbd9dd4eac",
+      "size_bytes": 1091,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000115-tool_result.json",
+      "source_sha256": "8ae0e01291ea1ec21f12699ecb7a6491ef792632e07f2fab06cf3abbd9dd4eac",
+      "source_size_bytes": 1091,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000116-api_request.json",
+      "sha256": "fc2faf738ef03ef54779bb980608e815ba9b14bc090b8229a96704a4ff958dbe",
+      "size_bytes": 115470,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000116-api_request.json",
+      "source_sha256": "e022810935ef34226db685d1dc5c0b9c356a0d62054547df5da16f50345b0918",
+      "source_size_bytes": 116475,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000117-api_response.json",
+      "sha256": "bc3e27bd338e81bdca90a132b4cde7446ac4248764bf0d210087a63c5b68130f",
+      "size_bytes": 1599,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000117-api_response.json",
+      "source_sha256": "57e059808168bd5b76fc1a105997960784cd5280e6933437138d3cae5fc7c342",
+      "source_size_bytes": 1674,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000118-api_billing.json",
+      "sha256": "8ab8569d5ac6945fdc7aa9261f094d9e81290b6eec13aae6704dbbdaffcfdd77",
+      "size_bytes": 250,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000118-api_billing.json",
+      "source_sha256": "8390499861392f0c72cedd41aca36a77c85f4b8b9b5a69f87f852b8acd5a9479",
+      "source_size_bytes": 263,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000119-tool_request.json",
+      "sha256": "ddf2666361ddcf0fd8026d6d103060d8826147884a5e9ffb59aaf012fc8aa51d",
+      "size_bytes": 622,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000119-tool_request.json",
+      "source_sha256": "5e73143f02f8b9f03798bea57b3c7b591bee9c8917b933f1c989336c1106182b",
+      "source_size_bytes": 638,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000120-tool_result.json",
+      "sha256": "6a7778770f37942f1147b72313ba05b83ec3db0c4db1a6e2bdd93a06b5c37121",
+      "size_bytes": 410,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000120-tool_result.json",
+      "source_sha256": "6a7778770f37942f1147b72313ba05b83ec3db0c4db1a6e2bdd93a06b5c37121",
+      "source_size_bytes": 410,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000121-api_request.json",
+      "sha256": "f48e91c7357f8348ad6545afb46e48368e09cffe0771b329e3012736c6a6f53e",
+      "size_bytes": 116210,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000121-api_request.json",
+      "source_sha256": "bbba48733ef28cdc666798164102c5a766ec3af84af8da3efa7436e795c01e2c",
+      "source_size_bytes": 117247,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000122-api_response.json",
+      "sha256": "8ea308c541b1a85ac10f6f70cfaefa445ee875b0b89fe463cb7b1333b235d024",
+      "size_bytes": 1565,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000122-api_response.json",
+      "source_sha256": "5fe6d32f9fcc71126174fa4ad5fc76b1d07a15696d8da9b67463c780617df390",
+      "source_size_bytes": 1640,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000123-api_billing.json",
+      "sha256": "c485bf358f09350a21c19742659bd0c07c294b352486f11d69cdcf7feb6175b9",
+      "size_bytes": 250,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000123-api_billing.json",
+      "source_sha256": "7ad1b164ace4694b6f6a4203e956729d4a2d86e79cf269938b70c54c0ef94665",
+      "source_size_bytes": 263,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000124-tool_request.json",
+      "sha256": "3aad79a544c8695921e64ee96bc6930c3eb153206d06e93e6dd91ebdf5019acc",
+      "size_bytes": 657,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000124-tool_request.json",
+      "source_sha256": "60cde92aed5b2d56b8a40c138e6400d50b6e683a6517fabb22aae996a192b016",
+      "source_size_bytes": 673,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000125-tool_result.json",
+      "sha256": "3de34f2641562cbeac30692400aaf63b012d664d2f011151fdeb85bb364bf4ae",
+      "size_bytes": 1049,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000125-tool_result.json",
+      "source_sha256": "3de34f2641562cbeac30692400aaf63b012d664d2f011151fdeb85bb364bf4ae",
+      "source_size_bytes": 1049,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000126-api_request.json",
+      "sha256": "b3b1c377b9590d21a0b2d31661d9e84c50fbb6c7ed97a0d890168dad20e253f8",
+      "size_bytes": 117556,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000126-api_request.json",
+      "source_sha256": "e3c480bf776a144e732e1d1ba5d2b24fa284ab580e6c235568f0f829bf3ed5ec",
+      "source_size_bytes": 118625,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000127-api_response.json",
+      "sha256": "d335c55dec741370a904591ff3822d1676b5f179aca199b94a2026181953bbe9",
+      "size_bytes": 1917,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000127-api_response.json",
+      "source_sha256": "01d25f77d166c8fbcee4784e6c83c152400fad6578de277a9951c429adca605b",
+      "source_size_bytes": 1992,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "remove-provider-system-fingerprint"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000128-api_billing.json",
+      "sha256": "ed0fa864b5d12fbb443785b137adbbd8ff0bedeb43fb974086de6a11b95b2007",
+      "size_bytes": 250,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000128-api_billing.json",
+      "source_sha256": "cb8f39a75f263e85f3c5942b09069e6fc75af8ebea7a3c4b946ada961e0b990e",
+      "source_size_bytes": 263,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000129-tool_request.json",
+      "sha256": "5b985923de9d9efe2c75ae1b8eb6c7ac0d172d053d717fd8ea2806102238bbb2",
+      "size_bytes": 600,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000129-tool_request.json",
+      "source_sha256": "70df7baa3414c0a225f71f4727ae1d2f9df1383234d76e3d5c88a31b7e12fbdd",
+      "source_size_bytes": 616,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers"
+      ]
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000130-tool_result.json",
+      "sha256": "94b451be6534e94ac5ab250af5ed615a7a82f36fbdb3d99c9b6bc4a4e71ffba8",
+      "size_bytes": 352,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000130-tool_result.json",
+      "source_sha256": "94b451be6534e94ac5ab250af5ed615a7a82f36fbdb3d99c9b6bc4a4e71ffba8",
+      "source_size_bytes": 352,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000131-tool_request.json",
+      "sha256": "f141664bc2fdd70b136580fb75c159036cd9bfe38a711914745f378b6851d846",
+      "size_bytes": 541,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000131-tool_request.json",
+      "source_sha256": "f141664bc2fdd70b136580fb75c159036cd9bfe38a711914745f378b6851d846",
+      "source_size_bytes": 541,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000132-tool_result.json",
+      "sha256": "6d846843a2e9f3eff9700b7ca914939e70b8e6a249200a19b75dc86166108533",
+      "size_bytes": 536,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000132-tool_result.json",
+      "source_sha256": "6d846843a2e9f3eff9700b7ca914939e70b8e6a249200a19b75dc86166108533",
+      "source_size_bytes": 536,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000133-tool_request.json",
+      "sha256": "c7ca7739408c16d7c27f52021710462b828f73c90090d200efcd1e23e3a6cdd2",
+      "size_bytes": 518,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000133-tool_request.json",
+      "source_sha256": "c7ca7739408c16d7c27f52021710462b828f73c90090d200efcd1e23e3a6cdd2",
+      "source_size_bytes": 518,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trace/000134-tool_result.json",
+      "sha256": "199ed54413d8daa1be3b5fd2d077aaf246f17896ed1d6ff95fabd3dd1a562b3d",
+      "size_bytes": 1875153,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trace/000134-tool_result.json",
+      "source_sha256": "199ed54413d8daa1be3b5fd2d077aaf246f17896ed1d6ff95fabd3dd1a562b3d",
+      "source_size_bytes": 1875153,
+      "transformations": []
+    },
+    {
+      "path": "run/j000/attempt-sample/trajectory.json",
+      "sha256": "bd5b2a6a95501682022a0f8fdc412c148129545f4cd8209dd4bd3cd15ed26996",
+      "size_bytes": 171323,
+      "source_path": "run/j000/attempt-c4ec5400c5c1/trajectory.json",
+      "source_sha256": "7f48957d046e4f0b5f58bad515e4198aa9c054f95eccd68eac20153e8d750916",
+      "source_size_bytes": 174249,
+      "transformations": [
+        "pseudonymize-correlated-api-and-tool-identifiers",
+        "relocate-trajectory-output-path",
+        "remove-provider-system-fingerprint",
+        "remove-unexported-budget-ledger-path"
+      ]
+    }
+  ]
+}

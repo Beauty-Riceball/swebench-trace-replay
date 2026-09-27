@@ -1,0 +1,23 @@
+{
+  "sequence": 133,
+  "recorded_unix_ns": 1790009085353351276,
+  "recorded_monotonic_ns": 4957310223628008,
+  "type": "tool_request",
+  "phase": "eval",
+  "tool_index": 2,
+  "action": {
+    "command": "/bin/bash /eval.sh"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 900,
+  "submit_enabled": false
+}

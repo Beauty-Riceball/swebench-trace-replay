@@ -1,0 +1,23 @@
+{
+  "sequence": 131,
+  "recorded_unix_ns": 1790009085063565045,
+  "recorded_monotonic_ns": 4957309933842318,
+  "type": "tool_request",
+  "phase": "eval",
+  "tool_index": 1,
+  "action": {
+    "command": "git apply --verbose /tmp/prediction.patch"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": false
+}

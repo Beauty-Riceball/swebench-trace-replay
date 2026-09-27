@@ -1,0 +1,10 @@
+{
+  "sequence": 49,
+  "recorded_unix_ns": 1790009039866266438,
+  "recorded_monotonic_ns": 4957264736543220,
+  "type": "api_billing",
+  "request_id": "sample-request-0007",
+  "cost_rmb": 0.00170748,
+  "cost_estimated": false,
+  "status": "success"
+}

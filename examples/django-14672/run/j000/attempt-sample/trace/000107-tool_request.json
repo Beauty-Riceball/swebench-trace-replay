@@ -1,0 +1,24 @@
+{
+  "sequence": 107,
+  "recorded_unix_ns": 1790009074578577922,
+  "recorded_monotonic_ns": 4957299448854984,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 30,
+  "action": {
+    "command": "cd /testbed && python tests/runtests.py check_framework --parallel=1 -v 1",
+    "tool_call_id": "sample-tool-0029"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

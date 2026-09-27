@@ -1,0 +1,17 @@
+9:from django.test.utils import isolate_apps, override_settings, register_lookup
+31:@isolate_apps('invalid_models_tests')
+137:@isolate_apps('invalid_models_tests')
+236:@isolate_apps('invalid_models_tests')
+622:@isolate_apps('invalid_models_tests')
+805:@isolate_apps('invalid_models_tests')
+914:@isolate_apps('invalid_models_tests')
+1521:    @isolate_apps('django.contrib.auth', kwarg_name='apps')
+1606:@isolate_apps('invalid_models_tests')
+1640:@isolate_apps('invalid_models_tests')
+__init__.py
+test_backend_specific.py
+test_custom_fields.py
+test_deprecated_fields.py
+test_models.py
+test_ordinary_fields.py
+test_relative_fields.py

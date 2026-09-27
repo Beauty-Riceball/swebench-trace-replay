@@ -1,0 +1,71 @@
+{
+  "sequence": 18,
+  "recorded_unix_ns": 1790009027591734354,
+  "recorded_monotonic_ns": 4957252462011076,
+  "type": "api_response",
+  "request_id": "sample-request-0003",
+  "provider_request_id": null,
+  "unix_ns": 1790009027591641237,
+  "elapsed_seconds": 1.6096555991098285,
+  "response": {
+    "id": "sample-response-0003",
+    "object": "chat.completion",
+    "created": 1790009026,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Now let me search for existing tests around `ManyToManyRel.identity` and confirm the failure mode.",
+          "reasoning_content": "We need make change. PR says add make_hashable on self.through_fields in ManyToManyRel identity. Likely actual upstream fix: `make_hashable(self.through_fields)`. Need consider through too? `through` can be string? It might be hashable. identity includes through. through_fields list -> tuple.\n\nNeed reproduce first. Could create script/test. Instructions say modify non-test files; we can create temp script outside repo or in /tmp to reproduce, not include patch. Need verify issue. We can likely run minimal script maybe with django settings. Let's inspect tests maybe there are existing tests for identity. Search.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0005",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -R \\\"through_fields\\\" tests --include='*.py' | head -50\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "sample-tool-0006",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -R \\\"make_hashable\\\\|\\\\.identity\\\" tests --include='*.py' | head -50\"}"
+              }
+            },
+            {
+              "index": 2,
+              "id": "sample-tool-0007",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"python -c \\\"import django; print(django.get_version())\\\"\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 7095,
+      "completion_tokens": 295,
+      "total_tokens": 7390,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 823
+    },
+    "system_fingerprint": null
+  }
+}

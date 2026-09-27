@@ -1,0 +1,24 @@
+{
+  "sequence": 55,
+  "recorded_unix_ns": 1790009044153993213,
+  "recorded_monotonic_ns": 4957269024270004,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 16,
+  "action": {
+    "command": "sed -n '1235,1302p' django/db/models/base.py && grep -n \"def get_parent_list\" -A10 django/db/models/options.py",
+    "tool_call_id": "sample-tool-0015"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

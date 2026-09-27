@@ -1,0 +1,16 @@
+{
+  "sequence": 115,
+  "recorded_unix_ns": 1790009079548388753,
+  "recorded_monotonic_ns": 4957304418665695,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 32,
+  "result": {
+    "output": "        self.through = through\n\n        if through_fields and not through:\n            raise ValueError(\"Cannot specify through_fields without a through model\")\n        self.through_fields = through_fields\n\n        self.symmetrical = symmetrical\n        self.db_constraint = db_constraint\n\n    @property\n    def identity(self):\n        return super().identity + (\n            self.through,\n            make_hashable(self.through_fields),\n            self.db_constraint,\n        )\n\n    def get_related_field(self):\n        \"\"\"\n        Return the field in the 'to' object to which this relationship is tied.\n        Provided for symmetry with ManyToOneRel.\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-032.log",
+  "output_sha256": "326116088de12524ad2c5e9fd45b33e516c5cb2e1086445e364f334043cc23dd"
+}

@@ -1,0 +1,79 @@
+                    exclude.append(name)
+            try:
+                self.validate_unique(exclude=exclude)
+            except ValidationError as e:
+                errors = e.update_error_dict(errors)
+
+        if errors:
+            raise ValidationError(errors)
+
+    def clean_fields(self, exclude=None):
+        """
+        Clean all fields and raise a ValidationError containing a dict
+        of all validation errors if any occur.
+        """
+        if exclude is None:
+            exclude = []
+
+        errors = {}
+        for f in self._meta.fields:
+            if f.name in exclude:
+                continue
+            # Skip validation for empty fields with blank=True. The developer
+            # is responsible for making sure they have a valid value.
+            raw_value = getattr(self, f.attname)
+            if f.blank and raw_value in f.empty_values:
+                continue
+            try:
+                setattr(self, f.attname, f.clean(raw_value, self))
+            except ValidationError as e:
+                errors[f.name] = e.error_list
+
+        if errors:
+            raise ValidationError(errors)
+
+    @classmethod
+    def check(cls, **kwargs):
+        errors = [*cls._check_swappable(), *cls._check_model(), *cls._check_managers(**kwargs)]
+        if not cls._meta.swapped:
+            databases = kwargs.get('databases') or []
+            errors += [
+                *cls._check_fields(**kwargs),
+                *cls._check_m2m_through_same_relationship(),
+                *cls._check_long_column_names(databases),
+            ]
+            clash_errors = (
+                *cls._check_id_field(),
+                *cls._check_field_name_clashes(),
+                *cls._check_model_name_db_lookup_clashes(),
+                *cls._check_property_name_related_field_accessor_clashes(),
+                *cls._check_single_primary_key(),
+            )
+            errors.extend(clash_errors)
+            # If there are field name clashes, hide consequent column name
+            # clashes.
+            if not clash_errors:
+                errors.extend(cls._check_column_name_clashes())
+            errors += [
+                *cls._check_index_together(),
+                *cls._check_unique_together(),
+                *cls._check_indexes(databases),
+                *cls._check_ordering(),
+                *cls._check_constraints(databases),
+                *cls._check_default_pk(),
+            ]
+
+        return errors
+
+    @classmethod
+629:    def get_parent_list(self):
+630-        """
+631-        Return all the ancestors of this model as a list ordered by MRO.
+632-        Useful for determining if something is an ancestor, regardless of lineage.
+633-        """
+634-        result = OrderedSet(self.parents)
+635-        for parent in self.parents:
+636-            for ancestor in parent._meta.get_parent_list():
+637-                result.add(ancestor)
+638-        return list(result)
+639-

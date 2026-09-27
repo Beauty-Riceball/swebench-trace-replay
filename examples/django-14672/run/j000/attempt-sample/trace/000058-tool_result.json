@@ -1,0 +1,16 @@
+{
+  "sequence": 58,
+  "recorded_unix_ns": 1790009044807659079,
+  "recorded_monotonic_ns": 4957269677936111,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 17,
+  "result": {
+    "output": "Proxy parents: ['Parent']\nparent field repro.Parent.id AutoField\n  in empty dict?\n   True\nparent field repro.Parent.name CharField\n  in empty dict?\n   True\nproxy check: []\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-017.log",
+  "output_sha256": "1f49f397af413fdea975fdcde8754f12dd7dbfd1aa6593596b8e1627fb33466d"
+}

@@ -1,0 +1,16 @@
+{
+  "sequence": 99,
+  "recorded_unix_ns": 1790009071317063668,
+  "recorded_monotonic_ns": 4957296187340389,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 27,
+  "result": {
+    "output": "Testing against Django installed in '/testbed/django' with up to 128 processes\nFound 3 test(s).\nSystem check identified no issues (0 silenced).\nCreating test database for alias 'default'...\nTesting against Django installed in '/testbed/django'\nFound 426 test(s).\nSystem check identified no issues (0 silenced).\n..........................................................................s........................................................................................................s..............ss.sss.s...................s..........s.................................................................................................................................................................................................\n----------------------------------------------------------------------\nRan 426 tests in 0.378s\n\nOK (skipped=10)\nDestroying test database for alias 'default'...\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-027.log",
+  "output_sha256": "05d8461c4dc417c372bd18217d8583a1729be97deaa7f64f8e0e8ce61d1094a2"
+}

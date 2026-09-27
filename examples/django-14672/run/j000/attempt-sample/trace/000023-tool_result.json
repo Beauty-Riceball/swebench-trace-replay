@@ -1,0 +1,16 @@
+{
+  "sequence": 23,
+  "recorded_unix_ns": 1790009028203464432,
+  "recorded_monotonic_ns": 4957253073741174,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 7,
+  "result": {
+    "output": "tests/utils_tests/test_hashable.py:from django.utils.hashable import make_hashable\ntests/utils_tests/test_hashable.py:                self.assertEqual(make_hashable(value), expected)\ntests/utils_tests/test_hashable.py:                self.assertCountEqual(make_hashable(value), expected)\ntests/utils_tests/test_hashable.py:            make_hashable(Unhashable())\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-007.log",
+  "output_sha256": "3e1f84160aad7c371f8d297289cb9a5ab7e301430bd0bfdcf7d51363acda06c0"
+}

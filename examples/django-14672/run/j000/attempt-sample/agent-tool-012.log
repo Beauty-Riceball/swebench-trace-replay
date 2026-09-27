@@ -1,0 +1,163 @@
+1281:                *cls._check_field_name_clashes(),
+1282-                *cls._check_model_name_db_lookup_clashes(),
+1283-                *cls._check_property_name_related_field_accessor_clashes(),
+1284-                *cls._check_single_primary_key(),
+1285-            )
+1286-            errors.extend(clash_errors)
+1287-            # If there are field name clashes, hide consequent column name
+1288-            # clashes.
+1289-            if not clash_errors:
+1290-                errors.extend(cls._check_column_name_clashes())
+1291-            errors += [
+1292-                *cls._check_index_together(),
+1293-                *cls._check_unique_together(),
+1294-                *cls._check_indexes(databases),
+1295-                *cls._check_ordering(),
+1296-                *cls._check_constraints(databases),
+1297-                *cls._check_default_pk(),
+1298-            ]
+1299-
+1300-        return errors
+1301-
+1302-    @classmethod
+1303-    def _check_default_pk(cls):
+1304-        if (
+1305-            not cls._meta.abstract and
+1306-            cls._meta.pk.auto_created and
+1307-            # Inherited PKs are checked in parents models.
+1308-            not (
+1309-                isinstance(cls._meta.pk, OneToOneField) and
+1310-                cls._meta.pk.remote_field.parent_link
+1311-            ) and
+1312-            not settings.is_overridden('DEFAULT_AUTO_FIELD') and
+1313-            cls._meta.app_config and
+1314-            not cls._meta.app_config._is_default_auto_field_overridden
+1315-        ):
+1316-            return [
+1317-                checks.Warning(
+1318-                    f"Auto-created primary key used when not defining a "
+1319-                    f"primary key type, by default "
+1320-                    f"'{settings.DEFAULT_AUTO_FIELD}'.",
+1321-                    hint=(
+1322-                        f"Configure the DEFAULT_AUTO_FIELD setting or the "
+1323-                        f"{cls._meta.app_config.__class__.__qualname__}."
+1324-                        f"default_auto_field attribute to point to a subclass "
+1325-                        f"of AutoField, e.g. 'django.db.models.BigAutoField'."
+1326-                    ),
+1327-                    obj=cls,
+1328-                    id='models.W042',
+1329-                ),
+1330-            ]
+1331-        return []
+1332-
+1333-    @classmethod
+1334-    def _check_swappable(cls):
+1335-        """Check if the swapped model exists."""
+1336-        errors = []
+1337-        if cls._meta.swapped:
+1338-            try:
+1339-                apps.get_model(cls._meta.swapped)
+1340-            except ValueError:
+1341-                errors.append(
+1342-                    checks.Error(
+1343-                        "'%s' is not of the form 'app_label.app_name'." % cls._meta.swappable,
+1344-                        id='models.E001',
+1345-                    )
+1346-                )
+1347-            except LookupError:
+1348-                app_label, model_name = cls._meta.swapped.split('.')
+1349-                errors.append(
+1350-                    checks.Error(
+1351-                        "'%s' references '%s.%s', which has not been "
+1352-                        "installed, or is abstract." % (
+1353-                            cls._meta.swappable, app_label, model_name
+1354-                        ),
+1355-                        id='models.E002',
+1356-                    )
+1357-                )
+1358-        return errors
+1359-
+1360-    @classmethod
+1361-    def _check_model(cls):
+--
+1441:    def _check_field_name_clashes(cls):
+1442-        """Forbid field shadowing in multi-table inheritance."""
+1443-        errors = []
+1444-        used_fields = {}  # name or attname -> field
+1445-
+1446-        # Check that multi-inheritance doesn't cause field name shadowing.
+1447-        for parent in cls._meta.get_parent_list():
+1448-            for f in parent._meta.local_fields:
+1449-                clash = used_fields.get(f.name) or used_fields.get(f.attname) or None
+1450-                if clash:
+1451-                    errors.append(
+1452-                        checks.Error(
+1453-                            "The field '%s' from parent model "
+1454-                            "'%s' clashes with the field '%s' "
+1455-                            "from parent model '%s'." % (
+1456-                                clash.name, clash.model._meta,
+1457-                                f.name, f.model._meta
+1458-                            ),
+1459-                            obj=cls,
+1460-                            id='models.E005',
+1461-                        )
+1462-                    )
+1463-                used_fields[f.name] = f
+1464-                used_fields[f.attname] = f
+1465-
+1466-        # Check that fields defined in the model don't clash with fields from
+1467-        # parents, including auto-generated fields like multi-table inheritance
+1468-        # child accessors.
+1469-        for parent in cls._meta.get_parent_list():
+1470-            for f in parent._meta.get_fields():
+1471-                if f not in used_fields:
+1472-                    used_fields[f.name] = f
+1473-
+1474-        for f in cls._meta.local_fields:
+1475-            clash = used_fields.get(f.name) or used_fields.get(f.attname) or None
+1476-            # Note that we may detect clash between user-defined non-unique
+1477-            # field "id" and automatically added unique field "id", both
+1478-            # defined at the same model. This special case is considered in
+1479-            # _check_id_field and here we ignore it.
+1480-            id_conflict = f.name == "id" and clash and clash.name == "id" and clash.model == cls
+1481-            if clash and not id_conflict:
+1482-                errors.append(
+1483-                    checks.Error(
+1484-                        "The field '%s' clashes with the field '%s' "
+1485-                        "from model '%s'." % (
+1486-                            f.name, clash.name, clash.model._meta
+1487-                        ),
+1488-                        obj=f,
+1489-                        id='models.E006',
+1490-                    )
+1491-                )
+1492-            used_fields[f.name] = f
+1493-            used_fields[f.attname] = f
+1494-
+1495-        return errors
+1496-
+1497-    @classmethod
+1498-    def _check_column_name_clashes(cls):
+1499-        # Store a list of column names which have already been used by other fields.
+1500-        used_column_names = []
+1501-        errors = []
+1502-
+1503-        for f in cls._meta.local_fields:
+1504-            _, column_name = f.get_attname_column()
+1505-
+1506-            # Ensure the column name is not already in use.
+1507-            if column_name and column_name in used_column_names:
+1508-                errors.append(
+1509-                    checks.Error(
+1510-                        "Field '%s' has column name '%s' that is used by "
+1511-                        "another field." % (f.name, column_name),
+1512-                        hint="Specify a 'db_column' for the field.",
+1513-                        obj=cls,
+1514-                        id='models.E007'
+1515-                    )
+1516-                )
+1517-            else:
+1518-                used_column_names.append(column_name)
+1519-
+1520-        return errors
+1521-

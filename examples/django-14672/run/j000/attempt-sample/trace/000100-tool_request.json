@@ -1,0 +1,24 @@
+{
+  "sequence": 100,
+  "recorded_unix_ns": 1790009071333979278,
+  "recorded_monotonic_ns": 4957296204256060,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 28,
+  "action": {
+    "command": "cd /testbed && find tests/model_fields -maxdepth 1 -type f -name '*related*' -o -name '*m2m*' | sort && python tests/runtests.py model_checks --parallel=1 -v 1 2>/dev/null || true",
+    "tool_call_id": "sample-tool-0027"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

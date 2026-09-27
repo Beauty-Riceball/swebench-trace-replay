@@ -1,0 +1,53 @@
+{
+  "sequence": 48,
+  "recorded_unix_ns": 1790009039857500336,
+  "recorded_monotonic_ns": 4957264727777177,
+  "type": "api_response",
+  "request_id": "sample-request-0007",
+  "provider_request_id": null,
+  "unix_ns": 1790009039857427497,
+  "elapsed_seconds": 1.6930997306481004,
+  "response": {
+    "id": "sample-response-0007",
+    "object": "chat.completion",
+    "created": 1790009038,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The exact repro didn't fail—possibly because the related field isn't registered as expected. Let me inspect the relation and try hashing it.",
+          "reasoning_content": "Interesting it didn't fail? Maybe because through_fields list gets converted to list? Could identity? Let's verify `Child._meta.get_field('many_to_many_field').remote_field.through_fields`, type and hash. Maybe model registration issue? print.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0014",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"cat >> /tmp/repro.py <<'EOF'\\nfield = Child._meta.get_field('many_to_many_field')\\nrel = field.remote_field\\nprint('through_fields:', rel.through_fields, type(rel.through_fields))\\nprint('identity:', rel.identity)\\nprint('hash:', hash(rel))\\nprint('Parent fields:', [(f.name, type(f).__name__) for f in Parent._meta.get_fields()])\\nprint('Parent local m2m rels:', [(f.name, type(f).__name__) for f in Parent._meta.related_objects])\\nprint('Proxy parents:', [p.__name__ for p in ProxyParent._meta.get_parent_list()])\\ntry:\\n    print('proxy check fields hash test done')\\nexcept Exception as e:\\n    import traceback; traceback.print_exc()\\nEOF\\ncd /testbed && python /tmp/repro.py\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 14047,
+      "completion_tokens": 302,
+      "total_tokens": 14349,
+      "prompt_tokens_details": {
+        "cached_tokens": 13824
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "prompt_cache_hit_tokens": 13824,
+      "prompt_cache_miss_tokens": 223
+    },
+    "system_fingerprint": null
+  }
+}

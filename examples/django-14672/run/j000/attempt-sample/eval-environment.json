@@ -1,0 +1,47 @@
+{
+  "instance_id": "django__django-14672",
+  "base_commit": "00ea883ef56fb5e092cbe4a6f7ff2e7470886ac4",
+  "image": {
+    "image": "sha256:6900fe10a2c481ffb016364ed17041f8f51af554b9ee0f9ac3340e97434362c6",
+    "image_id": "sha256:6900fe10a2c481ffb016364ed17041f8f51af554b9ee0f9ac3340e97434362c6",
+    "source_image": "swebench/sweb.eval.x86_64.django_1776_django-14672@sha256:6900fe10a2c481ffb016364ed17041f8f51af554b9ee0f9ac3340e97434362c6",
+    "repo_digests": [
+      "swebench/sweb.eval.x86_64.django_1776_django-14672@sha256:6900fe10a2c481ffb016364ed17041f8f51af554b9ee0f9ac3340e97434362c6"
+    ]
+  },
+  "configuration": {
+    "info": {
+      "config": {
+        "environment": {
+          "image": "sha256:6900fe10a2c481ffb016364ed17041f8f51af554b9ee0f9ac3340e97434362c6",
+          "cwd": "/testbed",
+          "cpus": "0,1",
+          "numa_node": 0,
+          "memory_bytes": 4294967296,
+          "swap_bytes": 0,
+          "base_commit": "00ea883ef56fb5e092cbe4a6f7ff2e7470886ac4",
+          "tool_timeout": 300,
+          "environment": {
+            "BASH_ENV": "/root/.bashrc",
+            "PAGER": "cat",
+            "PIP_PROGRESS_BAR": "off",
+            "TQDM_DISABLE": "1",
+            "OMP_NUM_THREADS": "2",
+            "OPENBLAS_NUM_THREADS": "2",
+            "MKL_NUM_THREADS": "2"
+          },
+          "network": "none"
+        }
+      }
+    }
+  },
+  "limits": {
+    "cpus": 2,
+    "memory_bytes": 4294967296,
+    "swap_bytes": 0
+  },
+  "slot": 0,
+  "cpus": "0,1",
+  "numa_node": 0,
+  "physical_pair": 0
+}

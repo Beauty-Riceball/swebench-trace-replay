@@ -1,0 +1,16 @@
+{
+  "sequence": 16,
+  "recorded_unix_ns": 1790009025953552000,
+  "recorded_monotonic_ns": 4957250823828972,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 5,
+  "result": {
+    "output": "1b4e95bcbb SWE-bench\n00ea883ef5 Fixed #32329 -- Made CsrfViewMiddleware catch more specific UnreadablePostError.\n852fa7617e Refs #32329 -- Allowed specifying request class in csrf_tests test hooks.\n6b513f0137 Fixed #32913 -- Made watchman reloader tests less flaky.\n3cfcb8cbc8 Refs #32902 -- Moved ensure_csrf_cookie_view after protected_view.\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-005.log",
+  "output_sha256": "0b13002422cb67b28b6dedd3993e31ab46baa9045af08f1541f5fa3f7c4835f8"
+}

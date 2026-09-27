@@ -1,0 +1,16 @@
+{
+  "sequence": 92,
+  "recorded_unix_ns": 1790009067380867617,
+  "recorded_monotonic_ns": 4957292251144559,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 25,
+  "result": {
+    "output": "hash m2m rel with list fields: -2538409998552415058\nlist/tuple identities equal and hashable\nNone through_fields identity hashable: -7656040018791578722\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-025.log",
+  "output_sha256": "ee5c480b80f2ef5816dc70d1d26d33ba84815d28d0293a251396eb2c63f383dd"
+}

@@ -1,0 +1,16 @@
+{
+  "sequence": 125,
+  "recorded_unix_ns": 1790009082502074145,
+  "recorded_monotonic_ns": 4957307372350867,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 34,
+  "result": {
+    "output": "diff --git a/django/db/models/fields/reverse_related.py b/django/db/models/fields/reverse_related.py\nindex ccc2223a5f..65950590e2 100755\n--- a/django/db/models/fields/reverse_related.py\n+++ b/django/db/models/fields/reverse_related.py\n@@ -310,7 +310,7 @@ class ManyToManyRel(ForeignObjectRel):\n     def identity(self):\n         return super().identity + (\n             self.through,\n-            self.through_fields,\n+            make_hashable(self.through_fields),\n             self.db_constraint,\n         )\n \n--- stat ---\n django/db/models/fields/reverse_related.py | 2 +-\n 1 file changed, 1 insertion(+), 1 deletion(-)\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-034.log",
+  "output_sha256": "a147579b502e319c8bdf2fd6886b4b5a5fb064169f8d91f9769e2a16ad60ae79"
+}

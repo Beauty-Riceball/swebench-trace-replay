@@ -1,0 +1,9 @@
+Proxy checks ran, result: []
+through_fields: ['child', 'parent'] <class 'list'>
+identity: (<django.db.models.fields.related.ManyToManyField: many_to_many_field>, <class '__main__.Parent'>, 'something', None, (), False, None, False, True, <class '__main__.ManyToManyModel'>, ['child', 'parent'], True)
+Traceback (most recent call last):
+  File "/tmp/repro.py", line 49, in <module>
+    print('hash:', hash(rel))
+  File "/testbed/django/db/models/fields/reverse_related.py", line 139, in __hash__
+    return hash(self.identity)
+TypeError: unhashable type: 'list'

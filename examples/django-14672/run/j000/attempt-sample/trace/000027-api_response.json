@@ -1,0 +1,71 @@
+{
+  "sequence": 27,
+  "recorded_unix_ns": 1790009031141133873,
+  "recorded_monotonic_ns": 4957256011410785,
+  "type": "api_response",
+  "request_id": "sample-request-0004",
+  "provider_request_id": null,
+  "unix_ns": 1790009031140965182,
+  "elapsed_seconds": 2.6389689967036247,
+  "response": {
+    "id": "sample-response-0004",
+    "object": "chat.completion",
+    "created": 1790009028,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Let me look at how invalid model checks are tested, so I can build a reliable reproduction.",
+          "reasoning_content": "Need write reproduction script. Could use django settings configure and define models. The issue occurs when models have app config? Dynamic model classes with `app_label`. We can perhaps use `django.test.utils.isolate_apps` or create temporary module. Simpler: setup settings, define models with app_label, then check; but check_all_models requires installed apps? Let's inspect checks and perhaps use Model.check(). The proxy model and hash collision in `_check_field_name_clashes`: For each field, `used_fields` set includes reverse rels from proxy perhaps. Let's understand exact scenario.\n\nProxyParent inherits fields from Parent including m2m reverse? Child's `many_to_many_field` to Parent with through fields list. M2M field gets `remote_field` direct? In Django 4.0 dev, m2m fields have `remote_field` probably lazy? Let's inspect. But simplest reproduction likely adding models in a test app and running checks. Could write a temporary test module or use `isolate_apps`. Let's explore tests/invalid_models_tests pattern.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0008",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"sed -n '1,140p' tests/invalid_models_tests/test_models.py\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "sample-tool-0009",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"sed -n '1,150p' tests/invalid_models_tests/test_relative_fields.py\"}"
+              }
+            },
+            {
+              "index": 2,
+              "id": "sample-tool-0010",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -n \\\"class IsolateAppsModelTests\\\\|isolate_apps\\\" tests/invalid_models_tests/test_models.py | head -20 && sed -n '1,90p' tests/invalid_models_tests/__init__.py 2>/dev/null; ls tests/invalid_models_tests\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8298,
+      "completion_tokens": 441,
+      "total_tokens": 8739,
+      "prompt_tokens_details": {
+        "cached_tokens": 7296
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 226
+      },
+      "prompt_cache_hit_tokens": 7296,
+      "prompt_cache_miss_tokens": 1002
+    },
+    "system_fingerprint": null
+  }
+}

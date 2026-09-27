@@ -1,0 +1,24 @@
+{
+  "sequence": 114,
+  "recorded_unix_ns": 1790009079325149918,
+  "recorded_monotonic_ns": 4957304195426961,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 32,
+  "action": {
+    "command": "cd /testbed && sed -n '300,320p' django/db/models/fields/reverse_related.py",
+    "tool_call_id": "sample-tool-0031"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

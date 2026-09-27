@@ -1,0 +1,16 @@
+{
+  "sequence": 85,
+  "recorded_unix_ns": 1790009063100800525,
+  "recorded_monotonic_ns": 4957287971077397,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 23,
+  "result": {
+    "output": "through_fields: ['child', 'parent'] <class 'list'>\nParent all fields: [('child', 'ManyToOneRel'), ('something', 'ManyToManyRel'), ('id', 'AutoField'), ('name', 'CharField')]\nProxy check: []\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-023.log",
+  "output_sha256": "b66cd18e52ef6f6851d3939e7f92588193d9e88d0bb9da54fad9c04add561f6d"
+}

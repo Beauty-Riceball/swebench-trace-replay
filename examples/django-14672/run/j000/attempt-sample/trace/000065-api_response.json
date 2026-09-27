@@ -1,0 +1,62 @@
+{
+  "sequence": 65,
+  "recorded_unix_ns": 1790009052274582493,
+  "recorded_monotonic_ns": 4957277144859144,
+  "type": "api_response",
+  "request_id": "sample-request-0010",
+  "provider_request_id": null,
+  "unix_ns": 1790009052274491279,
+  "elapsed_seconds": 3.0593800600618124,
+  "response": {
+    "id": "sample-response-0010",
+    "object": "chat.completion",
+    "created": 1790009049,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Let me inspect how `ManyToManyField` registers reverse relations, to understand why my isolated models didn't populate them.",
+          "reasoning_content": "Models with app_label repro were not registered in global apps because app not installed, but reverse relation should still contribute? `ManyToManyField.contribute_to_class` adds to remote model related objects only if `self.remote_field`? Need inspect. It likely calls `self.remote_field.set_field_name` etc and `add_lazy_relation` or `self.remote_field.model._meta.add_field`. For related field to Parent, when `Child` is being prepared, Parent in same app registry? `Field.contribute_to_class` calls `self.remote_field.contribute_to_class`? Let's inspect related.py. But easiest is use isolate_apps with test run? Or configure installed app as temporary app. Could run Django tests? For reproduction, use `isolate_apps` from django.test.utils correctly by decorating a TestCase or manually with context manager? `isolate_apps` returns decorator class or context manager? We can create unittest.TestCase and run, or use `isolate_apps('invalid_models_tests')` context maybe. Simpler create a test module in /tmp and call Django test runner with an app? Another option: define models inside `@isolate_apps('invalid_models_tests')` decorated test via temp script using unittest and decorator. But easier: run existing test infra? We need reproduce and verify. Could append test dynamically? We cannot modify tests? We can create temp reproduction in /tmp and run with Django.\n\nLet's understand why reverse not created. Field's `remote_field.model` is Parent. ManyToMany relational setup. In `ManyToManyField.contribute_to_class`, it calls `super().contribute_to_class(cls, name, private_only=False)` then `self.remote_field.model._meta.add_field(self.remote_field, private=True)`. Actually ManyToManyField is a RelatedField; `Field.contribute_to_class` calls `self.set_attributes_from_name`, etc. `RelatedField.contribute_to_class` may add reverse relation. Let's inspect.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0018",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -n \\\"def contribute_to_class\\\" -A40 django/db/models/fields/related.py | head -120\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "sample-tool-0019",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -n \\\"class ManyToManyField\\\" -A80 django/db/models/fields/related.py | head -120\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 17231,
+      "completion_tokens": 567,
+      "total_tokens": 17798,
+      "prompt_tokens_details": {
+        "cached_tokens": 16896
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 428
+      },
+      "prompt_cache_hit_tokens": 16896,
+      "prompt_cache_miss_tokens": 335
+    },
+    "system_fingerprint": null
+  }
+}

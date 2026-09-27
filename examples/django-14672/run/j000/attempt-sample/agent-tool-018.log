@@ -1,0 +1,20 @@
+Child related_objects: []
+Parent related_objects: []
+Parent all fields: [('id', 'AutoField'), ('name', 'CharField')]
+Parent many_to_many: []
+Child local fields m2m: [('many_to_many_field', 'ManyToManyField', <ManyToManyRel: repro.child>)]
+Traceback (most recent call last):
+  File "/testbed/django/apps/registry.py", line 156, in get_app_config
+    return self.app_configs[app_label]
+KeyError: 'repro'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/repro3.py", line 45, in <module>
+    print('child rel in apps:', apps.get_model('repro', 'Child'))
+  File "/testbed/django/apps/registry.py", line 206, in get_model
+    app_config = self.get_app_config(app_label)
+  File "/testbed/django/apps/registry.py", line 163, in get_app_config
+    raise LookupError(message)
+LookupError: No installed app with label 'repro'.

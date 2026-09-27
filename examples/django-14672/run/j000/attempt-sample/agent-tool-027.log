@@ -1,0 +1,13 @@
+Testing against Django installed in '/testbed/django' with up to 128 processes
+Found 3 test(s).
+System check identified no issues (0 silenced).
+Creating test database for alias 'default'...
+Testing against Django installed in '/testbed/django'
+Found 426 test(s).
+System check identified no issues (0 silenced).
+..........................................................................s........................................................................................................s..............ss.sss.s...................s..........s.................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 426 tests in 0.378s
+
+OK (skipped=10)
+Destroying test database for alias 'default'...

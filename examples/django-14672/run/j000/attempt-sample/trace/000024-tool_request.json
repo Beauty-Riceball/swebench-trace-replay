@@ -1,0 +1,24 @@
+{
+  "sequence": 24,
+  "recorded_unix_ns": 1790009028208890727,
+  "recorded_monotonic_ns": 4957253079167519,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 8,
+  "action": {
+    "command": "python -c \"import django; print(django.get_version())\"",
+    "tool_call_id": "sample-tool-0007"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

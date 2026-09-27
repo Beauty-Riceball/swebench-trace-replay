@@ -1,0 +1,62 @@
+{
+  "sequence": 36,
+  "recorded_unix_ns": 1790009034007871679,
+  "recorded_monotonic_ns": 4957258878148450,
+  "type": "api_response",
+  "request_id": "sample-request-0005",
+  "provider_request_id": null,
+  "unix_ns": 1790009034007710512,
+  "elapsed_seconds": 2.09411496296525,
+  "response": {
+    "id": "sample-response-0005",
+    "object": "chat.completion",
+    "created": 1790009032,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Let me inspect the model check that triggers hashing, and reproduce the exact failure with an isolated script.",
+          "reasoning_content": "Could create simple reproduction using isolate_apps and model check. The exact failure in `_check_field_name_clashes` uses `used_fields = {}` then loops `_meta.get_fields(include_hidden=True)` perhaps proxy model related fields include? Let's inspect.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0011",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"grep -n \\\"_check_field_name_clashes\\\" -A80 django/db/models/base.py\"}"
+              }
+            },
+            {
+              "index": 1,
+              "id": "sample-tool-0012",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"cat > /tmp/repro.py <<'EOF'\\nimport django\\nfrom django.conf import settings\\n\\nsettings.configure(\\n    INSTALLED_APPS=['django.contrib.contenttypes', 'django.contrib.auth'],\\n    DATABASES={'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': ':memory:'}},\\n)\\ndjango.setup()\\n\\nfrom django.db import models\\nfrom django.test.utils import isolate_apps\\n\\n@isolate_apps('repro')\\nclass Probe:\\n    pass\\n\\nclass Parent(models.Model):\\n    name = models.CharField(max_length=256)\\n\\n    class Meta:\\n        app_label = 'repro'\\n\\nclass ProxyParent(Parent):\\n    class Meta:\\n        app_label = 'repro'\\n        proxy = True\\n\\nclass Child(models.Model):\\n    parent = models.ForeignKey(Parent, on_delete=models.CASCADE)\\n    many_to_many_field = models.ManyToManyField(\\n        to=Parent,\\n        through='ManyToManyModel',\\n        through_fields=['child', 'parent'],\\n        related_name='something',\\n    )\\n\\n    class Meta:\\n        app_label = 'repro'\\n\\nclass ManyToManyModel(models.Model):\\n    parent = models.ForeignKey(Parent, on_delete=models.CASCADE, related_name='+')\\n    child = models.ForeignKey(Child, on_delete=models.CASCADE, related_name='+')\\n    second_child = models.ForeignKey(Child, on_delete=models.CASCADE, null=True, default=None)\\n\\n    class Meta:\\n        app_label = 'repro'\\n\\nfor model in (Parent, ProxyParent, Child, ManyToManyModel):\\n    model._meta.apps.register_model('repro', model)\\n\\nprint(ProxyParent.check())\\nEOF\\ncd /testbed && python /tmp/repro.py\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 11025,
+      "completion_tokens": 517,
+      "total_tokens": 11542,
+      "prompt_tokens_details": {
+        "cached_tokens": 8704
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "prompt_cache_hit_tokens": 8704,
+      "prompt_cache_miss_tokens": 2321
+    },
+    "system_fingerprint": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sequence": 13,
+  "recorded_unix_ns": 1790009024876880330,
+  "recorded_monotonic_ns": 4957249747157472,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 4,
+  "action": {
+    "command": "sed -n '260,380p' django/db/models/fields/reverse_related.py && echo '--- hashable ---' && cat django/utils/hashable.py",
+    "tool_call_id": "sample-tool-0003"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

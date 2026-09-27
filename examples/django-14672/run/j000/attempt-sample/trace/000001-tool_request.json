@@ -1,0 +1,23 @@
+{
+  "sequence": 1,
+  "recorded_unix_ns": 1790009021845999765,
+  "recorded_monotonic_ns": 4957246716276837,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 1,
+  "action": {
+    "command": "git rev-parse HEAD && git merge-base --is-ancestor 00ea883ef56fb5e092cbe4a6f7ff2e7470886ac4 HEAD && git diff-tree --no-commit-id -r --raw 00ea883ef56fb5e092cbe4a6f7ff2e7470886ac4 HEAD"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": false
+}

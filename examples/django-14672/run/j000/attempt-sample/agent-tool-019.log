@@ -1,0 +1,120 @@
+301:    def contribute_to_class(self, cls, name, private_only=False, **kwargs):
+302-
+303-        super().contribute_to_class(cls, name, private_only=private_only, **kwargs)
+304-
+305-        self.opts = cls._meta
+306-
+307-        if not cls._meta.abstract:
+308-            if self.remote_field.related_name:
+309-                related_name = self.remote_field.related_name
+310-            else:
+311-                related_name = self.opts.default_related_name
+312-            if related_name:
+313-                related_name = related_name % {
+314-                    'class': cls.__name__.lower(),
+315-                    'model_name': cls._meta.model_name.lower(),
+316-                    'app_label': cls._meta.app_label.lower()
+317-                }
+318-                self.remote_field.related_name = related_name
+319-
+320-            if self.remote_field.related_query_name:
+321-                related_query_name = self.remote_field.related_query_name % {
+322-                    'class': cls.__name__.lower(),
+323-                    'app_label': cls._meta.app_label.lower(),
+324-                }
+325-                self.remote_field.related_query_name = related_query_name
+326-
+327-            def resolve_related_class(model, related, field):
+328-                field.remote_field.model = related
+329-                field.do_related_class(related, model)
+330-            lazy_related_operation(resolve_related_class, cls, self.remote_field.model, field=self)
+331-
+332-    def deconstruct(self):
+333-        name, path, args, kwargs = super().deconstruct()
+334-        if self._limit_choices_to:
+335-            kwargs['limit_choices_to'] = self._limit_choices_to
+336-        if self._related_name is not None:
+337-            kwargs['related_name'] = self._related_name
+338-        if self._related_query_name is not None:
+339-            kwargs['related_query_name'] = self._related_query_name
+340-        return name, path, args, kwargs
+341-
+--
+764:    def contribute_to_class(self, cls, name, private_only=False, **kwargs):
+765-        super().contribute_to_class(cls, name, private_only=private_only, **kwargs)
+766-        setattr(cls, self.name, self.forward_related_accessor_class(self))
+767-
+768-    def contribute_to_related_class(self, cls, related):
+769-        # Internal FK's - i.e., those with a related name ending with '+' -
+770-        # and swapped models don't get a related descriptor.
+771-        if not self.remote_field.is_hidden() and not related.related_model._meta.swapped:
+772-            setattr(cls._meta.concrete_model, related.get_accessor_name(), self.related_accessor_class(related))
+773-            # While 'limit_choices_to' might be a callable, simply pass
+774-            # it along for later - this is too early because it's still
+775-            # model load time.
+776-            if self.remote_field.limit_choices_to:
+777-                cls._meta.related_fkey_lookups.append(self.remote_field.limit_choices_to)
+778-
+779-
+780-ForeignObject.register_lookup(RelatedIn)
+781-ForeignObject.register_lookup(RelatedExact)
+782-ForeignObject.register_lookup(RelatedLessThan)
+783-ForeignObject.register_lookup(RelatedGreaterThan)
+784-ForeignObject.register_lookup(RelatedGreaterThanOrEqual)
+785-ForeignObject.register_lookup(RelatedLessThanOrEqual)
+786-ForeignObject.register_lookup(RelatedIsNull)
+787-
+788-
+789-class ForeignKey(ForeignObject):
+790-    """
+791-    Provide a many-to-one relation by adding a column to the local model
+792-    to hold the remote value.
+793-
+794-    By default ForeignKey will target the pk of the remote model but this
+795-    behavior can be changed by using the ``to_field`` argument.
+796-    """
+797-    descriptor_class = ForeignKeyDeferredAttribute
+798-    # Field flags
+799-    many_to_many = False
+800-    many_to_one = True
+801-    one_to_many = False
+802-    one_to_one = False
+803-
+804-    rel_class = ManyToOneRel
+--
+1628:    def contribute_to_class(self, cls, name, **kwargs):
+1629-        # To support multiple relations to self, it's useful to have a non-None
+1630-        # related name on symmetrical relations for internal reasons. The
+1631-        # concept doesn't make a lot of sense externally ("you want me to
+1632-        # specify *what* on my non-reversible relation?!"), so we set it up
+1633-        # automatically. The funky name reduces the chance of an accidental
+1634-        # clash.
+1635-        if self.remote_field.symmetrical and (
+1636-            self.remote_field.model == RECURSIVE_RELATIONSHIP_CONSTANT or
+1637-            self.remote_field.model == cls._meta.object_name
+1638-        ):
+1639-            self.remote_field.related_name = "%s_rel_+" % name
+1640-        elif self.remote_field.is_hidden():
+1641-            # If the backwards relation is disabled, replace the original
+1642-            # related_name with one generated from the m2m field name. Django
+1643-            # still uses backwards relations internally and we need to avoid
+1644-            # clashes between multiple m2m fields with related_name == '+'.
+1645-            self.remote_field.related_name = '_%s_%s_%s_+' % (
+1646-                cls._meta.app_label,
+1647-                cls.__name__.lower(),
+1648-                name,
+1649-            )
+1650-
+1651-        super().contribute_to_class(cls, name, **kwargs)
+1652-
+1653-        # The intermediate m2m model is not auto created if:
+1654-        #  1) There is a manually specified intermediate, or
+1655-        #  2) The class owning the m2m field is abstract.
+1656-        #  3) The class owning the m2m field has been swapped out.
+1657-        if not cls._meta.abstract:
+1658-            if self.remote_field.through:
+1659-                def resolve_through_model(_, model, field):
+1660-                    field.remote_field.through = model
+1661-                lazy_related_operation(resolve_through_model, cls, self.remote_field.through, field=self)
+1662-            elif not cls._meta.swapped:
+1663-                self.remote_field.through = create_many_to_many_intermediary_model(self, cls)

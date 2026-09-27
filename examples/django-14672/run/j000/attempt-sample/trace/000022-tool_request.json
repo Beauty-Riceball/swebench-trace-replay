@@ -1,0 +1,24 @@
+{
+  "sequence": 22,
+  "recorded_unix_ns": 1790009027914854696,
+  "recorded_monotonic_ns": 4957252785131778,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 7,
+  "action": {
+    "command": "grep -R \"make_hashable\\|\\.identity\" tests --include='*.py' | head -50",
+    "tool_call_id": "sample-tool-0006"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

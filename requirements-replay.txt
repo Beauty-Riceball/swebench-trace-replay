@@ -1,0 +1,3 @@
+# Same SWE-bench grader version as the frozen capture; no agent/model SDK.
+# --help and --validate-only need only Python 3.11+ standard library.
+swebench==3.0.17

@@ -1,0 +1,24 @@
+{
+  "sequence": 50,
+  "recorded_unix_ns": 1790009039888309804,
+  "recorded_monotonic_ns": 4957264758586906,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 15,
+  "action": {
+    "command": "cat >> /tmp/repro.py <<'EOF'\nfield = Child._meta.get_field('many_to_many_field')\nrel = field.remote_field\nprint('through_fields:', rel.through_fields, type(rel.through_fields))\nprint('identity:', rel.identity)\nprint('hash:', hash(rel))\nprint('Parent fields:', [(f.name, type(f).__name__) for f in Parent._meta.get_fields()])\nprint('Parent local m2m rels:', [(f.name, type(f).__name__) for f in Parent._meta.related_objects])\nprint('Proxy parents:', [p.__name__ for p in ProxyParent._meta.get_parent_list()])\ntry:\n    print('proxy check fields hash test done')\nexcept Exception as e:\n    import traceback; traceback.print_exc()\nEOF\ncd /testbed && python /tmp/repro.py",
+    "tool_call_id": "sample-tool-0014"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

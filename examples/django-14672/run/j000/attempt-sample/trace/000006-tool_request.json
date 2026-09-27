@@ -1,0 +1,24 @@
+{
+  "sequence": 6,
+  "recorded_unix_ns": 1790009023425816150,
+  "recorded_monotonic_ns": 4957248296093843,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 2,
+  "action": {
+    "command": "pwd && ls -la | head -50",
+    "tool_call_id": "sample-tool-0001"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

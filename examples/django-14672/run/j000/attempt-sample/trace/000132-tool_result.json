@@ -1,0 +1,16 @@
+{
+  "sequence": 132,
+  "recorded_unix_ns": 1790009085313317140,
+  "recorded_monotonic_ns": 4957310183594112,
+  "type": "tool_result",
+  "phase": "eval",
+  "tool_index": 1,
+  "result": {
+    "output": "Checking patch django/db/models/fields/reverse_related.py...\nApplied patch django/db/models/fields/reverse_related.py cleanly.\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "eval-tool-001.log",
+  "output_sha256": "203e9b3afbae10a4cf23dabe9d559eb72178ef4bdf78b5f123e49bbdcd825ea3"
+}

@@ -1,0 +1,12 @@
+tests/basic/tests.py:            __hash__ = models.Model.__hash__
+tests/backends/oracle/test_introspection.py:                editor._drop_identity(Square._meta.db_table, 'id')
+tests/backends/oracle/test_introspection.py:                # Recreate model, because adding identity is impossible.
+tests/lookup/tests.py:            __hash__ = None
+tests/utils_tests/test_hashable.py:            __hash__ = None
+tests/forms_tests/field_tests/test_filefield.py:        # A file was uploaded and there is initial data (file identity is not dealt
+tests/test_utils/test_testcase.py:    def test_class_attribute_identity(self):
+tests/test_utils/test_testcase.py:    def test_identity_preservation(self):
+tests/test_utils/test_testcase.py:    def test_known_related_objects_identity_preservation(self):
+tests/test_utils/test_testcase.py:        """Known related objects identity is preserved."""
+tests/cache/tests.py:        request.META['HTTP_ACCEPT_ENCODING'] = 'gzip;q=1.0, identity; q=0.5, *;q=0'
+tests/cache/tests.py:        request.META['HTTP_ACCEPT_ENCODING'] = 'gzip;q=1.0, identity; q=0.5, *;q=0'

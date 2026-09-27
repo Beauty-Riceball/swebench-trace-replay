@@ -1,0 +1,24 @@
+{
+  "sequence": 74,
+  "recorded_unix_ns": 1790009055819290911,
+  "recorded_monotonic_ns": 4957280689567693,
+  "type": "tool_request",
+  "phase": "agent",
+  "tool_index": 21,
+  "action": {
+    "command": "rm -rf /tmp/repro_app && mkdir -p /tmp/repro_app && touch /tmp/repro_app/__init__.py\ncat > /tmp/repro_app/apps.py <<'EOF'\nfrom django.apps import AppConfig\nclass ReproAppConfig(AppConfig):\n    name = 'repro_app'\n    label = 'repro_app'\nEOF\ncat > /tmp/repro_app/models.py <<'EOF'\nfrom django.db import models\n\n\nclass Parent(models.Model):\n    name = models.CharField(max_length=256)\n\n\nclass ProxyParent(Parent):\n    class Meta:\n        proxy = True\n\n\nclass Child(models.Model):\n    parent = models.ForeignKey(Parent, on_delete=models.CASCADE)\n    many_to_many_field = models.ManyToManyField(\n        to=Parent,\n        through='ManyToManyModel',\n        through_fields=['child', 'parent'],\n        related_name='something',\n    )\n\n\nclass ManyToManyModel(models.Model):\n    parent = models.ForeignKey(Parent, on_delete=models.CASCADE, related_name='+')\n    child = models.ForeignKey(Child, on_delete=models.CASCADE, related_name='+')\n    second_child = models.ForeignKey(Child, on_delete=models.CASCADE, null=True, default=None)\nEOF\ncat > /tmp/repro_real.py <<'EOF'\nimport sys\nsys.path.insert(0, '/tmp')\n\nimport django\nfrom django.conf import settings\n\nsettings.configure(\n    INSTALLED_APPS=[\n        'django.contrib.contenttypes',\n        'django.contrib.auth',\n        'repro_app',\n    ],\n    DATABASES={'default': {'ENGINE': 'django.db.backends.sqlite3', 'NAME': ':memory:'}},\n    DEFAULT_AUTO_FIELD='django.db.models.AutoField',\n)\ndjango.setup()\n\nfrom repro_app.models import Parent, ProxyParent, Child\n\nfield = Child._meta.get_field('many_to_many_field')\nprint('through_fields:', field.remote_field.through_fields, type(field.remote_field.through_fields))\nprint('Parent all fields:', [(f.name, type(f).__name__) for f in Parent._meta.get_fields()])\nprint('Proxy check:', ProxyParent.check())\nEOF\ncd /testbed && python /tmp/repro_real.py",
+    "tool_call_id": "sample-tool-0020"
+  },
+  "cwd": "/testbed",
+  "environment": {
+    "BASH_ENV": "/root/.bashrc",
+    "PAGER": "cat",
+    "PIP_PROGRESS_BAR": "off",
+    "TQDM_DISABLE": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "timeout_s": 300,
+  "submit_enabled": true
+}

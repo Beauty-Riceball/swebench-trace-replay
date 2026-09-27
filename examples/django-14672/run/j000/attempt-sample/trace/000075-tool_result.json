@@ -1,0 +1,16 @@
+{
+  "sequence": 75,
+  "recorded_unix_ns": 1790009056271422402,
+  "recorded_monotonic_ns": 4957281141699495,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 21,
+  "result": {
+    "output": "through_fields: ['child', 'parent'] <class 'list'>\nParent all fields: [('child', 'ManyToOneRel'), ('something', 'ManyToManyRel'), ('id', 'AutoField'), ('name', 'CharField')]\nTraceback (most recent call last):\n  File \"/tmp/repro_real.py\", line 23, in <module>\n    print('Proxy check:', ProxyParent.check())\n  File \"/testbed/django/db/models/base.py\", line 1281, in check\n    *cls._check_field_name_clashes(),\n  File \"/testbed/django/db/models/base.py\", line 1471, in _check_field_name_clashes\n    if f not in used_fields:\n  File \"/testbed/django/db/models/fields/reverse_related.py\", line 139, in __hash__\n    return hash(self.identity)\nTypeError: unhashable type: 'list'\n",
+    "returncode": 1,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-021.log",
+  "output_sha256": "158a160f2dceaf1394b0491121fbe680b421d1630dec49ef3545d5bd14282995"
+}

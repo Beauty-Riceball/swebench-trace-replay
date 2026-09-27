@@ -1,0 +1,53 @@
+{
+  "sequence": 127,
+  "recorded_unix_ns": 1790009084021981277,
+  "recorded_monotonic_ns": 4957308892257949,
+  "type": "api_response",
+  "request_id": "sample-request-0020",
+  "provider_request_id": null,
+  "unix_ns": 1790009084021886848,
+  "elapsed_seconds": 1.4928449969738722,
+  "response": {
+    "id": "sample-response-0020",
+    "object": "chat.completion",
+    "created": 1790009082,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The patch is verified: it contains only the one-line source change to `ManyToManyRel.identity`, with correct `a/` and `b/` headers. I'll now submit it using the required command.",
+          "reasoning_content": "Patch verified. Now submit exact command. Must not combine with &&. Use echo... && cat is exact command and must be in single command. They explicitly require `echo COMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT && cat patch.txt`; use that. This is final. We should maybe include reasoning text then tool call. Ensure patch.txt only intended. submit.",
+          "tool_calls": [
+            {
+              "index": 0,
+              "id": "sample-tool-0034",
+              "type": "function",
+              "function": {
+                "name": "bash",
+                "arguments": "{\"command\": \"echo COMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT && cat patch.txt\"}"
+              }
+            }
+          ]
+        },
+        "logprobs": null,
+        "finish_reason": "tool_calls"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 25951,
+      "completion_tokens": 178,
+      "total_tokens": 26129,
+      "prompt_tokens_details": {
+        "cached_tokens": 25728
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "prompt_cache_hit_tokens": 25728,
+      "prompt_cache_miss_tokens": 223
+    },
+    "system_fingerprint": null
+  }
+}

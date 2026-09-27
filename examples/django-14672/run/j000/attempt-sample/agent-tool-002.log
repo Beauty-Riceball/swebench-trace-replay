@@ -1,0 +1,33 @@
+/testbed
+total 180
+drwxrwxrwx  12 root root  4096 Aug 15 06:12 .
+drwxr-xr-x   1 root root  4096 Sep 21 16:43 ..
+-rwxrwxrwx   1 root root   807 Aug 15 06:11 .editorconfig
+-rwxrwxrwx   1 root root   120 Aug 15 06:11 .eslintignore
+-rwxrwxrwx   1 root root  1407 Aug 15 06:11 .eslintrc
+drwxrwxrwx   8 root root  4096 Aug 15 06:12 .git
+-rwxrwxrwx   1 root root   297 Aug 15 06:11 .gitattributes
+drwxrwxrwx   3 root root  4096 Aug 15 06:11 .github
+-rwxrwxrwx   1 root root   353 Aug 15 06:11 .gitignore
+-rwxrwxrwx   1 root root   281 Aug 15 06:11 .pre-commit-config.yaml
+drwxrwxrwx   2 root root  4096 Aug 15 06:11 .tx
+-rwxrwxrwx   1 root root 39233 Aug 15 06:11 AUTHORS
+-rwxrwxrwx   1 root root  1115 Aug 15 06:11 CONTRIBUTING.rst
+drwxr-xr-x   2 root root  4096 Aug 15 06:12 Django.egg-info
+-rwxrwxrwx   1 root root   369 Aug 15 06:11 Gruntfile.js
+-rwxrwxrwx   1 root root   236 Aug 15 06:11 INSTALL
+-rwxrwxrwx   1 root root  1552 Aug 15 06:11 LICENSE
+-rwxrwxrwx   1 root root 13227 Aug 15 06:11 LICENSE.python
+-rwxrwxrwx   1 root root   276 Aug 15 06:11 MANIFEST.in
+-rwxrwxrwx   1 root root  2122 Aug 15 06:11 README.rst
+drwxrwxrwx  18 root root  4096 Aug 15 06:12 django
+drwxrwxrwx  13 root root  4096 Aug 15 06:11 docs
+drwxrwxrwx   2 root root  4096 Aug 15 06:11 extras
+drwxrwxrwx   4 root root  4096 Aug 15 06:11 js_tests
+-rwxrwxrwx   1 root root   334 Aug 15 06:11 package.json
+-rwxrwxrwx   1 root root   109 Aug 15 06:11 pyproject.toml
+drwxrwxrwx   2 root root  4096 Aug 15 06:11 scripts
+-rwxrwxrwx   1 root root  2052 Aug 15 06:11 setup.cfg
+-rwxrwxrwx   1 root root  1451 Aug 15 06:11 setup.py
+drwxrwxrwx 213 root root 12288 Aug 15 06:11 tests
+-rwxrwxrwx   1 root root  1551 Aug 15 06:11 tox.ini

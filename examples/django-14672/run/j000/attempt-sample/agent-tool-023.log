@@ -1,0 +1,3 @@
+through_fields: ['child', 'parent'] <class 'list'>
+Parent all fields: [('child', 'ManyToOneRel'), ('something', 'ManyToManyRel'), ('id', 'AutoField'), ('name', 'CharField')]
+Proxy check: []

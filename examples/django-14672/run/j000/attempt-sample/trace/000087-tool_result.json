@@ -1,0 +1,16 @@
+{
+  "sequence": 87,
+  "recorded_unix_ns": 1790009063522585522,
+  "recorded_monotonic_ns": 4957288392862494,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 24,
+  "result": {
+    "output": "Traceback (most recent call last):\n  File \"/tmp/identity_edge.py\", line 26, in <module>\n    assert rel == tuple_rel, (rel.identity, tuple_rel.identity)\nAssertionError: ((<django.db.models.fields.related.ManyToManyField: many_to_many_field>, <class 'repro_app.models.Parent'>, 'something', None, (), False, None, False, True, <class 'repro_app.models.ManyToManyModel'>, ('child', 'parent'), True), (<django.db.models.fields.related.ManyToManyField: many_to_many_field>, <class 'repro_app.models.Parent'>, 'something', None, (), False, None, True, True, <class 'repro_app.models.ManyToManyModel'>, ('child', 'parent'), True))\nhash m2m rel with list fields: 8873381080523251554\n",
+    "returncode": 1,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-024.log",
+  "output_sha256": "3048a81107b1d49cccb92fe01f88d04cef75a174cff449640b15176c4ba450ed"
+}

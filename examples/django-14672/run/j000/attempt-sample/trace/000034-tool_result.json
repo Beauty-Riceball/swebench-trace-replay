@@ -1,0 +1,16 @@
+{
+  "sequence": 34,
+  "recorded_unix_ns": 1790009031883674835,
+  "recorded_monotonic_ns": 4957256753951837,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 11,
+  "result": {
+    "output": "9:from django.test.utils import isolate_apps, override_settings, register_lookup\n31:@isolate_apps('invalid_models_tests')\n137:@isolate_apps('invalid_models_tests')\n236:@isolate_apps('invalid_models_tests')\n622:@isolate_apps('invalid_models_tests')\n805:@isolate_apps('invalid_models_tests')\n914:@isolate_apps('invalid_models_tests')\n1521:    @isolate_apps('django.contrib.auth', kwarg_name='apps')\n1606:@isolate_apps('invalid_models_tests')\n1640:@isolate_apps('invalid_models_tests')\n__init__.py\ntest_backend_specific.py\ntest_custom_fields.py\ntest_deprecated_fields.py\ntest_models.py\ntest_ordinary_fields.py\ntest_relative_fields.py\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-011.log",
+  "output_sha256": "4d32f22e255a5cfb9b6c08de0db4299f983c3f8091d426568a73eb6c175a6768"
+}

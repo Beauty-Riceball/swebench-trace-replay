@@ -1,0 +1,16 @@
+{
+  "sequence": 113,
+  "recorded_unix_ns": 1790009079319364699,
+  "recorded_monotonic_ns": 4957304189641540,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 31,
+  "result": {
+    "output": " M django/db/models/fields/reverse_related.py\n",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-031.log",
+  "output_sha256": "eddcfe71983b2eefd3635720ec1874f94ccb12535c745ccb312fedc6f6184f85"
+}

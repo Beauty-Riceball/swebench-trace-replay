@@ -1,0 +1,4 @@
+tests/utils_tests/test_hashable.py:from django.utils.hashable import make_hashable
+tests/utils_tests/test_hashable.py:                self.assertEqual(make_hashable(value), expected)
+tests/utils_tests/test_hashable.py:                self.assertCountEqual(make_hashable(value), expected)
+tests/utils_tests/test_hashable.py:            make_hashable(Unhashable())

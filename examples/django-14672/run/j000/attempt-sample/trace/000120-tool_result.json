@@ -1,0 +1,16 @@
+{
+  "sequence": 120,
+  "recorded_unix_ns": 1790009080882255228,
+  "recorded_monotonic_ns": 4957305752532089,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 33,
+  "result": {
+    "output": "",
+    "returncode": 0,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-033.log",
+  "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

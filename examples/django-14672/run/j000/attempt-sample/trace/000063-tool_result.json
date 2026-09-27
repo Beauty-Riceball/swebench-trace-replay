@@ -1,0 +1,16 @@
+{
+  "sequence": 63,
+  "recorded_unix_ns": 1790009049185319360,
+  "recorded_monotonic_ns": 4957274055596342,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 18,
+  "result": {
+    "output": "Child related_objects: []\nParent related_objects: []\nParent all fields: [('id', 'AutoField'), ('name', 'CharField')]\nParent many_to_many: []\nChild local fields m2m: [('many_to_many_field', 'ManyToManyField', <ManyToManyRel: repro.child>)]\nTraceback (most recent call last):\n  File \"/testbed/django/apps/registry.py\", line 156, in get_app_config\n    return self.app_configs[app_label]\nKeyError: 'repro'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tmp/repro3.py\", line 45, in <module>\n    print('child rel in apps:', apps.get_model('repro', 'Child'))\n  File \"/testbed/django/apps/registry.py\", line 206, in get_model\n    app_config = self.get_app_config(app_label)\n  File \"/testbed/django/apps/registry.py\", line 163, in get_app_config\n    raise LookupError(message)\nLookupError: No installed app with label 'repro'.\n",
+    "returncode": 1,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-018.log",
+  "output_sha256": "ae2e7bb1e9fd27bd26e75338295e521c36bc823c7cfeafdfab08f68689531759"
+}

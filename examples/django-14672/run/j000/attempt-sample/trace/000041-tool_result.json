@@ -1,0 +1,16 @@
+{
+  "sequence": 41,
+  "recorded_unix_ns": 1790009035057916902,
+  "recorded_monotonic_ns": 4957259928194135,
+  "type": "tool_result",
+  "phase": "agent",
+  "tool_index": 13,
+  "result": {
+    "output": "Traceback (most recent call last):\n  File \"/tmp/repro.py\", line 14, in <module>\n    class Probe:\n  File \"/testbed/django/test/utils.py\", line 442, in __call__\n    return self.decorate_class(decorated)\n  File \"/testbed/django/test/utils.py\", line 419, in decorate_class\n    raise TypeError('Can only decorate subclasses of unittest.TestCase')\nTypeError: Can only decorate subclasses of unittest.TestCase\n",
+    "returncode": 1,
+    "exception_info": ""
+  },
+  "exception_type": null,
+  "output_file": "agent-tool-013.log",
+  "output_sha256": "fafb8b54b3ccec986df2112816f2e28ce06f76d7d9a7de70545f49ae02bf409f"
+}
