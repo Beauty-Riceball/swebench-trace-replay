@@ -28,6 +28,8 @@ gh repo create swebench-trace-replay --private --source . --remote origin --push
 
 这是原始归档的校验值。发布前应按与样例相同的转换规则导出完整共享副本，并生成独立清单、任务覆盖报告和新归档 SHA256。原始归档与共享归档各自保留身份。
 
+本次 `full500-20260922-v1` 用于用户授权的私有归档与重放，分发的就是上述原始归档，未改变命令、输出或其他数据字节。便携选择清单仅转换 attempt 路径，详见 [完整 500 题说明](../datasets/full500/README.md)。上段共享副本转换适用于后续公开发布，不代表当前原始包已经完成脱敏。
+
 GitHub 普通 Git 文件上限为 100MiB；Release 单附件需小于 2GiB。因此共享归档可以按 1GiB 分卷，附上各卷及合并文件的 SHA256。[GitHub 文件限制](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)、[Release 附件限制](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)。
 
 Linux 上的分卷与校验示例（文件名代表已经准备好的共享归档）：

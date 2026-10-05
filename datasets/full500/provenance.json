@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "portable-full500-selection-provenance",
+  "source_selection": {
+    "workspace_relative_path": "experiments/ppt-solutions-20260928/scheduler/selection.json",
+    "sha256": "364f05baa4cc8c7316463b6bbdd6b0c04c598509bd3b350fb98c740742517e12",
+    "bytes": 1399410
+  },
+  "archive_manifest": {
+    "filename": "full500-traces.tar.gz.manifest.json",
+    "sha256": "23db081ef237d735ee2535e0e19a64f72f8acce5096ecf6e19964a847cc6284e",
+    "bytes": 32353783,
+    "manifest_hash": "cf0ebe7396b1eeef4fff915c71242cdef127eb08377d0833be1234265dc5d2b3"
+  },
+  "archive": {
+    "filename": "full500-traces.tar.gz",
+    "sha256": "05d1226212a12f325683110774d1ea86442a0d3809a9523ccde61a7118872f3f",
+    "bytes": 5132076046,
+    "source_directory": "capture"
+  },
+  "derived_selection": {
+    "filename": "selection.json",
+    "sha256": "4925eeeb986d8d80b15a0c600179387c2a8336f3df22b92a1ef15cea992217a9",
+    "bytes": 1367262
+  },
+  "transformation": "Preserve all per-job fields except attempt_path, replaced with the canonical relative attempt path from the original archive manifest. New top-level metadata documents archive binding; host-specific top-level source_root is omitted.",
+  "source_files_modified": false,
+  "unique_jobs": 500,
+  "unique_instances": 500,
+  "order_matches_frozen_selection": true,
+  "validation_scope": "Read-only comparison of the frozen selection and archive sidecar manifest. This does not rehash decompressed archive members or execute replay. Archive integrity has separate SHA256/verification evidence.",
+  "privacy_scope": "This relocates selection paths only; the raw archive is unchanged and is not described as a sanitized publication.",
+  "runtime_scope": "engine/replay.py validate_attempt accepts relative attempt_path joined to --source. scripts/replay.py requires explicit --selection for the raw capture/jNNN layout. No engine changes are needed. Actual Linux Docker replay of this portable full500 input remains unverified."
+}

@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .venv*/
 outputs/
+downloads/
 *.tar
 *.tar.gz
 *.part-*

@@ -1,0 +1,5018 @@
+{
+  "schema_version": 1,
+  "state": "manifest_comparison_passed",
+  "expected_tasks": 500,
+  "checked_jobs": 500,
+  "unique_jobs": 500,
+  "unique_instances": 500,
+  "original_order_preserved": true,
+  "source_artifact_sha256_matches": 3673,
+  "required_replay_files_present": 2500,
+  "selected_manifest_entries": 171212,
+  "trace_event_manifest_entries": 131778,
+  "selection_sha256": "4925eeeb986d8d80b15a0c600179387c2a8336f3df22b92a1ef15cea992217a9",
+  "actual_linux_replay_performed": false,
+  "archive_member_content_rehash_performed": false,
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "j000",
+      "instance_id": "django__django-14672",
+      "attempt_path": "j000/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 134,
+      "selected_manifest_entries": 180
+    },
+    {
+      "index": 1,
+      "job_id": "j001",
+      "instance_id": "sphinx-doc__sphinx-10449",
+      "attempt_path": "j001/attempt-ddfbf8de5ed6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 368
+    },
+    {
+      "index": 2,
+      "job_id": "j002",
+      "instance_id": "django__django-11299",
+      "attempt_path": "j002/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 149,
+      "selected_manifest_entries": 198
+    },
+    {
+      "index": 3,
+      "job_id": "j003",
+      "instance_id": "django__django-14493",
+      "attempt_path": "j003/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 121,
+      "selected_manifest_entries": 156
+    },
+    {
+      "index": 4,
+      "job_id": "j004",
+      "instance_id": "django__django-11551",
+      "attempt_path": "j004/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 228,
+      "selected_manifest_entries": 294
+    },
+    {
+      "index": 5,
+      "job_id": "j005",
+      "instance_id": "django__django-12143",
+      "attempt_path": "j005/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 319,
+      "selected_manifest_entries": 414
+    },
+    {
+      "index": 6,
+      "job_id": "j006",
+      "instance_id": "pydata__xarray-6938",
+      "attempt_path": "j006/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 289,
+      "selected_manifest_entries": 372
+    },
+    {
+      "index": 7,
+      "job_id": "j007",
+      "instance_id": "django__django-15916",
+      "attempt_path": "j007/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 420
+    },
+    {
+      "index": 8,
+      "job_id": "j008",
+      "instance_id": "django__django-12193",
+      "attempt_path": "j008/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 198,
+      "selected_manifest_entries": 264
+    },
+    {
+      "index": 9,
+      "job_id": "j009",
+      "instance_id": "pytest-dev__pytest-5262",
+      "attempt_path": "j009/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 149,
+      "selected_manifest_entries": 195
+    },
+    {
+      "index": 10,
+      "job_id": "j010",
+      "instance_id": "sphinx-doc__sphinx-8459",
+      "attempt_path": "j010/attempt-ddfbf8de5ed6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 322,
+      "selected_manifest_entries": 419
+    },
+    {
+      "index": 11,
+      "job_id": "j011",
+      "instance_id": "sphinx-doc__sphinx-9281",
+      "attempt_path": "j011/attempt-ddfbf8de5ed6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 12,
+      "job_id": "j012",
+      "instance_id": "django__django-13012",
+      "attempt_path": "j012/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 390,
+      "selected_manifest_entries": 519
+    },
+    {
+      "index": 13,
+      "job_id": "j013",
+      "instance_id": "django__django-16082",
+      "attempt_path": "j013/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 345
+    },
+    {
+      "index": 14,
+      "job_id": "j014",
+      "instance_id": "sympy__sympy-20916",
+      "attempt_path": "j014/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 15,
+      "job_id": "j015",
+      "instance_id": "django__django-11749",
+      "attempt_path": "j015/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 340,
+      "selected_manifest_entries": 444
+    },
+    {
+      "index": 16,
+      "job_id": "j016",
+      "instance_id": "scikit-learn__scikit-learn-14629",
+      "attempt_path": "j016/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 375
+    },
+    {
+      "index": 17,
+      "job_id": "j017",
+      "instance_id": "django__django-14631",
+      "attempt_path": "j017/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 360
+    },
+    {
+      "index": 18,
+      "job_id": "j018",
+      "instance_id": "django__django-15930",
+      "attempt_path": "j018/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 276,
+      "selected_manifest_entries": 344
+    },
+    {
+      "index": 19,
+      "job_id": "j019",
+      "instance_id": "django__django-7530",
+      "attempt_path": "j019/attempt-c4ec5400c5c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 227,
+      "selected_manifest_entries": 300
+    },
+    {
+      "index": 20,
+      "job_id": "j020",
+      "instance_id": "sympy__sympy-14248",
+      "attempt_path": "j020/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 21,
+      "job_id": "j021",
+      "instance_id": "pylint-dev__pylint-4551",
+      "attempt_path": "j021/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 278,
+      "selected_manifest_entries": 349
+    },
+    {
+      "index": 22,
+      "job_id": "j022",
+      "instance_id": "pallets__flask-5014",
+      "attempt_path": "j022/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 167,
+      "selected_manifest_entries": 224
+    },
+    {
+      "index": 23,
+      "job_id": "j023",
+      "instance_id": "sphinx-doc__sphinx-7440",
+      "attempt_path": "j023/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 24,
+      "job_id": "j024",
+      "instance_id": "astropy__astropy-14096",
+      "attempt_path": "j024/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 297,
+      "selected_manifest_entries": 383
+    },
+    {
+      "index": 25,
+      "job_id": "j025",
+      "instance_id": "sympy__sympy-17655",
+      "attempt_path": "j025/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 368
+    },
+    {
+      "index": 26,
+      "job_id": "j026",
+      "instance_id": "django__django-17084",
+      "attempt_path": "j026/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 425
+    },
+    {
+      "index": 27,
+      "job_id": "j027",
+      "instance_id": "django__django-16485",
+      "attempt_path": "j027/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 199,
+      "selected_manifest_entries": 257
+    },
+    {
+      "index": 28,
+      "job_id": "j028",
+      "instance_id": "django__django-16901",
+      "attempt_path": "j028/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 334,
+      "selected_manifest_entries": 437
+    },
+    {
+      "index": 29,
+      "job_id": "j029",
+      "instance_id": "django__django-15957",
+      "attempt_path": "j029/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 338,
+      "selected_manifest_entries": 439
+    },
+    {
+      "index": 30,
+      "job_id": "j030",
+      "instance_id": "django__django-13809",
+      "attempt_path": "j030/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 368
+    },
+    {
+      "index": 31,
+      "job_id": "j031",
+      "instance_id": "django__django-14608",
+      "attempt_path": "j031/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 346,
+      "selected_manifest_entries": 455
+    },
+    {
+      "index": 32,
+      "job_id": "j032",
+      "instance_id": "django__django-16263",
+      "attempt_path": "j032/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 355
+    },
+    {
+      "index": 33,
+      "job_id": "j033",
+      "instance_id": "django__django-11239",
+      "attempt_path": "j033/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 110,
+      "selected_manifest_entries": 152
+    },
+    {
+      "index": 34,
+      "job_id": "j034",
+      "instance_id": "matplotlib__matplotlib-25332",
+      "attempt_path": "j034/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 35,
+      "job_id": "j035",
+      "instance_id": "astropy__astropy-8872",
+      "attempt_path": "j035/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 36,
+      "job_id": "j036",
+      "instance_id": "sympy__sympy-13551",
+      "attempt_path": "j036/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 278,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 37,
+      "job_id": "j037",
+      "instance_id": "django__django-11999",
+      "attempt_path": "j037/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 211,
+      "selected_manifest_entries": 281
+    },
+    {
+      "index": 38,
+      "job_id": "j038",
+      "instance_id": "django__django-16454",
+      "attempt_path": "j038/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 365
+    },
+    {
+      "index": 39,
+      "job_id": "j039",
+      "instance_id": "django__django-14351",
+      "attempt_path": "j039/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 40,
+      "job_id": "j040",
+      "instance_id": "scikit-learn__scikit-learn-14710",
+      "attempt_path": "j040/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 149,
+      "selected_manifest_entries": 200
+    },
+    {
+      "index": 41,
+      "job_id": "j041",
+      "instance_id": "django__django-16116",
+      "attempt_path": "j041/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 42,
+      "job_id": "j042",
+      "instance_id": "django__django-14404",
+      "attempt_path": "j042/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 43,
+      "job_id": "j043",
+      "instance_id": "django__django-15103",
+      "attempt_path": "j043/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 198,
+      "selected_manifest_entries": 263
+    },
+    {
+      "index": 44,
+      "job_id": "j044",
+      "instance_id": "sphinx-doc__sphinx-7985",
+      "attempt_path": "j044/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 370
+    },
+    {
+      "index": 45,
+      "job_id": "j045",
+      "instance_id": "django__django-14017",
+      "attempt_path": "j045/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 402,
+      "selected_manifest_entries": 539
+    },
+    {
+      "index": 46,
+      "job_id": "j046",
+      "instance_id": "django__django-14053",
+      "attempt_path": "j046/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 47,
+      "job_id": "j047",
+      "instance_id": "pylint-dev__pylint-6903",
+      "attempt_path": "j047/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 48,
+      "job_id": "j048",
+      "instance_id": "django__django-15037",
+      "attempt_path": "j048/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 343
+    },
+    {
+      "index": 49,
+      "job_id": "j049",
+      "instance_id": "django__django-14792",
+      "attempt_path": "j049/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 50,
+      "job_id": "j050",
+      "instance_id": "django__django-12754",
+      "attempt_path": "j050/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 51,
+      "job_id": "j051",
+      "instance_id": "django__django-13089",
+      "attempt_path": "j051/attempt-778a60bc95ef",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 270,
+      "selected_manifest_entries": 356
+    },
+    {
+      "index": 52,
+      "job_id": "j052",
+      "instance_id": "sympy__sympy-13852",
+      "attempt_path": "j052/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 53,
+      "job_id": "j053",
+      "instance_id": "pydata__xarray-3993",
+      "attempt_path": "j053/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 380,
+      "selected_manifest_entries": 506
+    },
+    {
+      "index": 54,
+      "job_id": "j054",
+      "instance_id": "django__django-11477",
+      "attempt_path": "j054/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 55,
+      "job_id": "j055",
+      "instance_id": "django__django-15569",
+      "attempt_path": "j055/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 157,
+      "selected_manifest_entries": 206
+    },
+    {
+      "index": 56,
+      "job_id": "j056",
+      "instance_id": "psf__requests-6028",
+      "attempt_path": "j056/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 57,
+      "job_id": "j057",
+      "instance_id": "django__django-13820",
+      "attempt_path": "j057/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 58,
+      "job_id": "j058",
+      "instance_id": "django__django-13568",
+      "attempt_path": "j058/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 218,
+      "selected_manifest_entries": 281
+    },
+    {
+      "index": 59,
+      "job_id": "j059",
+      "instance_id": "scikit-learn__scikit-learn-13135",
+      "attempt_path": "j059/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 137,
+      "selected_manifest_entries": 185
+    },
+    {
+      "index": 60,
+      "job_id": "j060",
+      "instance_id": "django__django-15128",
+      "attempt_path": "j060/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 276,
+      "selected_manifest_entries": 346
+    },
+    {
+      "index": 61,
+      "job_id": "j061",
+      "instance_id": "scikit-learn__scikit-learn-14894",
+      "attempt_path": "j061/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 238,
+      "selected_manifest_entries": 314
+    },
+    {
+      "index": 62,
+      "job_id": "j062",
+      "instance_id": "django__django-11163",
+      "attempt_path": "j062/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 80,
+      "selected_manifest_entries": 113
+    },
+    {
+      "index": 63,
+      "job_id": "j063",
+      "instance_id": "django__django-14559",
+      "attempt_path": "j063/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 301,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 64,
+      "job_id": "j064",
+      "instance_id": "astropy__astropy-13453",
+      "attempt_path": "j064/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 65,
+      "job_id": "j065",
+      "instance_id": "django__django-13023",
+      "attempt_path": "j065/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 197,
+      "selected_manifest_entries": 260
+    },
+    {
+      "index": 66,
+      "job_id": "j066",
+      "instance_id": "pydata__xarray-4075",
+      "attempt_path": "j066/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 211,
+      "selected_manifest_entries": 278
+    },
+    {
+      "index": 67,
+      "job_id": "j067",
+      "instance_id": "django__django-15368",
+      "attempt_path": "j067/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 132,
+      "selected_manifest_entries": 179
+    },
+    {
+      "index": 68,
+      "job_id": "j068",
+      "instance_id": "scikit-learn__scikit-learn-25232",
+      "attempt_path": "j068/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 377
+    },
+    {
+      "index": 69,
+      "job_id": "j069",
+      "instance_id": "sympy__sympy-15976",
+      "attempt_path": "j069/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 413
+    },
+    {
+      "index": 70,
+      "job_id": "j070",
+      "instance_id": "django__django-13028",
+      "attempt_path": "j070/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 87,
+      "selected_manifest_entries": 122
+    },
+    {
+      "index": 71,
+      "job_id": "j071",
+      "instance_id": "sympy__sympy-19040",
+      "attempt_path": "j071/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 340
+    },
+    {
+      "index": 72,
+      "job_id": "j072",
+      "instance_id": "psf__requests-1766",
+      "attempt_path": "j072/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 328,
+      "selected_manifest_entries": 428
+    },
+    {
+      "index": 73,
+      "job_id": "j073",
+      "instance_id": "pytest-dev__pytest-7205",
+      "attempt_path": "j073/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 286,
+      "selected_manifest_entries": 365
+    },
+    {
+      "index": 74,
+      "job_id": "j074",
+      "instance_id": "sphinx-doc__sphinx-8593",
+      "attempt_path": "j074/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 75,
+      "job_id": "j075",
+      "instance_id": "sphinx-doc__sphinx-8595",
+      "attempt_path": "j075/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 146,
+      "selected_manifest_entries": 194
+    },
+    {
+      "index": 76,
+      "job_id": "j076",
+      "instance_id": "django__django-15315",
+      "attempt_path": "j076/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 148,
+      "selected_manifest_entries": 200
+    },
+    {
+      "index": 77,
+      "job_id": "j077",
+      "instance_id": "pytest-dev__pytest-5631",
+      "attempt_path": "j077/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 113,
+      "selected_manifest_entries": 155
+    },
+    {
+      "index": 78,
+      "job_id": "j078",
+      "instance_id": "django__django-15987",
+      "attempt_path": "j078/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 79,
+      "job_id": "j079",
+      "instance_id": "django__django-13794",
+      "attempt_path": "j079/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 254,
+      "selected_manifest_entries": 335
+    },
+    {
+      "index": 80,
+      "job_id": "j080",
+      "instance_id": "astropy__astropy-14369",
+      "attempt_path": "j080/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 81,
+      "job_id": "j081",
+      "instance_id": "astropy__astropy-13977",
+      "attempt_path": "j081/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 82,
+      "job_id": "j082",
+      "instance_id": "sympy__sympy-13974",
+      "attempt_path": "j082/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 83,
+      "job_id": "j083",
+      "instance_id": "django__django-16938",
+      "attempt_path": "j083/attempt-ca8430d4d66e",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 180,
+      "selected_manifest_entries": 236
+    },
+    {
+      "index": 84,
+      "job_id": "j084",
+      "instance_id": "sphinx-doc__sphinx-7910",
+      "attempt_path": "j084/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 85,
+      "job_id": "j085",
+      "instance_id": "sympy__sympy-11618",
+      "attempt_path": "j085/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 358
+    },
+    {
+      "index": 86,
+      "job_id": "j086",
+      "instance_id": "pytest-dev__pytest-7521",
+      "attempt_path": "j086/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 185,
+      "selected_manifest_entries": 242
+    },
+    {
+      "index": 87,
+      "job_id": "j087",
+      "instance_id": "django__django-12774",
+      "attempt_path": "j087/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 340,
+      "selected_manifest_entries": 446
+    },
+    {
+      "index": 88,
+      "job_id": "j088",
+      "instance_id": "sympy__sympy-12096",
+      "attempt_path": "j088/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 332,
+      "selected_manifest_entries": 434
+    },
+    {
+      "index": 89,
+      "job_id": "j089",
+      "instance_id": "django__django-10973",
+      "attempt_path": "j089/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 90,
+      "job_id": "j090",
+      "instance_id": "django__django-12273",
+      "attempt_path": "j090/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 336,
+      "selected_manifest_entries": 440
+    },
+    {
+      "index": 91,
+      "job_id": "j091",
+      "instance_id": "django__django-15277",
+      "attempt_path": "j091/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 124,
+      "selected_manifest_entries": 167
+    },
+    {
+      "index": 92,
+      "job_id": "j092",
+      "instance_id": "matplotlib__matplotlib-22871",
+      "attempt_path": "j092/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 93,
+      "job_id": "j093",
+      "instance_id": "django__django-15851",
+      "attempt_path": "j093/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 154,
+      "selected_manifest_entries": 206
+    },
+    {
+      "index": 94,
+      "job_id": "j094",
+      "instance_id": "django__django-15252",
+      "attempt_path": "j094/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 406
+    },
+    {
+      "index": 95,
+      "job_id": "j095",
+      "instance_id": "django__django-13033",
+      "attempt_path": "j095/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 96,
+      "job_id": "j096",
+      "instance_id": "django__django-13128",
+      "attempt_path": "j096/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 412
+    },
+    {
+      "index": 97,
+      "job_id": "j097",
+      "instance_id": "sphinx-doc__sphinx-9591",
+      "attempt_path": "j097/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 199,
+      "selected_manifest_entries": 266
+    },
+    {
+      "index": 98,
+      "job_id": "j098",
+      "instance_id": "sphinx-doc__sphinx-7757",
+      "attempt_path": "j098/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 215,
+      "selected_manifest_entries": 284
+    },
+    {
+      "index": 99,
+      "job_id": "j099",
+      "instance_id": "django__django-14434",
+      "attempt_path": "j099/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 254,
+      "selected_manifest_entries": 335
+    },
+    {
+      "index": 100,
+      "job_id": "j100",
+      "instance_id": "django__django-16502",
+      "attempt_path": "j100/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 412
+    },
+    {
+      "index": 101,
+      "job_id": "j101",
+      "instance_id": "scikit-learn__scikit-learn-13496",
+      "attempt_path": "j101/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 102,
+      "job_id": "j102",
+      "instance_id": "django__django-16642",
+      "attempt_path": "j102/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 153,
+      "selected_manifest_entries": 206
+    },
+    {
+      "index": 103,
+      "job_id": "j103",
+      "instance_id": "scikit-learn__scikit-learn-11578",
+      "attempt_path": "j103/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 314,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 104,
+      "job_id": "j104",
+      "instance_id": "django__django-12708",
+      "attempt_path": "j104/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 105,
+      "job_id": "j105",
+      "instance_id": "pylint-dev__pylint-4970",
+      "attempt_path": "j105/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 322,
+      "selected_manifest_entries": 415
+    },
+    {
+      "index": 106,
+      "job_id": "j106",
+      "instance_id": "django__django-14855",
+      "attempt_path": "j106/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 189,
+      "selected_manifest_entries": 248
+    },
+    {
+      "index": 107,
+      "job_id": "j107",
+      "instance_id": "sphinx-doc__sphinx-7748",
+      "attempt_path": "j107/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 370
+    },
+    {
+      "index": 108,
+      "job_id": "j108",
+      "instance_id": "django__django-14376",
+      "attempt_path": "j108/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 313,
+      "selected_manifest_entries": 413
+    },
+    {
+      "index": 109,
+      "job_id": "j109",
+      "instance_id": "pydata__xarray-6721",
+      "attempt_path": "j109/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 110,
+      "job_id": "j110",
+      "instance_id": "django__django-11179",
+      "attempt_path": "j110/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 171,
+      "selected_manifest_entries": 227
+    },
+    {
+      "index": 111,
+      "job_id": "j111",
+      "instance_id": "sphinx-doc__sphinx-7590",
+      "attempt_path": "j111/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 421
+    },
+    {
+      "index": 112,
+      "job_id": "j112",
+      "instance_id": "django__django-12039",
+      "attempt_path": "j112/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 431
+    },
+    {
+      "index": 113,
+      "job_id": "j113",
+      "instance_id": "django__django-13315",
+      "attempt_path": "j113/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 114,
+      "job_id": "j114",
+      "instance_id": "pytest-dev__pytest-8399",
+      "attempt_path": "j114/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 394
+    },
+    {
+      "index": 115,
+      "job_id": "j115",
+      "instance_id": "sympy__sympy-23262",
+      "attempt_path": "j115/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 142,
+      "selected_manifest_entries": 194
+    },
+    {
+      "index": 116,
+      "job_id": "j116",
+      "instance_id": "sympy__sympy-12481",
+      "attempt_path": "j116/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 117,
+      "job_id": "j117",
+      "instance_id": "django__django-14534",
+      "attempt_path": "j117/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 118,
+      "job_id": "j118",
+      "instance_id": "django__django-11099",
+      "attempt_path": "j118/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 88,
+      "selected_manifest_entries": 122
+    },
+    {
+      "index": 119,
+      "job_id": "j119",
+      "instance_id": "django__django-16899",
+      "attempt_path": "j119/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 225,
+      "selected_manifest_entries": 293
+    },
+    {
+      "index": 120,
+      "job_id": "j120",
+      "instance_id": "astropy__astropy-14182",
+      "attempt_path": "j120/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 121,
+      "job_id": "j121",
+      "instance_id": "matplotlib__matplotlib-24026",
+      "attempt_path": "j121/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 263,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 122,
+      "job_id": "j122",
+      "instance_id": "sympy__sympy-22080",
+      "attempt_path": "j122/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 299,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 123,
+      "job_id": "j123",
+      "instance_id": "django__django-16569",
+      "attempt_path": "j123/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 91,
+      "selected_manifest_entries": 128
+    },
+    {
+      "index": 124,
+      "job_id": "j124",
+      "instance_id": "matplotlib__matplotlib-22865",
+      "attempt_path": "j124/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 125,
+      "job_id": "j125",
+      "instance_id": "sphinx-doc__sphinx-8265",
+      "attempt_path": "j125/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 409
+    },
+    {
+      "index": 126,
+      "job_id": "j126",
+      "instance_id": "psf__requests-1724",
+      "attempt_path": "j126/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 133,
+      "selected_manifest_entries": 182
+    },
+    {
+      "index": 127,
+      "job_id": "j127",
+      "instance_id": "django__django-15563",
+      "attempt_path": "j127/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 364
+    },
+    {
+      "index": 128,
+      "job_id": "j128",
+      "instance_id": "django__django-13821",
+      "attempt_path": "j128/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 376,
+      "selected_manifest_entries": 500
+    },
+    {
+      "index": 129,
+      "job_id": "j129",
+      "instance_id": "pylint-dev__pylint-6386",
+      "attempt_path": "j129/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 366,
+      "selected_manifest_entries": 485
+    },
+    {
+      "index": 130,
+      "job_id": "j130",
+      "instance_id": "pylint-dev__pylint-4661",
+      "attempt_path": "j130/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 131,
+      "job_id": "j131",
+      "instance_id": "astropy__astropy-13236",
+      "attempt_path": "j131/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 132,
+      "job_id": "j132",
+      "instance_id": "astropy__astropy-7606",
+      "attempt_path": "j132/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 77,
+      "selected_manifest_entries": 110
+    },
+    {
+      "index": 133,
+      "job_id": "j133",
+      "instance_id": "sympy__sympy-22914",
+      "attempt_path": "j133/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 383,
+      "selected_manifest_entries": 512
+    },
+    {
+      "index": 134,
+      "job_id": "j134",
+      "instance_id": "matplotlib__matplotlib-23299",
+      "attempt_path": "j134/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 356,
+      "selected_manifest_entries": 466
+    },
+    {
+      "index": 135,
+      "job_id": "j135",
+      "instance_id": "django__django-12262",
+      "attempt_path": "j135/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 119,
+      "selected_manifest_entries": 161
+    },
+    {
+      "index": 136,
+      "job_id": "j136",
+      "instance_id": "matplotlib__matplotlib-13989",
+      "attempt_path": "j136/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 96,
+      "selected_manifest_entries": 131
+    },
+    {
+      "index": 137,
+      "job_id": "j137",
+      "instance_id": "pydata__xarray-6744",
+      "attempt_path": "j137/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 230,
+      "selected_manifest_entries": 302
+    },
+    {
+      "index": 138,
+      "job_id": "j138",
+      "instance_id": "scikit-learn__scikit-learn-10908",
+      "attempt_path": "j138/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 325,
+      "selected_manifest_entries": 428
+    },
+    {
+      "index": 139,
+      "job_id": "j139",
+      "instance_id": "sympy__sympy-19637",
+      "attempt_path": "j139/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 95,
+      "selected_manifest_entries": 131
+    },
+    {
+      "index": 140,
+      "job_id": "j140",
+      "instance_id": "django__django-14122",
+      "attempt_path": "j140/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 364,
+      "selected_manifest_entries": 482
+    },
+    {
+      "index": 141,
+      "job_id": "j141",
+      "instance_id": "sympy__sympy-15349",
+      "attempt_path": "j141/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 101,
+      "selected_manifest_entries": 140
+    },
+    {
+      "index": 142,
+      "job_id": "j142",
+      "instance_id": "django__django-11951",
+      "attempt_path": "j142/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 127,
+      "selected_manifest_entries": 173
+    },
+    {
+      "index": 143,
+      "job_id": "j143",
+      "instance_id": "django__django-15127",
+      "attempt_path": "j143/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 237,
+      "selected_manifest_entries": 308
+    },
+    {
+      "index": 144,
+      "job_id": "j144",
+      "instance_id": "django__django-13837",
+      "attempt_path": "j144/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 334,
+      "selected_manifest_entries": 433
+    },
+    {
+      "index": 145,
+      "job_id": "j145",
+      "instance_id": "django__django-14140",
+      "attempt_path": "j145/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 416
+    },
+    {
+      "index": 146,
+      "job_id": "j146",
+      "instance_id": "sphinx-doc__sphinx-8551",
+      "attempt_path": "j146/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 314,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 147,
+      "job_id": "j147",
+      "instance_id": "matplotlib__matplotlib-25775",
+      "attempt_path": "j147/attempt-5e8cee1f8beb",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 148,
+      "job_id": "j148",
+      "instance_id": "matplotlib__matplotlib-24177",
+      "attempt_path": "j148/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 149,
+      "job_id": "j149",
+      "instance_id": "sympy__sympy-18698",
+      "attempt_path": "j149/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 150,
+      "job_id": "j150",
+      "instance_id": "django__django-15863",
+      "attempt_path": "j150/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 268,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 151,
+      "job_id": "j151",
+      "instance_id": "django__django-14155",
+      "attempt_path": "j151/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 358,
+      "selected_manifest_entries": 469
+    },
+    {
+      "index": 152,
+      "job_id": "j152",
+      "instance_id": "sympy__sympy-13372",
+      "attempt_path": "j152/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 153,
+      "job_id": "j153",
+      "instance_id": "matplotlib__matplotlib-25311",
+      "attempt_path": "j153/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 360,
+      "selected_manifest_entries": 476
+    },
+    {
+      "index": 154,
+      "job_id": "j154",
+      "instance_id": "pytest-dev__pytest-7236",
+      "attempt_path": "j154/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 155,
+      "job_id": "j155",
+      "instance_id": "sympy__sympy-18211",
+      "attempt_path": "j155/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 236,
+      "selected_manifest_entries": 311
+    },
+    {
+      "index": 156,
+      "job_id": "j156",
+      "instance_id": "pydata__xarray-7229",
+      "attempt_path": "j156/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 409
+    },
+    {
+      "index": 157,
+      "job_id": "j157",
+      "instance_id": "astropy__astropy-7336",
+      "attempt_path": "j157/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 153,
+      "selected_manifest_entries": 212
+    },
+    {
+      "index": 158,
+      "job_id": "j158",
+      "instance_id": "sympy__sympy-15345",
+      "attempt_path": "j158/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 159,
+      "job_id": "j159",
+      "instance_id": "astropy__astropy-8707",
+      "attempt_path": "j159/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 160,
+      "job_id": "j160",
+      "instance_id": "django__django-13810",
+      "attempt_path": "j160/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 250,
+      "selected_manifest_entries": 320
+    },
+    {
+      "index": 161,
+      "job_id": "j161",
+      "instance_id": "django__django-16661",
+      "attempt_path": "j161/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 364
+    },
+    {
+      "index": 162,
+      "job_id": "j162",
+      "instance_id": "psf__requests-5414",
+      "attempt_path": "j162/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 169,
+      "selected_manifest_entries": 233
+    },
+    {
+      "index": 163,
+      "job_id": "j163",
+      "instance_id": "matplotlib__matplotlib-26466",
+      "attempt_path": "j163/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 336,
+      "selected_manifest_entries": 436
+    },
+    {
+      "index": 164,
+      "job_id": "j164",
+      "instance_id": "pytest-dev__pytest-5809",
+      "attempt_path": "j164/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 58,
+      "selected_manifest_entries": 86
+    },
+    {
+      "index": 165,
+      "job_id": "j165",
+      "instance_id": "pydata__xarray-3151",
+      "attempt_path": "j165/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 139,
+      "selected_manifest_entries": 188
+    },
+    {
+      "index": 166,
+      "job_id": "j166",
+      "instance_id": "django__django-14315",
+      "attempt_path": "j166/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 167,
+      "job_id": "j167",
+      "instance_id": "django__django-15731",
+      "attempt_path": "j167/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 95,
+      "selected_manifest_entries": 134
+    },
+    {
+      "index": 168,
+      "job_id": "j168",
+      "instance_id": "sphinx-doc__sphinx-11445",
+      "attempt_path": "j168/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 169,
+      "job_id": "j169",
+      "instance_id": "sphinx-doc__sphinx-8035",
+      "attempt_path": "j169/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 397
+    },
+    {
+      "index": 170,
+      "job_id": "j170",
+      "instance_id": "django__django-15380",
+      "attempt_path": "j170/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 127,
+      "selected_manifest_entries": 170
+    },
+    {
+      "index": 171,
+      "job_id": "j171",
+      "instance_id": "django__django-15629",
+      "attempt_path": "j171/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 355
+    },
+    {
+      "index": 172,
+      "job_id": "j172",
+      "instance_id": "sphinx-doc__sphinx-9461",
+      "attempt_path": "j172/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 382
+    },
+    {
+      "index": 173,
+      "job_id": "j173",
+      "instance_id": "astropy__astropy-14598",
+      "attempt_path": "j173/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 174,
+      "job_id": "j174",
+      "instance_id": "django__django-11603",
+      "attempt_path": "j174/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 175,
+      "job_id": "j175",
+      "instance_id": "django__django-12209",
+      "attempt_path": "j175/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 406
+    },
+    {
+      "index": 176,
+      "job_id": "j176",
+      "instance_id": "matplotlib__matplotlib-26291",
+      "attempt_path": "j176/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 177,
+      "job_id": "j177",
+      "instance_id": "django__django-11206",
+      "attempt_path": "j177/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 178,
+      "job_id": "j178",
+      "instance_id": "sphinx-doc__sphinx-7462",
+      "attempt_path": "j178/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 136,
+      "selected_manifest_entries": 185
+    },
+    {
+      "index": 179,
+      "job_id": "j179",
+      "instance_id": "sympy__sympy-17318",
+      "attempt_path": "j179/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 370,
+      "selected_manifest_entries": 491
+    },
+    {
+      "index": 180,
+      "job_id": "j180",
+      "instance_id": "matplotlib__matplotlib-20826",
+      "attempt_path": "j180/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 269,
+      "selected_manifest_entries": 350
+    },
+    {
+      "index": 181,
+      "job_id": "j181",
+      "instance_id": "django__django-15104",
+      "attempt_path": "j181/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 93,
+      "selected_manifest_entries": 131
+    },
+    {
+      "index": 182,
+      "job_id": "j182",
+      "instance_id": "django__django-15973",
+      "attempt_path": "j182/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 314,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 183,
+      "job_id": "j183",
+      "instance_id": "sympy__sympy-19783",
+      "attempt_path": "j183/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 416
+    },
+    {
+      "index": 184,
+      "job_id": "j184",
+      "instance_id": "sphinx-doc__sphinx-9602",
+      "attempt_path": "j184/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 364
+    },
+    {
+      "index": 185,
+      "job_id": "j185",
+      "instance_id": "django__django-11964",
+      "attempt_path": "j185/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 97,
+      "selected_manifest_entries": 134
+    },
+    {
+      "index": 186,
+      "job_id": "j186",
+      "instance_id": "django__django-13121",
+      "attempt_path": "j186/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 368,
+      "selected_manifest_entries": 484
+    },
+    {
+      "index": 187,
+      "job_id": "j187",
+      "instance_id": "sympy__sympy-20438",
+      "attempt_path": "j187/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 421
+    },
+    {
+      "index": 188,
+      "job_id": "j188",
+      "instance_id": "django__django-13109",
+      "attempt_path": "j188/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 186,
+      "selected_manifest_entries": 251
+    },
+    {
+      "index": 189,
+      "job_id": "j189",
+      "instance_id": "django__django-15554",
+      "attempt_path": "j189/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 379
+    },
+    {
+      "index": 190,
+      "job_id": "j190",
+      "instance_id": "pytest-dev__pytest-6202",
+      "attempt_path": "j190/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 354,
+      "selected_manifest_entries": 467
+    },
+    {
+      "index": 191,
+      "job_id": "j191",
+      "instance_id": "mwaskom__seaborn-3187",
+      "attempt_path": "j191/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 376
+    },
+    {
+      "index": 192,
+      "job_id": "j192",
+      "instance_id": "pydata__xarray-7233",
+      "attempt_path": "j192/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 167,
+      "selected_manifest_entries": 224
+    },
+    {
+      "index": 193,
+      "job_id": "j193",
+      "instance_id": "sympy__sympy-16792",
+      "attempt_path": "j193/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 409
+    },
+    {
+      "index": 194,
+      "job_id": "j194",
+      "instance_id": "django__django-13670",
+      "attempt_path": "j194/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 60,
+      "selected_manifest_entries": 86
+    },
+    {
+      "index": 195,
+      "job_id": "j195",
+      "instance_id": "django__django-16819",
+      "attempt_path": "j195/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 258,
+      "selected_manifest_entries": 319
+    },
+    {
+      "index": 196,
+      "job_id": "j196",
+      "instance_id": "django__django-11265",
+      "attempt_path": "j196/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 197,
+      "job_id": "j197",
+      "instance_id": "django__django-11790",
+      "attempt_path": "j197/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 198,
+      "job_id": "j198",
+      "instance_id": "django__django-15467",
+      "attempt_path": "j198/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 262,
+      "selected_manifest_entries": 344
+    },
+    {
+      "index": 199,
+      "job_id": "j199",
+      "instance_id": "sphinx-doc__sphinx-9673",
+      "attempt_path": "j199/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 330,
+      "selected_manifest_entries": 431
+    },
+    {
+      "index": 200,
+      "job_id": "j200",
+      "instance_id": "matplotlib__matplotlib-23476",
+      "attempt_path": "j200/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 370,
+      "selected_manifest_entries": 487
+    },
+    {
+      "index": 201,
+      "job_id": "j201",
+      "instance_id": "matplotlib__matplotlib-14623",
+      "attempt_path": "j201/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 202,
+      "job_id": "j202",
+      "instance_id": "sphinx-doc__sphinx-10466",
+      "attempt_path": "j202/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 394
+    },
+    {
+      "index": 203,
+      "job_id": "j203",
+      "instance_id": "sympy__sympy-24539",
+      "attempt_path": "j203/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 117,
+      "selected_manifest_entries": 158
+    },
+    {
+      "index": 204,
+      "job_id": "j204",
+      "instance_id": "django__django-16429",
+      "attempt_path": "j204/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 116,
+      "selected_manifest_entries": 158
+    },
+    {
+      "index": 205,
+      "job_id": "j205",
+      "instance_id": "sympy__sympy-24213",
+      "attempt_path": "j205/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 206,
+      "job_id": "j206",
+      "instance_id": "django__django-13410",
+      "attempt_path": "j206/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 89,
+      "selected_manifest_entries": 125
+    },
+    {
+      "index": 207,
+      "job_id": "j207",
+      "instance_id": "astropy__astropy-7671",
+      "attempt_path": "j207/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 382,
+      "selected_manifest_entries": 505
+    },
+    {
+      "index": 208,
+      "job_id": "j208",
+      "instance_id": "django__django-16136",
+      "attempt_path": "j208/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 150,
+      "selected_manifest_entries": 203
+    },
+    {
+      "index": 209,
+      "job_id": "j209",
+      "instance_id": "django__django-13516",
+      "attempt_path": "j209/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 178,
+      "selected_manifest_entries": 242
+    },
+    {
+      "index": 210,
+      "job_id": "j210",
+      "instance_id": "scikit-learn__scikit-learn-14053",
+      "attempt_path": "j210/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 261,
+      "selected_manifest_entries": 341
+    },
+    {
+      "index": 211,
+      "job_id": "j211",
+      "instance_id": "sphinx-doc__sphinx-10614",
+      "attempt_path": "j211/attempt-c6645a522198",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 367
+    },
+    {
+      "index": 212,
+      "job_id": "j212",
+      "instance_id": "sympy__sympy-13757",
+      "attempt_path": "j212/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 213,
+      "job_id": "j213",
+      "instance_id": "psf__requests-1921",
+      "attempt_path": "j213/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 207,
+      "selected_manifest_entries": 281
+    },
+    {
+      "index": 214,
+      "job_id": "j214",
+      "instance_id": "sympy__sympy-23950",
+      "attempt_path": "j214/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 350,
+      "selected_manifest_entries": 461
+    },
+    {
+      "index": 215,
+      "job_id": "j215",
+      "instance_id": "scikit-learn__scikit-learn-26194",
+      "attempt_path": "j215/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 216,
+      "job_id": "j216",
+      "instance_id": "django__django-16801",
+      "attempt_path": "j216/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 158,
+      "selected_manifest_entries": 212
+    },
+    {
+      "index": 217,
+      "job_id": "j217",
+      "instance_id": "sympy__sympy-14976",
+      "attempt_path": "j217/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 356
+    },
+    {
+      "index": 218,
+      "job_id": "j218",
+      "instance_id": "sympy__sympy-13615",
+      "attempt_path": "j218/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 348,
+      "selected_manifest_entries": 458
+    },
+    {
+      "index": 219,
+      "job_id": "j219",
+      "instance_id": "django__django-10999",
+      "attempt_path": "j219/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 376,
+      "selected_manifest_entries": 500
+    },
+    {
+      "index": 220,
+      "job_id": "j220",
+      "instance_id": "django__django-16145",
+      "attempt_path": "j220/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 275,
+      "selected_manifest_entries": 350
+    },
+    {
+      "index": 221,
+      "job_id": "j221",
+      "instance_id": "sympy__sympy-19346",
+      "attempt_path": "j221/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 367
+    },
+    {
+      "index": 222,
+      "job_id": "j222",
+      "instance_id": "django__django-12713",
+      "attempt_path": "j222/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 194,
+      "selected_manifest_entries": 251
+    },
+    {
+      "index": 223,
+      "job_id": "j223",
+      "instance_id": "scikit-learn__scikit-learn-13439",
+      "attempt_path": "j223/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 120,
+      "selected_manifest_entries": 164
+    },
+    {
+      "index": 224,
+      "job_id": "j224",
+      "instance_id": "django__django-13212",
+      "attempt_path": "j224/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 346,
+      "selected_manifest_entries": 455
+    },
+    {
+      "index": 225,
+      "job_id": "j225",
+      "instance_id": "sympy__sympy-21596",
+      "attempt_path": "j225/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 226,
+      "job_id": "j226",
+      "instance_id": "django__django-10914",
+      "attempt_path": "j226/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 227,
+      "job_id": "j227",
+      "instance_id": "pydata__xarray-4629",
+      "attempt_path": "j227/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 61,
+      "selected_manifest_entries": 89
+    },
+    {
+      "index": 228,
+      "job_id": "j228",
+      "instance_id": "django__django-14765",
+      "attempt_path": "j228/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 229,
+      "job_id": "j229",
+      "instance_id": "sympy__sympy-15599",
+      "attempt_path": "j229/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 230,
+      "job_id": "j230",
+      "instance_id": "sympy__sympy-20428",
+      "attempt_path": "j230/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 231,
+      "job_id": "j231",
+      "instance_id": "sphinx-doc__sphinx-8638",
+      "attempt_path": "j231/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 232,
+      "job_id": "j232",
+      "instance_id": "django__django-16255",
+      "attempt_path": "j232/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 170,
+      "selected_manifest_entries": 227
+    },
+    {
+      "index": 233,
+      "job_id": "j233",
+      "instance_id": "sphinx-doc__sphinx-9320",
+      "attempt_path": "j233/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 234,
+      "job_id": "j234",
+      "instance_id": "django__django-13297",
+      "attempt_path": "j234/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 235,
+      "job_id": "j235",
+      "instance_id": "scikit-learn__scikit-learn-14983",
+      "attempt_path": "j235/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 236,
+      "job_id": "j236",
+      "instance_id": "django__django-12858",
+      "attempt_path": "j236/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 400
+    },
+    {
+      "index": 237,
+      "job_id": "j237",
+      "instance_id": "sympy__sympy-15875",
+      "attempt_path": "j237/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 343
+    },
+    {
+      "index": 238,
+      "job_id": "j238",
+      "instance_id": "django__django-14771",
+      "attempt_path": "j238/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 281,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 239,
+      "job_id": "j239",
+      "instance_id": "django__django-16667",
+      "attempt_path": "j239/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 237,
+      "selected_manifest_entries": 305
+    },
+    {
+      "index": 240,
+      "job_id": "j240",
+      "instance_id": "sphinx-doc__sphinx-8269",
+      "attempt_path": "j240/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 241,
+      "job_id": "j241",
+      "instance_id": "django__django-11433",
+      "attempt_path": "j241/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 278,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 242,
+      "job_id": "j242",
+      "instance_id": "django__django-13279",
+      "attempt_path": "j242/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 314,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 243,
+      "job_id": "j243",
+      "instance_id": "django__django-15814",
+      "attempt_path": "j243/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 379
+    },
+    {
+      "index": 244,
+      "job_id": "j244",
+      "instance_id": "django__django-16950",
+      "attempt_path": "j244/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 338,
+      "selected_manifest_entries": 443
+    },
+    {
+      "index": 245,
+      "job_id": "j245",
+      "instance_id": "django__django-15572",
+      "attempt_path": "j245/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 300,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 246,
+      "job_id": "j246",
+      "instance_id": "django__django-11820",
+      "attempt_path": "j246/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 247,
+      "job_id": "j247",
+      "instance_id": "sympy__sympy-20590",
+      "attempt_path": "j247/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 220,
+      "selected_manifest_entries": 290
+    },
+    {
+      "index": 248,
+      "job_id": "j248",
+      "instance_id": "django__django-14238",
+      "attempt_path": "j248/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 105,
+      "selected_manifest_entries": 143
+    },
+    {
+      "index": 249,
+      "job_id": "j249",
+      "instance_id": "django__django-14170",
+      "attempt_path": "j249/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 156,
+      "selected_manifest_entries": 209
+    },
+    {
+      "index": 250,
+      "job_id": "j250",
+      "instance_id": "django__django-16333",
+      "attempt_path": "j250/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 201,
+      "selected_manifest_entries": 272
+    },
+    {
+      "index": 251,
+      "job_id": "j251",
+      "instance_id": "sphinx-doc__sphinx-9658",
+      "attempt_path": "j251/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 268,
+      "selected_manifest_entries": 334
+    },
+    {
+      "index": 252,
+      "job_id": "j252",
+      "instance_id": "sympy__sympy-21930",
+      "attempt_path": "j252/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 412
+    },
+    {
+      "index": 253,
+      "job_id": "j253",
+      "instance_id": "sympy__sympy-23534",
+      "attempt_path": "j253/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 118,
+      "selected_manifest_entries": 161
+    },
+    {
+      "index": 254,
+      "job_id": "j254",
+      "instance_id": "sympy__sympy-15809",
+      "attempt_path": "j254/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 179,
+      "selected_manifest_entries": 236
+    },
+    {
+      "index": 255,
+      "job_id": "j255",
+      "instance_id": "django__django-13346",
+      "attempt_path": "j255/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 276,
+      "selected_manifest_entries": 350
+    },
+    {
+      "index": 256,
+      "job_id": "j256",
+      "instance_id": "psf__requests-2317",
+      "attempt_path": "j256/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 166,
+      "selected_manifest_entries": 221
+    },
+    {
+      "index": 257,
+      "job_id": "j257",
+      "instance_id": "sympy__sympy-13877",
+      "attempt_path": "j257/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 202,
+      "selected_manifest_entries": 269
+    },
+    {
+      "index": 258,
+      "job_id": "j258",
+      "instance_id": "django__django-13569",
+      "attempt_path": "j258/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 278,
+      "selected_manifest_entries": 353
+    },
+    {
+      "index": 259,
+      "job_id": "j259",
+      "instance_id": "matplotlib__matplotlib-23412",
+      "attempt_path": "j259/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 188,
+      "selected_manifest_entries": 248
+    },
+    {
+      "index": 260,
+      "job_id": "j260",
+      "instance_id": "django__django-14787",
+      "attempt_path": "j260/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 413
+    },
+    {
+      "index": 261,
+      "job_id": "j261",
+      "instance_id": "sphinx-doc__sphinx-10323",
+      "attempt_path": "j261/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 358
+    },
+    {
+      "index": 262,
+      "job_id": "j262",
+      "instance_id": "django__django-11138",
+      "attempt_path": "j262/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 344,
+      "selected_manifest_entries": 452
+    },
+    {
+      "index": 263,
+      "job_id": "j263",
+      "instance_id": "matplotlib__matplotlib-24149",
+      "attempt_path": "j263/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 264,
+      "job_id": "j264",
+      "instance_id": "django__django-11095",
+      "attempt_path": "j264/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 171,
+      "selected_manifest_entries": 224
+    },
+    {
+      "index": 265,
+      "job_id": "j265",
+      "instance_id": "sphinx-doc__sphinx-8120",
+      "attempt_path": "j265/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 394
+    },
+    {
+      "index": 266,
+      "job_id": "j266",
+      "instance_id": "sympy__sympy-17630",
+      "attempt_path": "j266/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 377
+    },
+    {
+      "index": 267,
+      "job_id": "j267",
+      "instance_id": "scikit-learn__scikit-learn-12585",
+      "attempt_path": "j267/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 115,
+      "selected_manifest_entries": 158
+    },
+    {
+      "index": 268,
+      "job_id": "j268",
+      "instance_id": "sphinx-doc__sphinx-10435",
+      "attempt_path": "j268/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 400
+    },
+    {
+      "index": 269,
+      "job_id": "j269",
+      "instance_id": "astropy__astropy-14365",
+      "attempt_path": "j269/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 209,
+      "selected_manifest_entries": 275
+    },
+    {
+      "index": 270,
+      "job_id": "j270",
+      "instance_id": "django__django-14999",
+      "attempt_path": "j270/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 271,
+      "job_id": "j271",
+      "instance_id": "pytest-dev__pytest-7324",
+      "attempt_path": "j271/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 272,
+      "job_id": "j272",
+      "instance_id": "django__django-13449",
+      "attempt_path": "j272/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 397
+    },
+    {
+      "index": 273,
+      "job_id": "j273",
+      "instance_id": "scikit-learn__scikit-learn-13779",
+      "attempt_path": "j273/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 271,
+      "selected_manifest_entries": 350
+    },
+    {
+      "index": 274,
+      "job_id": "j274",
+      "instance_id": "django__django-11815",
+      "attempt_path": "j274/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 201,
+      "selected_manifest_entries": 260
+    },
+    {
+      "index": 275,
+      "job_id": "j275",
+      "instance_id": "django__django-16527",
+      "attempt_path": "j275/attempt-4f4df21a1bc6",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 111,
+      "selected_manifest_entries": 152
+    },
+    {
+      "index": 276,
+      "job_id": "j276",
+      "instance_id": "matplotlib__matplotlib-23314",
+      "attempt_path": "j276/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 322,
+      "selected_manifest_entries": 419
+    },
+    {
+      "index": 277,
+      "job_id": "j277",
+      "instance_id": "django__django-16315",
+      "attempt_path": "j277/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 278,
+      "job_id": "j278",
+      "instance_id": "pydata__xarray-6599",
+      "attempt_path": "j278/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 279,
+      "job_id": "j279",
+      "instance_id": "scikit-learn__scikit-learn-12973",
+      "attempt_path": "j279/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 330,
+      "selected_manifest_entries": 431
+    },
+    {
+      "index": 280,
+      "job_id": "j280",
+      "instance_id": "django__django-14539",
+      "attempt_path": "j280/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 377
+    },
+    {
+      "index": 281,
+      "job_id": "j281",
+      "instance_id": "django__django-13195",
+      "attempt_path": "j281/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 425
+    },
+    {
+      "index": 282,
+      "job_id": "j282",
+      "instance_id": "pydata__xarray-4966",
+      "attempt_path": "j282/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 283,
+      "job_id": "j283",
+      "instance_id": "scikit-learn__scikit-learn-15100",
+      "attempt_path": "j283/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 74,
+      "selected_manifest_entries": 104
+    },
+    {
+      "index": 284,
+      "job_id": "j284",
+      "instance_id": "pytest-dev__pytest-7490",
+      "attempt_path": "j284/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 285,
+      "job_id": "j285",
+      "instance_id": "pytest-dev__pytest-5840",
+      "attempt_path": "j285/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 286,
+      "job_id": "j286",
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "attempt_path": "j286/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 352
+    },
+    {
+      "index": 287,
+      "job_id": "j287",
+      "instance_id": "django__django-12663",
+      "attempt_path": "j287/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 356,
+      "selected_manifest_entries": 466
+    },
+    {
+      "index": 288,
+      "job_id": "j288",
+      "instance_id": "matplotlib__matplotlib-25960",
+      "attempt_path": "j288/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 276,
+      "selected_manifest_entries": 346
+    },
+    {
+      "index": 289,
+      "job_id": "j289",
+      "instance_id": "django__django-16877",
+      "attempt_path": "j289/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 216,
+      "selected_manifest_entries": 290
+    },
+    {
+      "index": 290,
+      "job_id": "j290",
+      "instance_id": "django__django-11885",
+      "attempt_path": "j290/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 291,
+      "job_id": "j291",
+      "instance_id": "django__django-11880",
+      "attempt_path": "j291/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 292,
+      "job_id": "j292",
+      "instance_id": "matplotlib__matplotlib-24637",
+      "attempt_path": "j292/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 293,
+      "job_id": "j293",
+      "instance_id": "sphinx-doc__sphinx-9698",
+      "attempt_path": "j293/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 294,
+      "job_id": "j294",
+      "instance_id": "django__django-17029",
+      "attempt_path": "j294/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 132,
+      "selected_manifest_entries": 179
+    },
+    {
+      "index": 295,
+      "job_id": "j295",
+      "instance_id": "django__django-11276",
+      "attempt_path": "j295/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 368
+    },
+    {
+      "index": 296,
+      "job_id": "j296",
+      "instance_id": "sphinx-doc__sphinx-9367",
+      "attempt_path": "j296/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 189,
+      "selected_manifest_entries": 251
+    },
+    {
+      "index": 297,
+      "job_id": "j297",
+      "instance_id": "scikit-learn__scikit-learn-25747",
+      "attempt_path": "j297/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 298,
+      "job_id": "j298",
+      "instance_id": "django__django-13658",
+      "attempt_path": "j298/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 222,
+      "selected_manifest_entries": 284
+    },
+    {
+      "index": 299,
+      "job_id": "j299",
+      "instance_id": "django__django-11087",
+      "attempt_path": "j299/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 256,
+      "selected_manifest_entries": 316
+    },
+    {
+      "index": 300,
+      "job_id": "j300",
+      "instance_id": "django__django-13590",
+      "attempt_path": "j300/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 230,
+      "selected_manifest_entries": 302
+    },
+    {
+      "index": 301,
+      "job_id": "j301",
+      "instance_id": "django__django-14500",
+      "attempt_path": "j301/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 302,
+      "job_id": "j302",
+      "instance_id": "scikit-learn__scikit-learn-12682",
+      "attempt_path": "j302/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 303,
+      "job_id": "j303",
+      "instance_id": "pytest-dev__pytest-10051",
+      "attempt_path": "j303/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 383
+    },
+    {
+      "index": 304,
+      "job_id": "j304",
+      "instance_id": "astropy__astropy-14309",
+      "attempt_path": "j304/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 331,
+      "selected_manifest_entries": 443
+    },
+    {
+      "index": 305,
+      "job_id": "j305",
+      "instance_id": "django__django-17087",
+      "attempt_path": "j305/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 437
+    },
+    {
+      "index": 306,
+      "job_id": "j306",
+      "instance_id": "django__django-14725",
+      "attempt_path": "j306/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 350,
+      "selected_manifest_entries": 461
+    },
+    {
+      "index": 307,
+      "job_id": "j307",
+      "instance_id": "pydata__xarray-4356",
+      "attempt_path": "j307/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 412
+    },
+    {
+      "index": 308,
+      "job_id": "j308",
+      "instance_id": "astropy__astropy-12907",
+      "attempt_path": "j308/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 96,
+      "selected_manifest_entries": 134
+    },
+    {
+      "index": 309,
+      "job_id": "j309",
+      "instance_id": "matplotlib__matplotlib-24627",
+      "attempt_path": "j309/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 394
+    },
+    {
+      "index": 310,
+      "job_id": "j310",
+      "instance_id": "matplotlib__matplotlib-25287",
+      "attempt_path": "j310/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 410,
+      "selected_manifest_entries": 551
+    },
+    {
+      "index": 311,
+      "job_id": "j311",
+      "instance_id": "django__django-12406",
+      "attempt_path": "j311/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 368,
+      "selected_manifest_entries": 488
+    },
+    {
+      "index": 312,
+      "job_id": "j312",
+      "instance_id": "django__django-15382",
+      "attempt_path": "j312/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 287,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 313,
+      "job_id": "j313",
+      "instance_id": "pytest-dev__pytest-7982",
+      "attempt_path": "j313/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 248,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 314,
+      "job_id": "j314",
+      "instance_id": "sympy__sympy-19954",
+      "attempt_path": "j314/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 315,
+      "job_id": "j315",
+      "instance_id": "sphinx-doc__sphinx-8056",
+      "attempt_path": "j315/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 406
+    },
+    {
+      "index": 316,
+      "job_id": "j316",
+      "instance_id": "pydata__xarray-7393",
+      "attempt_path": "j316/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 317,
+      "job_id": "j317",
+      "instance_id": "django__django-14373",
+      "attempt_path": "j317/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 160,
+      "selected_manifest_entries": 215
+    },
+    {
+      "index": 318,
+      "job_id": "j318",
+      "instance_id": "django__django-11555",
+      "attempt_path": "j318/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 319,
+      "job_id": "j319",
+      "instance_id": "matplotlib__matplotlib-21568",
+      "attempt_path": "j319/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 340
+    },
+    {
+      "index": 320,
+      "job_id": "j320",
+      "instance_id": "django__django-12965",
+      "attempt_path": "j320/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 344,
+      "selected_manifest_entries": 452
+    },
+    {
+      "index": 321,
+      "job_id": "j321",
+      "instance_id": "matplotlib__matplotlib-20676",
+      "attempt_path": "j321/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 278,
+      "selected_manifest_entries": 349
+    },
+    {
+      "index": 322,
+      "job_id": "j322",
+      "instance_id": "sympy__sympy-13031",
+      "attempt_path": "j322/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 348,
+      "selected_manifest_entries": 458
+    },
+    {
+      "index": 323,
+      "job_id": "j323",
+      "instance_id": "astropy__astropy-13033",
+      "attempt_path": "j323/attempt-30a8e707ed16",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 391
+    },
+    {
+      "index": 324,
+      "job_id": "j324",
+      "instance_id": "sympy__sympy-17139",
+      "attempt_path": "j324/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 325,
+      "job_id": "j325",
+      "instance_id": "django__django-12308",
+      "attempt_path": "j325/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 326,
+      "job_id": "j326",
+      "instance_id": "django__django-16256",
+      "attempt_path": "j326/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 354,
+      "selected_manifest_entries": 467
+    },
+    {
+      "index": 327,
+      "job_id": "j327",
+      "instance_id": "sympy__sympy-13091",
+      "attempt_path": "j327/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 328,
+      "job_id": "j328",
+      "instance_id": "sympy__sympy-24562",
+      "attempt_path": "j328/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 329,
+      "job_id": "j329",
+      "instance_id": "sympy__sympy-16597",
+      "attempt_path": "j329/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 330,
+      "job_id": "j330",
+      "instance_id": "pylint-dev__pylint-7277",
+      "attempt_path": "j330/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 242,
+      "selected_manifest_entries": 314
+    },
+    {
+      "index": 331,
+      "job_id": "j331",
+      "instance_id": "sphinx-doc__sphinx-8475",
+      "attempt_path": "j331/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 118,
+      "selected_manifest_entries": 158
+    },
+    {
+      "index": 332,
+      "job_id": "j332",
+      "instance_id": "sympy__sympy-13647",
+      "attempt_path": "j332/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 171,
+      "selected_manifest_entries": 227
+    },
+    {
+      "index": 333,
+      "job_id": "j333",
+      "instance_id": "django__django-11740",
+      "attempt_path": "j333/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 334,
+      "job_id": "j334",
+      "instance_id": "astropy__astropy-13579",
+      "attempt_path": "j334/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 356
+    },
+    {
+      "index": 335,
+      "job_id": "j335",
+      "instance_id": "matplotlib__matplotlib-26208",
+      "attempt_path": "j335/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 373
+    },
+    {
+      "index": 336,
+      "job_id": "j336",
+      "instance_id": "django__django-13807",
+      "attempt_path": "j336/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 216,
+      "selected_manifest_entries": 290
+    },
+    {
+      "index": 337,
+      "job_id": "j337",
+      "instance_id": "matplotlib__matplotlib-24570",
+      "attempt_path": "j337/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 249,
+      "selected_manifest_entries": 320
+    },
+    {
+      "index": 338,
+      "job_id": "j338",
+      "instance_id": "django__django-16662",
+      "attempt_path": "j338/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 215,
+      "selected_manifest_entries": 287
+    },
+    {
+      "index": 339,
+      "job_id": "j339",
+      "instance_id": "sphinx-doc__sphinx-8548",
+      "attempt_path": "j339/attempt-48a00c1c62c1",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 397
+    },
+    {
+      "index": 340,
+      "job_id": "j340",
+      "instance_id": "django__django-15525",
+      "attempt_path": "j340/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 221,
+      "selected_manifest_entries": 287
+    },
+    {
+      "index": 341,
+      "job_id": "j341",
+      "instance_id": "django__django-15561",
+      "attempt_path": "j341/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 342,
+      "job_id": "j342",
+      "instance_id": "django__django-11119",
+      "attempt_path": "j342/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 111,
+      "selected_manifest_entries": 152
+    },
+    {
+      "index": 343,
+      "job_id": "j343",
+      "instance_id": "pydata__xarray-4094",
+      "attempt_path": "j343/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 241,
+      "selected_manifest_entries": 308
+    },
+    {
+      "index": 344,
+      "job_id": "j344",
+      "instance_id": "sympy__sympy-22714",
+      "attempt_path": "j344/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 215,
+      "selected_manifest_entries": 287
+    },
+    {
+      "index": 345,
+      "job_id": "j345",
+      "instance_id": "sympy__sympy-16886",
+      "attempt_path": "j345/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 88,
+      "selected_manifest_entries": 125
+    },
+    {
+      "index": 346,
+      "job_id": "j346",
+      "instance_id": "sympy__sympy-12489",
+      "attempt_path": "j346/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 347,
+      "job_id": "j347",
+      "instance_id": "django__django-12276",
+      "attempt_path": "j347/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 169,
+      "selected_manifest_entries": 227
+    },
+    {
+      "index": 348,
+      "job_id": "j348",
+      "instance_id": "django__django-11728",
+      "attempt_path": "j348/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 158,
+      "selected_manifest_entries": 212
+    },
+    {
+      "index": 349,
+      "job_id": "j349",
+      "instance_id": "django__django-10880",
+      "attempt_path": "j349/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 164,
+      "selected_manifest_entries": 215
+    },
+    {
+      "index": 350,
+      "job_id": "j350",
+      "instance_id": "django__django-11333",
+      "attempt_path": "j350/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 344,
+      "selected_manifest_entries": 452
+    },
+    {
+      "index": 351,
+      "job_id": "j351",
+      "instance_id": "django__django-9296",
+      "attempt_path": "j351/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 94,
+      "selected_manifest_entries": 131
+    },
+    {
+      "index": 352,
+      "job_id": "j352",
+      "instance_id": "matplotlib__matplotlib-22719",
+      "attempt_path": "j352/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 262,
+      "selected_manifest_entries": 338
+    },
+    {
+      "index": 353,
+      "job_id": "j353",
+      "instance_id": "django__django-12050",
+      "attempt_path": "j353/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 354,
+      "job_id": "j354",
+      "instance_id": "sphinx-doc__sphinx-10673",
+      "attempt_path": "j354/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 364
+    },
+    {
+      "index": 355,
+      "job_id": "j355",
+      "instance_id": "sympy__sympy-12419",
+      "attempt_path": "j355/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 356,
+      "job_id": "j356",
+      "instance_id": "django__django-15732",
+      "attempt_path": "j356/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 380,
+      "selected_manifest_entries": 506
+    },
+    {
+      "index": 357,
+      "job_id": "j357",
+      "instance_id": "pydata__xarray-2905",
+      "attempt_path": "j357/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 382,
+      "selected_manifest_entries": 509
+    },
+    {
+      "index": 358,
+      "job_id": "j358",
+      "instance_id": "django__django-16139",
+      "attempt_path": "j358/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 404,
+      "selected_manifest_entries": 542
+    },
+    {
+      "index": 359,
+      "job_id": "j359",
+      "instance_id": "pydata__xarray-3095",
+      "attempt_path": "j359/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 397
+    },
+    {
+      "index": 360,
+      "job_id": "j360",
+      "instance_id": "django__django-13925",
+      "attempt_path": "j360/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 361,
+      "job_id": "j361",
+      "instance_id": "matplotlib__matplotlib-25122",
+      "attempt_path": "j361/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 416
+    },
+    {
+      "index": 362,
+      "job_id": "j362",
+      "instance_id": "sympy__sympy-20154",
+      "attempt_path": "j362/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 197,
+      "selected_manifest_entries": 257
+    },
+    {
+      "index": 363,
+      "job_id": "j363",
+      "instance_id": "django__django-13786",
+      "attempt_path": "j363/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 205,
+      "selected_manifest_entries": 272
+    },
+    {
+      "index": 364,
+      "job_id": "j364",
+      "instance_id": "sympy__sympy-23824",
+      "attempt_path": "j364/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 102,
+      "selected_manifest_entries": 140
+    },
+    {
+      "index": 365,
+      "job_id": "j365",
+      "instance_id": "sympy__sympy-13878",
+      "attempt_path": "j365/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 366,
+      "job_id": "j366",
+      "instance_id": "django__django-12155",
+      "attempt_path": "j366/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 367,
+      "job_id": "j367",
+      "instance_id": "django__django-16595",
+      "attempt_path": "j367/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 267,
+      "selected_manifest_entries": 350
+    },
+    {
+      "index": 368,
+      "job_id": "j368",
+      "instance_id": "pylint-dev__pylint-8898",
+      "attempt_path": "j368/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 406
+    },
+    {
+      "index": 369,
+      "job_id": "j369",
+      "instance_id": "django__django-15695",
+      "attempt_path": "j369/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 370,
+      "job_id": "j370",
+      "instance_id": "matplotlib__matplotlib-20488",
+      "attempt_path": "j370/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 366,
+      "selected_manifest_entries": 481
+    },
+    {
+      "index": 371,
+      "job_id": "j371",
+      "instance_id": "pytest-dev__pytest-5787",
+      "attempt_path": "j371/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 372,
+      "job_id": "j372",
+      "instance_id": "scikit-learn__scikit-learn-25931",
+      "attempt_path": "j372/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 228,
+      "selected_manifest_entries": 302
+    },
+    {
+      "index": 373,
+      "job_id": "j373",
+      "instance_id": "scikit-learn__scikit-learn-9288",
+      "attempt_path": "j373/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 314,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 374,
+      "job_id": "j374",
+      "instance_id": "scikit-learn__scikit-learn-14496",
+      "attempt_path": "j374/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 375,
+      "job_id": "j375",
+      "instance_id": "psf__requests-1142",
+      "attempt_path": "j375/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 379
+    },
+    {
+      "index": 376,
+      "job_id": "j376",
+      "instance_id": "django__django-13344",
+      "attempt_path": "j376/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 338,
+      "selected_manifest_entries": 443
+    },
+    {
+      "index": 377,
+      "job_id": "j377",
+      "instance_id": "django__django-11133",
+      "attempt_path": "j377/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 165,
+      "selected_manifest_entries": 221
+    },
+    {
+      "index": 378,
+      "job_id": "j378",
+      "instance_id": "django__django-14007",
+      "attempt_path": "j378/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 400,
+      "selected_manifest_entries": 536
+    },
+    {
+      "index": 379,
+      "job_id": "j379",
+      "instance_id": "django__django-15741",
+      "attempt_path": "j379/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 258,
+      "selected_manifest_entries": 323
+    },
+    {
+      "index": 380,
+      "job_id": "j380",
+      "instance_id": "django__django-14580",
+      "attempt_path": "j380/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 195,
+      "selected_manifest_entries": 254
+    },
+    {
+      "index": 381,
+      "job_id": "j381",
+      "instance_id": "sympy__sympy-21612",
+      "attempt_path": "j381/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 394
+    },
+    {
+      "index": 382,
+      "job_id": "j382",
+      "instance_id": "django__django-13513",
+      "attempt_path": "j382/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 412
+    },
+    {
+      "index": 383,
+      "job_id": "j383",
+      "instance_id": "django__django-11066",
+      "attempt_path": "j383/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 252,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 384,
+      "job_id": "j384",
+      "instance_id": "django__django-14752",
+      "attempt_path": "j384/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 135,
+      "selected_manifest_entries": 182
+    },
+    {
+      "index": 385,
+      "job_id": "j385",
+      "instance_id": "scikit-learn__scikit-learn-10844",
+      "attempt_path": "j385/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 68,
+      "selected_manifest_entries": 98
+    },
+    {
+      "index": 386,
+      "job_id": "j386",
+      "instance_id": "sympy__sympy-18763",
+      "attempt_path": "j386/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 330,
+      "selected_manifest_entries": 431
+    },
+    {
+      "index": 387,
+      "job_id": "j387",
+      "instance_id": "matplotlib__matplotlib-26342",
+      "attempt_path": "j387/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 346,
+      "selected_manifest_entries": 455
+    },
+    {
+      "index": 388,
+      "job_id": "j388",
+      "instance_id": "scikit-learn__scikit-learn-11310",
+      "attempt_path": "j388/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 362
+    },
+    {
+      "index": 389,
+      "job_id": "j389",
+      "instance_id": "sympy__sympy-24661",
+      "attempt_path": "j389/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 352
+    },
+    {
+      "index": 390,
+      "job_id": "j390",
+      "instance_id": "django__django-14011",
+      "attempt_path": "j390/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 330,
+      "selected_manifest_entries": 427
+    },
+    {
+      "index": 391,
+      "job_id": "j391",
+      "instance_id": "sympy__sympy-18189",
+      "attempt_path": "j391/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 143,
+      "selected_manifest_entries": 191
+    },
+    {
+      "index": 392,
+      "job_id": "j392",
+      "instance_id": "django__django-16631",
+      "attempt_path": "j392/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 292,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 393,
+      "job_id": "j393",
+      "instance_id": "sphinx-doc__sphinx-8621",
+      "attempt_path": "j393/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 332,
+      "selected_manifest_entries": 430
+    },
+    {
+      "index": 394,
+      "job_id": "j394",
+      "instance_id": "sympy__sympy-24066",
+      "attempt_path": "j394/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 249,
+      "selected_manifest_entries": 320
+    },
+    {
+      "index": 395,
+      "job_id": "j395",
+      "instance_id": "sympy__sympy-13798",
+      "attempt_path": "j395/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 303,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 396,
+      "job_id": "j396",
+      "instance_id": "matplotlib__matplotlib-24870",
+      "attempt_path": "j396/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 421
+    },
+    {
+      "index": 397,
+      "job_id": "j397",
+      "instance_id": "django__django-12741",
+      "attempt_path": "j397/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 110,
+      "selected_manifest_entries": 152
+    },
+    {
+      "index": 398,
+      "job_id": "j398",
+      "instance_id": "sphinx-doc__sphinx-8721",
+      "attempt_path": "j398/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 399,
+      "job_id": "j399",
+      "instance_id": "pydata__xarray-6461",
+      "attempt_path": "j399/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 400,
+      "job_id": "j400",
+      "instance_id": "django__django-11149",
+      "attempt_path": "j400/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 294,
+      "selected_manifest_entries": 373
+    },
+    {
+      "index": 401,
+      "job_id": "j401",
+      "instance_id": "pytest-dev__pytest-10081",
+      "attempt_path": "j401/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 328,
+      "selected_manifest_entries": 428
+    },
+    {
+      "index": 402,
+      "job_id": "j402",
+      "instance_id": "scikit-learn__scikit-learn-10297",
+      "attempt_path": "j402/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 288,
+      "selected_manifest_entries": 368
+    },
+    {
+      "index": 403,
+      "job_id": "j403",
+      "instance_id": "sympy__sympy-19495",
+      "attempt_path": "j403/attempt-814deb4c6793",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 404,
+      "job_id": "j404",
+      "instance_id": "django__django-13964",
+      "attempt_path": "j404/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 405,
+      "job_id": "j405",
+      "instance_id": "pytest-dev__pytest-7432",
+      "attempt_path": "j405/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 183,
+      "selected_manifest_entries": 239
+    },
+    {
+      "index": 406,
+      "job_id": "j406",
+      "instance_id": "django__django-13343",
+      "attempt_path": "j406/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 154,
+      "selected_manifest_entries": 206
+    },
+    {
+      "index": 407,
+      "job_id": "j407",
+      "instance_id": "django__django-15161",
+      "attempt_path": "j407/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 394,
+      "selected_manifest_entries": 527
+    },
+    {
+      "index": 408,
+      "job_id": "j408",
+      "instance_id": "django__django-15375",
+      "attempt_path": "j408/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 409,
+      "job_id": "j409",
+      "instance_id": "django__django-12419",
+      "attempt_path": "j409/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 318,
+      "selected_manifest_entries": 413
+    },
+    {
+      "index": 410,
+      "job_id": "j410",
+      "instance_id": "django__django-15280",
+      "attempt_path": "j410/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 359
+    },
+    {
+      "index": 411,
+      "job_id": "j411",
+      "instance_id": "pylint-dev__pylint-6528",
+      "attempt_path": "j411/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 379
+    },
+    {
+      "index": 412,
+      "job_id": "j412",
+      "instance_id": "django__django-16560",
+      "attempt_path": "j412/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 413,
+      "job_id": "j413",
+      "instance_id": "sympy__sympy-16450",
+      "attempt_path": "j413/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 247,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 414,
+      "job_id": "j414",
+      "instance_id": "sympy__sympy-15017",
+      "attempt_path": "j414/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 336,
+      "selected_manifest_entries": 440
+    },
+    {
+      "index": 415,
+      "job_id": "j415",
+      "instance_id": "django__django-11490",
+      "attempt_path": "j415/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 253,
+      "selected_manifest_entries": 338
+    },
+    {
+      "index": 416,
+      "job_id": "j416",
+      "instance_id": "sympy__sympy-20801",
+      "attempt_path": "j416/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 417,
+      "job_id": "j417",
+      "instance_id": "sympy__sympy-14531",
+      "attempt_path": "j417/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 418
+    },
+    {
+      "index": 418,
+      "job_id": "j418",
+      "instance_id": "django__django-14311",
+      "attempt_path": "j418/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 218,
+      "selected_manifest_entries": 275
+    },
+    {
+      "index": 419,
+      "job_id": "j419",
+      "instance_id": "sphinx-doc__sphinx-7889",
+      "attempt_path": "j419/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 342,
+      "selected_manifest_entries": 449
+    },
+    {
+      "index": 420,
+      "job_id": "j420",
+      "instance_id": "django__django-13512",
+      "attempt_path": "j420/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 203,
+      "selected_manifest_entries": 257
+    },
+    {
+      "index": 421,
+      "job_id": "j421",
+      "instance_id": "pytest-dev__pytest-6197",
+      "attempt_path": "j421/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 380,
+      "selected_manifest_entries": 506
+    },
+    {
+      "index": 422,
+      "job_id": "j422",
+      "instance_id": "django__django-10554",
+      "attempt_path": "j422/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 272,
+      "selected_manifest_entries": 340
+    },
+    {
+      "index": 423,
+      "job_id": "j423",
+      "instance_id": "django__django-11141",
+      "attempt_path": "j423/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 420,
+      "selected_manifest_entries": 562
+    },
+    {
+      "index": 424,
+      "job_id": "j424",
+      "instance_id": "scikit-learn__scikit-learn-13328",
+      "attempt_path": "j424/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 159,
+      "selected_manifest_entries": 212
+    },
+    {
+      "index": 425,
+      "job_id": "j425",
+      "instance_id": "django__django-13112",
+      "attempt_path": "j425/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 426,
+      "job_id": "j426",
+      "instance_id": "psf__requests-2931",
+      "attempt_path": "j426/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 427,
+      "job_id": "j427",
+      "instance_id": "django__django-15278",
+      "attempt_path": "j427/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 285,
+      "selected_manifest_entries": 377
+    },
+    {
+      "index": 428,
+      "job_id": "j428",
+      "instance_id": "pydata__xarray-6992",
+      "attempt_path": "j428/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 268,
+      "selected_manifest_entries": 334
+    },
+    {
+      "index": 429,
+      "job_id": "j429",
+      "instance_id": "pylint-dev__pylint-4604",
+      "attempt_path": "j429/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 295,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 430,
+      "job_id": "j430",
+      "instance_id": "sphinx-doc__sphinx-9711",
+      "attempt_path": "j430/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 392
+    },
+    {
+      "index": 431,
+      "job_id": "j431",
+      "instance_id": "django__django-14349",
+      "attempt_path": "j431/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 141,
+      "selected_manifest_entries": 191
+    },
+    {
+      "index": 432,
+      "job_id": "j432",
+      "instance_id": "matplotlib__matplotlib-26113",
+      "attempt_path": "j432/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 433,
+      "job_id": "j433",
+      "instance_id": "django__django-11211",
+      "attempt_path": "j433/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 352,
+      "selected_manifest_entries": 464
+    },
+    {
+      "index": 434,
+      "job_id": "j434",
+      "instance_id": "django__django-15499",
+      "attempt_path": "j434/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 216,
+      "selected_manifest_entries": 281
+    },
+    {
+      "index": 435,
+      "job_id": "j435",
+      "instance_id": "django__django-11848",
+      "attempt_path": "j435/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 342,
+      "selected_manifest_entries": 449
+    },
+    {
+      "index": 436,
+      "job_id": "j436",
+      "instance_id": "matplotlib__matplotlib-24970",
+      "attempt_path": "j436/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 378,
+      "selected_manifest_entries": 499
+    },
+    {
+      "index": 437,
+      "job_id": "j437",
+      "instance_id": "django__django-16612",
+      "attempt_path": "j437/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 162,
+      "selected_manifest_entries": 215
+    },
+    {
+      "index": 438,
+      "job_id": "j438",
+      "instance_id": "scikit-learn__scikit-learn-25102",
+      "attempt_path": "j438/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 286,
+      "selected_manifest_entries": 361
+    },
+    {
+      "index": 439,
+      "job_id": "j439",
+      "instance_id": "django__django-10097",
+      "attempt_path": "j439/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 286,
+      "selected_manifest_entries": 365
+    },
+    {
+      "index": 440,
+      "job_id": "j440",
+      "instance_id": "sphinx-doc__sphinx-9230",
+      "attempt_path": "j440/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 425
+    },
+    {
+      "index": 441,
+      "job_id": "j441",
+      "instance_id": "django__django-13933",
+      "attempt_path": "j441/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 442,
+      "job_id": "j442",
+      "instance_id": "pydata__xarray-4695",
+      "attempt_path": "j442/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 99,
+      "selected_manifest_entries": 137
+    },
+    {
+      "index": 443,
+      "job_id": "j443",
+      "instance_id": "django__django-15098",
+      "attempt_path": "j443/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 348,
+      "selected_manifest_entries": 458
+    },
+    {
+      "index": 444,
+      "job_id": "j444",
+      "instance_id": "sympy__sympy-13480",
+      "attempt_path": "j444/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 102,
+      "selected_manifest_entries": 143
+    },
+    {
+      "index": 445,
+      "job_id": "j445",
+      "instance_id": "django__django-15268",
+      "attempt_path": "j445/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 380
+    },
+    {
+      "index": 446,
+      "job_id": "j446",
+      "instance_id": "django__django-11451",
+      "attempt_path": "j446/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 98,
+      "selected_manifest_entries": 137
+    },
+    {
+      "index": 447,
+      "job_id": "j447",
+      "instance_id": "django__django-15503",
+      "attempt_path": "j447/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 448,
+      "job_id": "j448",
+      "instance_id": "sympy__sympy-21379",
+      "attempt_path": "j448/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 425
+    },
+    {
+      "index": 449,
+      "job_id": "j449",
+      "instance_id": "sympy__sympy-23413",
+      "attempt_path": "j449/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 234,
+      "selected_manifest_entries": 305
+    },
+    {
+      "index": 450,
+      "job_id": "j450",
+      "instance_id": "django__django-14915",
+      "attempt_path": "j450/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 154,
+      "selected_manifest_entries": 206
+    },
+    {
+      "index": 451,
+      "job_id": "j451",
+      "instance_id": "sphinx-doc__sphinx-7454",
+      "attempt_path": "j451/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 324,
+      "selected_manifest_entries": 422
+    },
+    {
+      "index": 452,
+      "job_id": "j452",
+      "instance_id": "django__django-13363",
+      "attempt_path": "j452/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 102,
+      "selected_manifest_entries": 137
+    },
+    {
+      "index": 453,
+      "job_id": "j453",
+      "instance_id": "django__django-12304",
+      "attempt_path": "j453/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 120,
+      "selected_manifest_entries": 167
+    },
+    {
+      "index": 454,
+      "job_id": "j454",
+      "instance_id": "sympy__sympy-18199",
+      "attempt_path": "j454/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 455,
+      "job_id": "j455",
+      "instance_id": "django__django-15022",
+      "attempt_path": "j455/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 308,
+      "selected_manifest_entries": 398
+    },
+    {
+      "index": 456,
+      "job_id": "j456",
+      "instance_id": "sympy__sympy-21847",
+      "attempt_path": "j456/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 273,
+      "selected_manifest_entries": 353
+    },
+    {
+      "index": 457,
+      "job_id": "j457",
+      "instance_id": "scikit-learn__scikit-learn-13124",
+      "attempt_path": "j457/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 458,
+      "job_id": "j458",
+      "instance_id": "django__django-12325",
+      "attempt_path": "j458/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 274,
+      "selected_manifest_entries": 347
+    },
+    {
+      "index": 459,
+      "job_id": "j459",
+      "instance_id": "sphinx-doc__sphinx-9229",
+      "attempt_path": "j459/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 379
+    },
+    {
+      "index": 460,
+      "job_id": "j460",
+      "instance_id": "sphinx-doc__sphinx-11510",
+      "attempt_path": "j460/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 355
+    },
+    {
+      "index": 461,
+      "job_id": "j461",
+      "instance_id": "astropy__astropy-13398",
+      "attempt_path": "j461/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 462,
+      "job_id": "j462",
+      "instance_id": "sympy__sympy-14711",
+      "attempt_path": "j462/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 311,
+      "selected_manifest_entries": 404
+    },
+    {
+      "index": 463,
+      "job_id": "j463",
+      "instance_id": "sphinx-doc__sphinx-9258",
+      "attempt_path": "j463/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 260,
+      "selected_manifest_entries": 326
+    },
+    {
+      "index": 464,
+      "job_id": "j464",
+      "instance_id": "django__django-14089",
+      "attempt_path": "j464/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 59,
+      "selected_manifest_entries": 86
+    },
+    {
+      "index": 465,
+      "job_id": "j465",
+      "instance_id": "pydata__xarray-3305",
+      "attempt_path": "j465/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 305,
+      "selected_manifest_entries": 401
+    },
+    {
+      "index": 466,
+      "job_id": "j466",
+      "instance_id": "django__django-16493",
+      "attempt_path": "j466/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 287,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 467,
+      "job_id": "j467",
+      "instance_id": "django__django-13406",
+      "attempt_path": "j467/attempt-27f8c4803eb3",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 262,
+      "selected_manifest_entries": 325
+    },
+    {
+      "index": 468,
+      "job_id": "j468",
+      "instance_id": "django__django-16032",
+      "attempt_path": "j468/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 270,
+      "selected_manifest_entries": 337
+    },
+    {
+      "index": 469,
+      "job_id": "j469",
+      "instance_id": "sympy__sympy-22456",
+      "attempt_path": "j469/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 310,
+      "selected_manifest_entries": 397
+    },
+    {
+      "index": 470,
+      "job_id": "j470",
+      "instance_id": "scikit-learn__scikit-learn-13142",
+      "attempt_path": "j470/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 80,
+      "selected_manifest_entries": 113
+    },
+    {
+      "index": 471,
+      "job_id": "j471",
+      "instance_id": "pytest-dev__pytest-10356",
+      "attempt_path": "j471/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 371
+    },
+    {
+      "index": 472,
+      "job_id": "j472",
+      "instance_id": "scikit-learn__scikit-learn-14141",
+      "attempt_path": "j472/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 111,
+      "selected_manifest_entries": 152
+    },
+    {
+      "index": 473,
+      "job_id": "j473",
+      "instance_id": "django__django-13158",
+      "attempt_path": "j473/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 298,
+      "selected_manifest_entries": 383
+    },
+    {
+      "index": 474,
+      "job_id": "j474",
+      "instance_id": "mwaskom__seaborn-3069",
+      "attempt_path": "j474/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 475,
+      "job_id": "j475",
+      "instance_id": "astropy__astropy-14539",
+      "attempt_path": "j475/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 280,
+      "selected_manifest_entries": 356
+    },
+    {
+      "index": 476,
+      "job_id": "j476",
+      "instance_id": "pydata__xarray-4687",
+      "attempt_path": "j476/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 328,
+      "selected_manifest_entries": 428
+    },
+    {
+      "index": 477,
+      "job_id": "j477",
+      "instance_id": "matplotlib__matplotlib-20859",
+      "attempt_path": "j477/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 148,
+      "selected_manifest_entries": 200
+    },
+    {
+      "index": 478,
+      "job_id": "j478",
+      "instance_id": "django__django-13551",
+      "attempt_path": "j478/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 213,
+      "selected_manifest_entries": 287
+    },
+    {
+      "index": 479,
+      "job_id": "j479",
+      "instance_id": "django__django-13401",
+      "attempt_path": "j479/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 385
+    },
+    {
+      "index": 480,
+      "job_id": "j480",
+      "instance_id": "django__django-11400",
+      "attempt_path": "j480/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 350,
+      "selected_manifest_entries": 461
+    },
+    {
+      "index": 481,
+      "job_id": "j481",
+      "instance_id": "astropy__astropy-14995",
+      "attempt_path": "j481/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 183,
+      "selected_manifest_entries": 242
+    },
+    {
+      "index": 482,
+      "job_id": "j482",
+      "instance_id": "astropy__astropy-7166",
+      "attempt_path": "j482/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 73,
+      "selected_manifest_entries": 101
+    },
+    {
+      "index": 483,
+      "job_id": "j483",
+      "instance_id": "django__django-16100",
+      "attempt_path": "j483/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 293,
+      "selected_manifest_entries": 377
+    },
+    {
+      "index": 484,
+      "job_id": "j484",
+      "instance_id": "pydata__xarray-3677",
+      "attempt_path": "j484/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 221,
+      "selected_manifest_entries": 302
+    },
+    {
+      "index": 485,
+      "job_id": "j485",
+      "instance_id": "django__django-11292",
+      "attempt_path": "j485/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 299,
+      "selected_manifest_entries": 386
+    },
+    {
+      "index": 486,
+      "job_id": "j486",
+      "instance_id": "matplotlib__matplotlib-25479",
+      "attempt_path": "j486/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 421
+    },
+    {
+      "index": 487,
+      "job_id": "j487",
+      "instance_id": "sympy__sympy-16766",
+      "attempt_path": "j487/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 320,
+      "selected_manifest_entries": 416
+    },
+    {
+      "index": 488,
+      "job_id": "j488",
+      "instance_id": "sympy__sympy-24443",
+      "attempt_path": "j488/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 290,
+      "selected_manifest_entries": 367
+    },
+    {
+      "index": 489,
+      "job_id": "j489",
+      "instance_id": "pytest-dev__pytest-7571",
+      "attempt_path": "j489/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 163,
+      "selected_manifest_entries": 224
+    },
+    {
+      "index": 490,
+      "job_id": "j490",
+      "instance_id": "django__django-11532",
+      "attempt_path": "j490/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 282,
+      "selected_manifest_entries": 374
+    },
+    {
+      "index": 491,
+      "job_id": "j491",
+      "instance_id": "scikit-learn__scikit-learn-25973",
+      "attempt_path": "j491/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 304,
+      "selected_manifest_entries": 407
+    },
+    {
+      "index": 492,
+      "job_id": "j492",
+      "instance_id": "django__django-12125",
+      "attempt_path": "j492/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 284,
+      "selected_manifest_entries": 358
+    },
+    {
+      "index": 493,
+      "job_id": "j493",
+      "instance_id": "django__django-13417",
+      "attempt_path": "j493/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 312,
+      "selected_manifest_entries": 400
+    },
+    {
+      "index": 494,
+      "job_id": "j494",
+      "instance_id": "django__django-13741",
+      "attempt_path": "j494/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 306,
+      "selected_manifest_entries": 395
+    },
+    {
+      "index": 495,
+      "job_id": "j495",
+      "instance_id": "django__django-14034",
+      "attempt_path": "j495/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 302,
+      "selected_manifest_entries": 389
+    },
+    {
+      "index": 496,
+      "job_id": "j496",
+      "instance_id": "scikit-learn__scikit-learn-26323",
+      "attempt_path": "j496/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 316,
+      "selected_manifest_entries": 410
+    },
+    {
+      "index": 497,
+      "job_id": "j497",
+      "instance_id": "astropy__astropy-14508",
+      "attempt_path": "j497/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 326,
+      "selected_manifest_entries": 421
+    },
+    {
+      "index": 498,
+      "job_id": "j498",
+      "instance_id": "django__django-11734",
+      "attempt_path": "j498/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 8,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 322,
+      "selected_manifest_entries": 419
+    },
+    {
+      "index": 499,
+      "job_id": "j499",
+      "instance_id": "pylint-dev__pylint-7080",
+      "attempt_path": "j499/attempt-ca097774a368",
+      "source_artifact_hashes_matched": 5,
+      "required_replay_files_present": 5,
+      "trace_event_manifest_entries": 296,
+      "selected_manifest_entries": 376
+    }
+  ]
+}

@@ -1,8 +1,33 @@
-# SWE-bench 轨迹重放
+# SWE-bench 完整 500 题轨迹重放
 
 用冻结的 Agent 操作轨迹，在新沙箱中真实执行命令和评测，比较调度、资源限制与内存管理方案。模型调用费用为 0。
 
-仓库包含一条完整的 `django__django-14672` 轨迹、回放入口和实验流程。轨迹来自 500 题 SWE-bench Verified 采集；完整 500 题数据的分发方式见 [数据发布](docs/publishing.md)。
+Git 仓库包含回放入口、完整 500 题的选择清单、实验流程和一条 `django__django-14672` 示例。完整原始轨迹通过同一私有仓库的 [full500-20260922-v1 Release](https://github.com/Beauty-Riceball/swebench-trace-replay/releases/tag/full500-20260922-v1) 分发：5,132,076,046 字节的压缩包拆成 5 卷，保留 500 题及 10 个历史重试 attempt；清单准确选择 500 个最终 attempt。
+
+使用完整原始归档时，按 [500 题清单与重放说明](datasets/full500/README.md) 校验分卷、解压，并指定可跨主机使用的 `datasets/full500/selection.json`。该清单保留原题目顺序；完整数据与 Docker 镜像需另外取得。
+
+## 获取完整数据
+
+先登录有权访问该私有仓库的 GitHub 账号，再在仓库根目录执行以下 Linux 命令。macOS 的 `sha256sum -c` 可替换为 `shasum -a 256 -c`。
+
+```bash
+gh release download full500-20260922-v1 \
+  --repo Beauty-Riceball/swebench-trace-replay \
+  --dir downloads/full500
+cd downloads/full500
+sha256sum -c SHA256SUMS.parts
+cat full500-traces.tar.gz.part-00[0-4] > full500-traces.tar.gz
+sha256sum -c SHA256SUMS.archive
+mkdir extracted
+tar -xzf full500-traces.tar.gz -C extracted
+cd ../..
+python3 scripts/replay.py \
+  --source downloads/full500/extracted/capture \
+  --selection datasets/full500/selection.json \
+  --output outputs/full500-validation-01 --validate-only
+```
+
+轨迹解压后约 29.88 GB、171,980 个文件。分卷、合并包和解压目录同时保留时合计约 40.14 GB，另需文件系统和镜像空间。原始包保留对话、日志和采集元数据；这次分发用于私有归档与重放。Docker 镜像层不在包内，真实重放前还需获取并验证冻结镜像。
 
 ## 这条轨迹包含什么
 
